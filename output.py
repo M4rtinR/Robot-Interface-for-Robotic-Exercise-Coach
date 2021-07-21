@@ -27,7 +27,7 @@ class Action(Resource):
                 # Put the video in the HTML folder of your behavior
                 # "http://198.18.0.1/apps/my_behavior/my_video.mp4"
                 print("displaying image")
-                tabletService.showImage("http://localhost/html/Test.png")
+                tabletService.showImage("http://localhost/img/HowDidThatFeelOptions.png")
 
                 print("sleep")
                 time.sleep(5)
@@ -36,10 +36,10 @@ class Action(Resource):
                 tabletService.hideImage()
             except Exception as e:
                 print("Error was: ", e)'''
-            motion_service = ALProxy("ALMotion", "192.168.1.37", 9559)
+            motion_service = ALProxy("ALMotion", "localhost", 39633)
 
             if 'start' in content:
-                posture_service = ALProxy("ALRobotPosture", "192.168.1.37", 9559)
+                posture_service = ALProxy("ALRobotPosture", "localhost", 39633)
 
                 # Wake up robot
                 motion_service.wakeUp()
@@ -50,7 +50,7 @@ class Action(Resource):
                 action = content['utterance']
                 print(action)
                 if 'demo' in content:
-                    tts = ALProxy("ALTextToSpeech", "192.168.1.37", 9559)
+                    tts = ALProxy("ALTextToSpeech", "localhost", 39633)
                     tts.post.say(str(action))
                     demoString = str(content['demo'])
 
@@ -84,31 +84,84 @@ class Action(Resource):
                         motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
                     elif demoString == "follow_through_pos":
                         names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw"]
-                        angleLists = [1.09, 2.09, 0.01, 0.15, -1.55, -0.02]
+                        angleLists = [0.52, 1.68, 0.01, 0.62, -0.12, -0.02]
                         speedLists = 0.2
                         motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
                         time.sleep(0.3)
-                        motion_service.post.moveTo(0, 0, 0.79)
-                        angleLists = [0.53, 2.07, 0.01, 0.93, -0.03, -0.01]
-                        speedLists = 0.1
-                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        # motion_service.post.moveTo(0, 0, 0.79)
                         names.append("HipPitch")
-                        angleLists = [0.18, 2.07, 0.01, 0.52, -0.03, -0.02, -0.18]
+                        angleLists = [0.02, 1.68, 0.01, 0.62, -1.00, -0.02, -0.08]
                         speedLists = 0.1
                         motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
-                        time.sleep(1.5)
-                        motion_service.moveTo(0, 0, -0.79)
                     elif demoString == "follow_through_neg":
+                        names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw"]
+                        angleLists = [0.52, 1.68, 0.01, 0.62, -0.12, -0.02]
+                        speedLists = 0.2
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        time.sleep(0.3)
+                        angleLists = [0.31, 1.68, 0.01, 0.62, -0.27, -0.02]
+                        speedLists = 0.1
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                    elif demoString == "forehand_drive":
+                        motion_service.post.moveTo(0, 0, -0.79)
+                        time.sleep(2.0)
                         names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw"]
                         angleLists = [1.09, 2.09, 0.01, 0.15, -1.55, -0.02]
                         speedLists = 0.2
                         motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
-                        time.sleep(0.3)
-                        angleLists = [0.53, 2.07, 0.01, 0.93, -0.03, -0.01]
-                        speedLists = 0.4
+                        motion_service.post.moveTo(0, 0, 1.58)
+                        angleLists = [0.53, 2.07, 0.01, 0.93, -0.55, -0.01]
+                        speedLists = 0.1
                         motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        angleLists = [0.53, 2.07, 0.01, 0.93, -0.23, -0.01]
+                        speedLists = 0.1
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        angleLists = [0.31, 1.68, 0.01, 0.29, -0.01, -0.02]
+                        speedLists = 0.1
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        time.sleep(1.0)
+                        motion_service.post.moveTo(0, 0, -0.79)
+                    elif demoString == "backhand_drive":
+                        motion_service.post.moveTo(0, 0, 1.58)
+                        time.sleep(2.0)
+                        names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw"]
+                        angleLists = [0.75, 2.08, 0.01, -0.21, -0.02, -0.26]
+                        speedLists = 0.2
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        motion_service.post.moveTo(0, 0, -1.58)
+                        angleLists = [0.53, 0.75, 0.01, 0.93, -0.13, -0.03]
+                        speedLists = 0.15
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        angleLists = [0.53, 0.75, 0.01, 0.93, -0.85, -0.03]
+                        speedLists = 0.15
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        names.append("HipPitch")
+                        angleLists = [0.02, 1.68, 0.01, 0.62, -1.00, -0.02, -0.08]
+                        speedLists = 0.15
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                    elif demoString == "lob":
+                        names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw", "HipPitch", "KneePitch"]
+                        motion_service.post.moveTo(0, 0, -0.79)
+                        time.sleep(2.0)
+                        angleLists = [0.96, 2.08, 0.01, 0.93, -0.62, -0.02, -0.36, 0.12]
+                        speedLists = 0.2
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        motion_service.post.moveTo(0, 0, 1.58)
+                        angleLists = [0.53, 2.07, 0.01, 0.93, -0.55, -0.01, -0.36, 0.12]
+                        speedLists = 0.1
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        angleLists = [0.53, 2.07, 0.01, 0.93, -0.23, -0.01, -0.28, 0.08]
+                        speedLists = 0.1
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        angleLists = [0.35, 2.08, 0.01, -0.21, -0.02, -0.26, -0.16, 0.02]
+                        speedLists = 0.1
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        time.sleep(2.0)
+                        motion_service.post.moveTo(0, 0, -0.79)
+                    elif demoString == "reset":
+                        motion_service.post.moveTo(0, 0, -3.16)
                 else:
-                    ttsAnimated = ALProxy("ALAnimatedSpeech", "192.168.1.37", 9559)
+                    ttsAnimated = ALProxy("ALAnimatedSpeech", "localhost", 39633)
                     configuration = {"bodyLanguageMode": "contextual"}
                     ttsAnimated.say(str(action), configuration)
                 # TODO: Deal with videos
