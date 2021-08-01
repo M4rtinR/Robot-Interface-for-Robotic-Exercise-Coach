@@ -1,8 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 import time
+import sys
 
 from naoqi import ALProxy
+from naoqi import ALBroker
+from naoqi import ALModule
 from flask import Flask, request
 from flask_restful import Resource, Api
 
@@ -12,8 +15,10 @@ api = Api(app)
 # robot_ip = "192.168.1.37"
 robot_ip = "localhost"
 # port = 9559
-port = 43255
+port = 40139
 memory = None
+ReactToTouch = None
+questionCount = 0
 
 class Action(Resource):
     def post(self):
@@ -211,10 +216,15 @@ class Action(Resource):
                             angleLists = [0.98, 1.69, 0.01, 0.79, -0.09, -0.03, -0.98, -1.69, 0.01, 0.79, 0.09, 0.03]
                             speedLists = 0.3
                             motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
-                            global memory
-                            memory = ALProxy("ALMemory", robot_ip, port)
-                            memory.subscribeToEvent("TouchChanged", "ReactToTouch", "onTouched")
-                            time.sleep(2.0)
+
+                            global ReactToTouch
+                            global questionCount
+                            if questionCount == 0:
+                                ReactToTouch = ReactToTouch("ReactToTouch")
+
+                            questionCount += 1
+
+                            time.sleep(3.0)
                     else:
                         ttsAnimated = ALProxy("ALAnimatedSpeech", robot_ip, port)
                         configuration = {"bodyLanguageMode": "contextual"}
@@ -225,26 +235,67 @@ class Action(Resource):
             print("ERROR: request is not json")
             return {'message': 'Request not json'}, 500
 
+
+class ReactToTouch(ALModule):
+    """ A simple module able to react
+        to touch events.
+    """
+    def __init__(self, name):
+        print "initialising"
+        ALModule.__init__(self, name)
+
+        global memory
+        memory = ALProxy("ALMemory")
+        memory.subscribeToEvent("TouchChanged",
+                                "ReactToTouch",
+                                "onTouched")
+
     def onTouched(self, strVarName, value):
         print("onTouched")
         memory.unsubscribeToEvent("TouchChanged", "ReactToTouch")
 
-        touched = ""
+        touched_bodies = []
         for p in value:
             if p[1]:
-                touched = p[0]
+                touched_bodies.append(p[0])
+
+        self.say(touched_bodies)
+
+        memory.subscribeToEvent("TouchChanged",
+                                "ReactToTouch",
+                                "onTouched")
+
+    def say(self, bodies):
+        if (bodies == []):
+            return
 
         ttsAnimated = ALProxy("ALAnimatedSpeech", robot_ip, port)
         configuration = {"bodyLanguageMode": "contextual"}
-        if touched == "LHand" or touched == "RHand":
+        if "LArm" in bodies or "RArm" in bodies or "LHand/Touch/Back" in bodies or "RHand/Touch/Back" in bodies:
             ttsAnimated.say("Great!", configuration)
         else:
             ttsAnimated.say("OK, don't worry. We can keep improving together!")
-
-
 
 api.add_resource(Action, '/output')
 
 
 if __name__ == "__main__":
+    # We need this broker to be able to construct
+    # NAOqi modules and subscribe to other modules
+    # The broker must stay alive until the program exists
+    myBroker = ALBroker("myBroker",
+                        "0.0.0.0",  # listen to anyone
+                        0,  # find a free port and use it
+                        robot_ip,  # parent broker IP
+                        port)  # parent broker port
+
     app.run(host='0.0.0.0', port=4999)
+
+    try:
+        while True:
+            time.sleep(1)
+    except KeyboardInterrupt:
+        print
+        print "Interrupted by user, shutting down"
+        myBroker.shutdown()
+        sys.exit(0)
