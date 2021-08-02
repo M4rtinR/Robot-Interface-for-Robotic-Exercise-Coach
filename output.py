@@ -12,10 +12,10 @@ from flask_restful import Resource, Api
 app = Flask('output_api')
 api = Api(app)
 
-# robot_ip = "192.168.1.37"
-robot_ip = "localhost"
-# port = 9559
-port = 40139
+robot_ip = "192.168.1.37"
+# robot_ip = "localhost"
+port = 9559
+# port = 40139
 memory = None
 ReactToTouch = None
 questionCount = 0
