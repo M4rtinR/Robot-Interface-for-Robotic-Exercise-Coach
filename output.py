@@ -224,7 +224,7 @@ class Action(Resource):
 
                             questionCount += 1
 
-                            time.sleep(3.0)
+                            time.sleep(5.0)
                     else:
                         ttsAnimated = ALProxy("ALAnimatedSpeech", robot_ip, port)
                         configuration = {"bodyLanguageMode": "contextual"}
