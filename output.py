@@ -12,10 +12,10 @@ from flask_restful import Resource, Api
 app = Flask('output_api')
 api = Api(app)
 
-robot_ip = "192.168.1.37"
-# robot_ip = "localhost"
-port = 9559
-# port = 40139
+# robot_ip = "192.168.1.37"
+robot_ip = "localhost"
+# port = 9559
+port = 41661
 memory = None
 ReactToTouch = None
 questionCount = 0
@@ -72,9 +72,19 @@ class Action(Resource):
                         angleLists = [1.09, 2.09, 0.01, 0.15, -1.55, -0.02]
                         speedLists = 0.2
                         motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                    elif demoString == "racket_up_pos_left":
+                        names = ["LElbowRoll", "LElbowYaw", "LHand", "LShoulderPitch", "LShoulderRoll", "LWristYaw"]
+                        angleLists = [-1.09, -2.09, -0.01, -0.15, 1.55, 0.02]
+                        speedLists = 0.2
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
                     elif demoString == "racket_up_neg":
                         names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw"]
                         angleLists = [0.32, 2.08, 0.01, 0.93, -0.39, -0.02]
+                        speedLists = 0.2
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                    elif demoString == "racket_up_neg_left":
+                        names = ["LElbowRoll", "LElbowYaw", "LHand", "LShoulderPitch", "LShoulderRoll", "LWristYaw"]
+                        angleLists = [-0.32, -2.08, -0.01, 0.93, 0.39, 0.02]
                         speedLists = 0.2
                         motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
                     elif demoString == "racket_face_pos":
@@ -86,6 +96,15 @@ class Action(Resource):
                         angleLists = [0.53, 2.07, 0.01, 0.93, -0.03, -0.01]
                         speedLists = 0.05
                         motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                    elif demoString == "racket_face_pos_left":
+                        names = ["LElbowRoll", "LElbowYaw", "LHand", "LShoulderPitch", "LShoulderRoll", "LWristYaw"]
+                        angleLists = [-0.53, -2.07, -0.01, 0.93, 0.55, 0.01]
+                        speedLists = 0.3
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        time.sleep(0.5)
+                        angleLists = [-0.53, -2.07, -0.01, 0.93, 0.03, 0.01]
+                        speedLists = 0.05
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
                     elif demoString == "racket_face_neg":
                         names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw"]
                         angleLists = [0.53, 0.75, 0.01, 0.93, -0.85, -0.03]
@@ -93,6 +112,15 @@ class Action(Resource):
                         motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
                         time.sleep(0.5)
                         angleLists = [0.53, 0.75, 0.01, 0.93, -0.13, -0.03]
+                        speedLists = 0.05
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                    elif demoString == "racket_face_neg_left":
+                        names = ["LElbowRoll", "LElbowYaw", "LHand", "LShoulderPitch", "LShoulderRoll", "LWristYaw"]
+                        angleLists = [-0.53, -0.75, -0.01, 0.93, 0.85, 0.03]
+                        speedLists = 0.3
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        time.sleep(0.5)
+                        angleLists = [-0.53, -0.75, -0.01, 0.93, 0.13, 0.03]
                         speedLists = 0.05
                         motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
                     elif demoString == "follow_through_pos":
@@ -106,6 +134,17 @@ class Action(Resource):
                         angleLists = [0.02, 1.68, 0.01, 0.62, -1.00, -0.02, -0.08]
                         speedLists = 0.1
                         motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                    elif demoString == "follow_through_pos_left":
+                        names = ["LElbowRoll", "LElbowYaw", "LHand", "LShoulderPitch", "LShoulderRoll", "LWristYaw"]
+                        angleLists = [-0.52, -1.68, -0.01, 0.62, 0.12, 0.02]
+                        speedLists = 0.2
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        time.sleep(0.3)
+                        # motion_service.post.moveTo(0, 0, 0.79)
+                        names.append("HipPitch")
+                        angleLists = [-0.02, -1.68, -0.01, 0.62, 1.00, 0.02, -0.08]
+                        speedLists = 0.1
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
                     elif demoString == "follow_through_neg":
                         names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw"]
                         angleLists = [0.52, 1.68, 0.01, 0.62, -0.12, -0.02]
@@ -113,6 +152,15 @@ class Action(Resource):
                         motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
                         time.sleep(0.3)
                         angleLists = [0.31, 1.68, 0.01, 0.62, -0.27, -0.02]
+                        speedLists = 0.1
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                    elif demoString == "follow_through_neg_left":
+                        names = ["LElbowRoll", "LElbowYaw", "LHand", "LShoulderPitch", "LShoulderRoll", "LWristYaw"]
+                        angleLists = [-0.52, -1.68, -0.01, 0.62, 0.12, 0.02]
+                        speedLists = 0.2
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        time.sleep(0.3)
+                        angleLists = [-0.31, -1.68, -0.01, 0.62, 0.27, 0.02]
                         speedLists = 0.1
                         motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
                     elif demoString == "forehand_drive_pos":
@@ -134,6 +182,33 @@ class Action(Resource):
                         motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
                         time.sleep(1.0)
                         motion_service.post.moveTo(0, 0, -0.79)
+                    elif demoString == "forehand_drive_pos_left":
+                        motion_service.post.moveTo(0, 0, 0.79)
+                        time.sleep(2.0)
+                        names = ["LElbowRoll", "LElbowYaw", "LHand", "LShoulderPitch", "LShoulderRoll", "LWristYaw"]
+                        angleLists = [-1.09, -2.09, -0.01, 0.15, 1.55, 0.02]
+                        speedLists = 0.2
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        motion_service.post.moveTo(0, 0, -1.58)
+                        angleLists = [-0.53, -2.07, -0.01, 0.93, 0.55, 0.01]
+                        speedLists = 0.1
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        angleLists = [-0.53, -2.07, -0.01, 0.93, 0.23, 0.01]
+                        speedLists = 0.1
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        angleLists = [-0.31, -1.68, -0.01, 0.29, 0.01, 0.02]
+                        speedLists = 0.1
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        time.sleep(1.0)
+                        motion_service.post.moveTo(0, 0, 0.79)
+                    elif demoString == "forehand_drive_neg_left":
+                        names = ["LElbowRoll", "LElbowYaw", "LHand", "LShoulderPitch", "LShoulderRoll", "LWristYaw"]
+                        angleLists = [-1.09, -2.09, -0.01, 0.15, 1.55, 0.02]
+                        speedLists = 0.2
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        angleLists = [-0.53, -2.07, -0.01, 0.93, 0.23, 0.01]
+                        speedLists = 0.2
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
                     elif demoString == "forehand_drive_neg":
                         names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw"]
                         angleLists = [1.09, 2.09, 0.01, 0.15, -1.55, -0.02]
@@ -160,6 +235,24 @@ class Action(Resource):
                         angleLists = [0.02, 1.68, 0.01, 0.62, -1.00, -0.02, -0.08]
                         speedLists = 0.15
                         motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                    elif demoString == "backhand_drive_pos_left":
+                        motion_service.post.moveTo(0, 0, -1.58)
+                        time.sleep(2.0)
+                        names = ["LElbowRoll", "LElbowYaw", "LHand", "LShoulderPitch", "LShoulderRoll", "LWristYaw"]
+                        angleLists = [-0.75, -2.08, -0.01, -0.21, 0.02, 0.26]
+                        speedLists = 0.2
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        motion_service.post.moveTo(0, 0, 1.58)
+                        angleLists = [-0.53, -0.75, -0.01, 0.93, 0.13, 0.03]
+                        speedLists = 0.15
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        angleLists = [-0.53, -0.75, -0.01, 0.93, 0.85, 0.03]
+                        speedLists = 0.15
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        names.append("HipPitch")
+                        angleLists = [-0.02, -1.68, -0.01, 0.62, 1.00, 0.02, -0.08]
+                        speedLists = 0.15
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
                     elif demoString == "backhand_drive_neg":
                         motion_service.post.moveTo(0, 0, 0.79)
                         time.sleep(2.0)
@@ -174,36 +267,98 @@ class Action(Resource):
                         angleLists = [0.53, 0.75, 0.01, 0.93, -0.85, -0.03]
                         speedLists = 0.15
                         motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
-                    elif demoString == "lob_pos":
-                        names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw", "HipPitch", "KneePitch"]
+                    elif demoString == "backhand_drive_neg_left":
                         motion_service.post.moveTo(0, 0, -0.79)
                         time.sleep(2.0)
-                        angleLists = [0.96, 2.08, 0.01, 0.93, -0.62, -0.02, -0.36, 0.12]
+                        names = ["LElbowRoll", "LElbowYaw", "LHand", "LShoulderPitch", "LShoulderRoll", "LWristYaw"]
+                        angleLists = [-0.45, -2.08, -0.01, 0.40, 0.02, 0.26]
+                        speedLists = 0.2
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        motion_service.post.moveTo(0, 0, 0.79)
+                        angleLists = [-0.53, -0.75, -0.01, 0.93, 0.13, 0.03]
+                        speedLists = 0.15
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        angleLists = [-0.53, -0.75, -0.01, 0.93, 0.85, 0.03]
+                        speedLists = 0.15
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                    elif demoString == "drop_pos":
+                        motion_service.post.moveTo(0, 0, -0.79)
+                        time.sleep(2.0)
+                        names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw"]
+                        angleLists = [1.09, 2.09, 0.01, 0.15, -1.55, -0.02]
                         speedLists = 0.2
                         motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
                         motion_service.post.moveTo(0, 0, 1.58)
-                        angleLists = [0.53, 2.07, 0.01, 0.93, -0.55, -0.01, -0.36, 0.12]
-                        speedLists = 0.1
-                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
-                        angleLists = [0.53, 2.07, 0.01, 0.93, -0.23, -0.01, -0.28, 0.08]
-                        speedLists = 0.1
-                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
-                        angleLists = [0.35, 2.08, 0.01, -0.21, -0.02, -0.26, -0.16, 0.02]
-                        speedLists = 0.1
-                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
-                        time.sleep(2.0)
-                        motion_service.post.moveTo(0, 0, -0.79)
-                    elif demoString == "lob_neg":
-                        names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw"]
                         angleLists = [0.53, 2.07, 0.01, 0.93, -0.55, -0.01]
+                        speedLists = 0.1
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        angleLists = [0.53, 2.07, 0.01, 0.93, -0.23, -0.01]
+                        speedLists = 0.1
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        angleLists = [0.31, 1.68, 0.01, 0.29, -0.01, -0.02]
+                        speedLists = 0.1
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        time.sleep(1.0)
+                        motion_service.post.moveTo(0, 0, -0.79)
+                    elif demoString == "drop_pos_left":
+                        motion_service.post.moveTo(0, 0, 0.79)
+                        time.sleep(2.0)
+                        names = ["LElbowRoll", "LElbowYaw", "LHand", "LShoulderPitch", "LShoulderRoll", "LWristYaw"]
+                        angleLists = [-1.09, -2.09, -0.01, 0.15, 1.55, 0.02]
                         speedLists = 0.2
                         motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
-                        time.sleep(0.6)
-                        angleLists = [1.31, 1.45, 0.01, 0.93, -0.04, 0.39]
-                        speedLists = 0.5
+                        motion_service.post.moveTo(0, 0, -1.58)
+                        angleLists = [-0.53, -2.07, -0.01, 0.93, 0.55, 0.01]
+                        speedLists = 0.1
                         motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        angleLists = [-0.53, -2.07, -0.01, 0.93, 0.23, 0.01]
+                        speedLists = 0.1
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        angleLists = [-0.31, -1.68, -0.01, 0.29, 0.01, 0.02]
+                        speedLists = 0.1
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        time.sleep(1.0)
+                        motion_service.post.moveTo(0, 0, 0.79)
+                    elif demoString == "drop_neg":
+                        motion_service.post.moveTo(0, 0, -0.79)
+                        time.sleep(2.0)
+                        names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw"]
+                        angleLists = [1.09, 2.09, 0.01, 0.15, -1.55, -0.02]
+                        speedLists = 0.2
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        motion_service.post.moveTo(0, 0, 1.58)
+                        angleLists = [0.53, 2.07, 0.01, 0.93, -0.55, -0.01]
+                        speedLists = 0.1
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        angleLists = [0.53, 0.75, 0.01, 0.93, -0.85, -0.03]
+                        speedLists = 0.15
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        angleLists = [0.53, 0.75, 0.01, 0.93, -0.13, -0.03]
+                        speedLists = 0.15
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        time.sleep(1.0)
+                        motion_service.post.moveTo(0, 0, -0.79)
+                    elif demoString == "drop_neg_left":
+                        motion_service.post.moveTo(0, 0, 0.79)
+                        time.sleep(2.0)
+                        names = ["LElbowRoll", "LElbowYaw", "LHand", "LShoulderPitch", "LShoulderRoll", "LWristYaw"]
+                        angleLists = [-1.09, -2.09, -0.01, 0.15, 1.55, 0.02]
+                        speedLists = 0.2
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        motion_service.post.moveTo(0, 0, -1.58)
+                        angleLists = [-0.53, -2.07, -0.01, 0.93, 0.55, 0.01]
+                        speedLists = 0.1
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        angleLists = [-0.53, -0.75, -0.01, 0.93, 0.85, 0.03]
+                        speedLists = 0.15
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        angleLists = [-0.53, -0.75, -0.01, 0.93, 0.13, 0.03]
+                        speedLists = 0.15
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        time.sleep(1.0)
+                        motion_service.post.moveTo(0, 0, 0.79)
                     elif demoString == "reset":
-                        motion_service.post.moveTo(0, 0, -3.16)
+                        motion_service.post.moveTo(0, 0, 0.79)
                 else:
                     if 'question' in content:
                         ttsAnimated = ALProxy("ALAnimatedSpeech", robot_ip, port)
