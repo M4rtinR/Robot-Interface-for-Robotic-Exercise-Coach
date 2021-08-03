@@ -12,13 +12,14 @@ from flask_restful import Resource, Api
 app = Flask('output_api')
 api = Api(app)
 
-# robot_ip = "192.168.1.37"
-robot_ip = "localhost"
-# port = 9559
-port = 41661
+robot_ip = "192.168.1.37"
+# robot_ip = "localhost"
+port = 9559
+# port = 41661
 memory = None
 ReactToTouch = None
 questionCount = 0
+expectingTouch = False
 
 class Action(Resource):
     def post(self):
@@ -365,6 +366,8 @@ class Action(Resource):
                         configuration = {"bodyLanguageMode": "contextual"}
                         if content['question'] == 'GoodBad':
                             print("GoodBad question detected")
+                            global expectingTouch
+                            expectingTouch = True
                             ttsAnimated.say(str(action), configuration)
                             names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw",
                                      "LElbowRoll", "LElbowYaw", "LHand", "LShoulderPitch", "LShoulderRoll", "LWristYaw"]
@@ -380,6 +383,7 @@ class Action(Resource):
                             questionCount += 1
 
                             time.sleep(5.0)
+                            expectingTouch = False
                     else:
                         ttsAnimated = ALProxy("ALAnimatedSpeech", robot_ip, port)
                         configuration = {"bodyLanguageMode": "contextual"}
@@ -407,6 +411,9 @@ class ReactToTouch(ALModule):
 
     def onTouched(self, strVarName, value):
         print("onTouched")
+        global expectingTouch
+        if not expectingTouch:
+            return
         memory.unsubscribeToEvent("TouchChanged", "ReactToTouch")
 
         touched_bodies = []
