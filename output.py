@@ -384,6 +384,9 @@ class Action(Resource):
 
                             time.sleep(5.0)
                             expectingTouch = False
+                        else:
+                            print("Concurrent question detected")
+                            ttsAnimated.say(str(action), configuration)
                     else:
                         ttsAnimated = ALProxy("ALAnimatedSpeech", robot_ip, port)
                         configuration = {"bodyLanguageMode": "contextual"}
