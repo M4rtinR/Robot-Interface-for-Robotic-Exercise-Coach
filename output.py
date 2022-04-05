@@ -3,6 +3,12 @@
 import time
 import sys
 
+import numpy as np
+from PIL import Image
+
+import qi
+import vision_definitions
+import cv2 as cv
 from naoqi import ALProxy
 from naoqi import ALBroker
 from naoqi import ALModule
@@ -12,10 +18,10 @@ from flask_restful import Resource, Api
 app = Flask('output_api')
 api = Api(app)
 
-robot_ip = "192.168.1.5"
-# robot_ip = "localhost"
-port = 9559
-# port = 41661
+# robot_ip = "192.168.1.5"
+robot_ip = "localhost"
+# port = 9559
+port = 39289
 memory = None
 ReactToTouch = None
 questionCount = 0
@@ -58,6 +64,7 @@ class Action(Resource):
                 posture_service.goToPosture("StandInit", 0.5)
             elif 'stop' in content:
                 ttsAnimated = ALProxy("ALAnimatedSpeech", robot_ip, port)
+                # ttsAnimated.setParameter("speed", 100)
                 configuration = {"bodyLanguageMode": "contextual"}
                 ttsAnimated.say("That's 30, you can stop there.", configuration)
             else:
@@ -65,6 +72,7 @@ class Action(Resource):
                 print(action)
                 if 'demo' in content:
                     tts = ALProxy("ALTextToSpeech", robot_ip, port)
+                    # tts.setParameter("speed", 100)
                     tts.post.say(str(action))
                     demoString = str(content['demo'])
 
@@ -363,6 +371,7 @@ class Action(Resource):
                 else:
                     if 'question' in content:
                         ttsAnimated = ALProxy("ALAnimatedSpeech", robot_ip, port)
+                        # ttsAnimated.setParameter("speed", 100)
                         configuration = {"bodyLanguageMode": "contextual"}
                         if content['question'] == 'GoodBad':
                             print("GoodBad question detected")
@@ -389,6 +398,7 @@ class Action(Resource):
                             ttsAnimated.say(str(action), configuration)
                     else:
                         ttsAnimated = ALProxy("ALAnimatedSpeech", robot_ip, port)
+                        # ttsAnimated.setParameter("speed", 100)
                         configuration = {"bodyLanguageMode": "contextual"}
                         ttsAnimated.say(str(action), configuration)
                 # TODO: Deal with videos
@@ -435,6 +445,7 @@ class ReactToTouch(ALModule):
             return
 
         ttsAnimated = ALProxy("ALAnimatedSpeech", robot_ip, port)
+        ttsAnimated.setParameter("speed", 100)
         configuration = {"bodyLanguageMode": "contextual"}
         if "LArm" in bodies or "RArm" in bodies or "LHand/Touch/Back" in bodies or "RHand/Touch/Back" in bodies:
             ttsAnimated.say("Great!", configuration)
@@ -443,6 +454,160 @@ class ReactToTouch(ALModule):
 
 api.add_resource(Action, '/output')
 
+def test(session):
+    ''''"""
+       This is just an example script that shows how images can be accessed
+       through ALVideoDevice in Python.
+       Nothing interesting is done with the images in this example.
+       """
+    # Get the service ALVideoDevice.
+
+    video_service = session.service("ALVideoDevice")
+
+    # Register a Generic Video Module
+    resolution = vision_definitions.kQQVGA
+    colorSpace = vision_definitions.kYUVColorSpace
+    fps = 20
+
+    nameId = video_service.subscribe("python_GVM", resolution, colorSpace, fps)
+
+    print 'getting images in remote'
+    for i in range(0, 20):
+        print "getting image " + str(i)
+        video_service.getImageRemote(nameId)
+        time.sleep(0.05)
+
+    video_service.unsubscribe(nameId)'''
+
+    '''"""
+        First get an image, then show it on the screen with PIL.
+        """
+    # Get the service ALVideoDevice.
+
+    video_service = session.service("ALVideoDevice")
+    resolution = 2  # VGA
+    colorSpace = 11  # RGB
+
+    videoClient = video_service.subscribe("python_client", resolution, colorSpace, 5)
+
+    t0 = time.time()
+
+    # Get a camera image.
+    # image[6] contains the image data passed as an array of ASCII chars.
+    pepperImage = video_service.getImageRemote(videoClient)
+
+    t1 = time.time()
+
+    # Time the image transfer.
+    print "acquisition delay ", t1 - t0
+
+    video_service.unsubscribe(videoClient)
+
+    # Now we work with the image returned and save it as a PNG  using ImageDraw
+    # package.
+
+    # Get the image size and pixel array.
+    imageWidth = pepperImage[0]
+    imageHeight = pepperImage[1]
+    array = pepperImage[6]
+    image_string = str(bytearray(array))
+
+    # Create a PIL Image from our pixel array.
+    im = Image.frombytes("RGB", (imageWidth, imageHeight), image_string)
+
+    # Save the image.
+    im.save("camImage.png", "PNG")
+
+    im.show()'''
+
+    '''videoDevice = session.service("ALVideoDevice")
+
+    # subscribe top camera
+    AL_kTopCamera = 0
+    AL_kQVGA = 1  # 320x240
+    AL_kBGRColorSpace = 13
+    captureDevice = videoDevice.subscribeCamera(
+        "test", AL_kTopCamera, AL_kQVGA, AL_kBGRColorSpace, 10)
+    resolution = 2  # VGA
+    colorSpace = 11  # RGB
+    # create image
+    width = 320
+    height = 240
+    image = np.zeros((height, width, 3), np.uint8)
+
+    # videoClient = video_service.subscribe("python_client", resolution, colorSpace, 5)
+    while True:
+
+        # get image
+        device = videoDevice.getImageRemote(captureDevice)
+
+        if device == None:
+            print 'cannot capture.'
+        elif device[6] == None:
+            print 'no image data string.'
+        else:
+
+            # translate value to mat
+            values = device[6]
+            i = 0
+            for y in range(0, height):
+                for x in range(0, width):
+                    image.itemset((y, x, 0), values[i + 0])
+                    image.itemset((y, x, 1), values[i + 1])
+                    image.itemset((y, x, 2), values[i + 2])
+                    i += 3
+
+            gray = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
+
+            # show image
+            cv.imshow("pepper-top-camera-320x240", gray)
+
+        # exit by [ESC]
+        if cv.waitKey(33) == 27:
+            break'''
+
+
+    '''cap = cv.VideoCapture(session)
+    if not cap.isOpened():
+        print("Cannot open camera")
+        exit()
+    while True:
+        # Capture frame-by-frame
+        ret, frame = cap.read()
+        # if frame is read correctly ret is True
+        if not ret:
+            print("Can't receive frame (stream end?). Exiting ...")
+            break
+        # Our operations on the frame come here
+        gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
+        # Display the resulting frame
+        cv.imshow('frame', gray)
+        if cv.waitKey(1) == ord('q'):
+            break
+    # When everything done, release the capture
+    cap.release()
+    cv.destroyAllWindows()'''
+
+    '''
+    # Get the service ALTabletService.
+    tabletService = session.service("ALTabletService")
+
+    try:
+        # Display a local web page located in boot-config/html folder
+        # The ip of the robot from the tablet is 198.18.0.1
+        # tabletService.showWebview("http://doc.aldebaran.com/2-4/naoqi/core/altabletservice-api.html?highlight=getwifi")
+        tabletService.showWebview("https://www.macs.hw.ac.uk/~mkr30/Test.html")
+        # tabletService.showWebview("https: // www.macs.hw.ac.uk / ~mkr30 / TowelSlide - rotation - 1.png.webp")
+
+    except Exception, e:
+        print "Error was:", e
+
+    '''
+    tts = ALProxy("ALTextToSpeech", robot_ip, port)
+    configuration = {"bodyLanguageMode": "contextual"}
+    tts.say("Hi, welcome to today's session.")
+    tts.setParameter("speed", 50)
+    tts.say("Hi, welcome to today's session.")
 
 if __name__ == "__main__":
     # We need this broker to be able to construct
@@ -453,6 +618,15 @@ if __name__ == "__main__":
                         0,  # find a free port and use it
                         robot_ip,  # parent broker IP
                         port)  # parent broker port
+
+    '''session = qi.Session()
+    try:
+        session.connect("tcp://" + robot_ip + ":" + str(port))
+    except RuntimeError:
+        print ("Can't connect to Naoqi at ip \"" + robot_ip + "\" on port " + str(port) + ".\nPlease check your script arguments. Run with -h option for help.")
+        sys.exit(1)
+    test(session)
+    '''
 
     app.run(host='0.0.0.0', port=4999)
 
