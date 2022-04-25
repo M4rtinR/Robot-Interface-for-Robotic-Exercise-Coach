@@ -18,10 +18,10 @@ from flask_restful import Resource, Api
 app = Flask('output_api')
 api = Api(app)
 
-# robot_ip = "192.168.1.5"
-robot_ip = "localhost"
-# port = 9559
-port = 39289
+robot_ip = "192.168.1.5"
+# robot_ip = "localhost"
+port = 9559
+# port = 45653
 memory = None
 ReactToTouch = None
 questionCount = 0
@@ -54,6 +54,18 @@ class Action(Resource):
                 print("Error was: ", e)'''
             motion_service = ALProxy("ALMotion", robot_ip, port)
 
+            try:
+                # tabletService = ALProxy("ALTabletService", "192.168.1.37", 9559)
+                tabletService = ALProxy("ALTabletService", robot_ip, port)
+                # Ensure that the tablet wifi is enable
+                tabletService.enableWifi()
+                # Show the initial screen on tablet
+                print("Showing tablet view")
+                tabletService.playVideo("VideoFiles/TabletopCircles.mp4")
+                #tabletService.showWebview("192.168.1.207:8000/display")
+            except Exception as e:
+                print("Error was: ", e)
+
             if 'start' in content:
                 posture_service = ALProxy("ALRobotPosture", robot_ip, port)
 
@@ -62,11 +74,15 @@ class Action(Resource):
 
                 # Send robot to Stand
                 posture_service.goToPosture("StandInit", 0.5)
+
+                # Show the initial screen on tablet
+                tabletService.showWebview("192.168.1.207:8000/display")
+
             elif 'stop' in content:
                 ttsAnimated = ALProxy("ALAnimatedSpeech", robot_ip, port)
                 # ttsAnimated.setParameter("speed", 100)
                 configuration = {"bodyLanguageMode": "contextual"}
-                ttsAnimated.say("That's 30, you can stop there.", configuration)
+                ttsAnimated.say("That's 10, you can stop there.", configuration)
             else:
                 action = content['utterance']
                 print(action)
@@ -400,6 +416,8 @@ class Action(Resource):
                         ttsAnimated = ALProxy("ALAnimatedSpeech", robot_ip, port)
                         # ttsAnimated.setParameter("speed", 100)
                         configuration = {"bodyLanguageMode": "contextual"}
+                        # Show the initial screen on tablet
+                        tabletService.showWebview("192.168.1.207:8000/display")
                         ttsAnimated.say(str(action), configuration)
                 # TODO: Deal with videos
                 return {'completed': 1}, 200
