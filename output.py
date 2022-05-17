@@ -14,14 +14,23 @@ from naoqi import ALBroker
 from naoqi import ALModule
 from flask import Flask, request
 from flask_restful import Resource, Api
+from datetime import datetime
 
 app = Flask('output_api')
 api = Api(app)
 
+# ITT_Pepper:
 robot_ip = "192.168.1.5"
-# robot_ip = "localhost"
 port = 9559
+
+# Simulation:
+# robot_ip = "localhost"
 # port = 45653
+
+# Phone hotspot:
+# robot_ip = "192.168.43.57"
+# port = 9559
+
 memory = None
 ReactToTouch = None
 questionCount = 0
@@ -407,7 +416,16 @@ class Action(Resource):
 
                             questionCount += 1
 
-                            time.sleep(5.0)
+                            # Sleep for 7 seconds or until touch.
+                            start_time = datetime.now()
+                            sleep_time = datetime.now()
+                            time_passed = sleep_time - start_time
+                            time_passed_delta = time_passed.total_seconds()
+                            while expectingTouch and time_passed_delta < 7.0:
+                                sleep_time = datetime.now()
+                                time_passed = sleep_time - start_time
+                                time_passed_delta = time_passed.total_seconds()
+
                             expectingTouch = False
                         else:
                             print("Concurrent question detected")
@@ -444,7 +462,7 @@ class ReactToTouch(ALModule):
         print("onTouched")
         global expectingTouch
         if not expectingTouch:
-            return
+            return -1
         memory.unsubscribeToEvent("TouchChanged", "ReactToTouch")
 
         touched_bodies = []
@@ -452,23 +470,28 @@ class ReactToTouch(ALModule):
             if p[1]:
                 touched_bodies.append(p[0])
 
-        self.say(touched_bodies)
+        outcome = self.say(touched_bodies)
 
-        memory.subscribeToEvent("TouchChanged",
-                                "ReactToTouch",
-                                "onTouched")
+        memory.subscribeToEvent("TouchChanged", "ReactToTouch", "onTouched")
+        expectingTouch = False
+
+        return outcome
 
     def say(self, bodies):
         if (bodies == []):
-            return
+            return -1
 
         ttsAnimated = ALProxy("ALAnimatedSpeech", robot_ip, port)
-        ttsAnimated.setParameter("speed", 100)
+        # ttsAnimated.setParameter("speed", 100)
         configuration = {"bodyLanguageMode": "contextual"}
         if "LArm" in bodies or "RArm" in bodies or "LHand/Touch/Back" in bodies or "RHand/Touch/Back" in bodies:
             ttsAnimated.say("Great!", configuration)
+            outcome = 1
         else:
             ttsAnimated.say("OK, don't worry. We can keep improving together!")
+            outcome = 0
+
+        return outcome
 
 api.add_resource(Action, '/output')
 
