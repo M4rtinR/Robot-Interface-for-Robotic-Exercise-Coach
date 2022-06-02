@@ -71,11 +71,12 @@ def main(session):
         tabletService.enableWifi()
 
         # Display a web page on the tablet
-        tabletService.loadApplication("/home/martin/Stroke Rehab (Physical)/html/index.html")
+        '''tabletService.loadApplication("/home/martin/Stroke Rehab (Physical)/html/index.html")
         time.sleep(3)
         tabletService.showWebview("/home/martin/Stroke Rehab (Physical)/html/index.html")
 
-        time.sleep(20)
+        time.sleep(3)
+        tabletService.hideWebview
 
         if tabletService.showWebview("https://www.psaworldtour.com"):
             print("Success PSA")
@@ -83,6 +84,8 @@ def main(session):
             print("Fail PSA")
 
         time.sleep(5)
+        tabletService.hideWebview
+        time.sleep(3)
 
         # Display a web page on the tablet
         if tabletService.showWebview("192.168.43.19:8000/display"):
@@ -90,11 +93,11 @@ def main(session):
         else:
             print("Fail ex")
 
-        time.sleep(5)
+        time.sleep(20)'''
 
         # Display a local web page located in boot-config/html folder
         # The ip of the robot from the tablet is 198.18.0.1
-        if tabletService.showWebview(""):
+        if tabletService.showWebview("http://198.18.0.1/apps/boot-config/index.html"):
             print("Success loading")
         else:
             print("Fail loading")
@@ -102,7 +105,7 @@ def main(session):
         time.sleep(3)
 
         # Hide the web view
-        tabletService.hideWebview()
+        # tabletService.hideWebview()
     except Exception as e:
         print("Error was: ", e)
 
