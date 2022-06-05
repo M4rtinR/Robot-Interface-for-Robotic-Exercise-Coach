@@ -71,12 +71,12 @@ class Action(Resource):
                 tabletService = ALProxy("ALTabletService", robot_ip, port)
                 # Ensure that the tablet wifi is enable
                 tabletService.enableWifi()
-                print("Showing image")
+                '''print("Showing image")
                 tabletService.showWebview("http://192.18.0.1/apps/boot_config/preloading_dialog.html")
                 time.sleep(5.0)
                 # Show the initial screen on tablet
                 print("Showing tablet view")
-                tabletService.playVideo("http://192.18.0.1/img/help_charger.png")
+                tabletService.playVideo("http://192.18.0.1/img/help_charger.png")'''
                 #tabletService.showWebview("192.168.1.207:8000/display")
             except Exception as e:
                 print("Error was: ", e)
@@ -91,19 +91,23 @@ class Action(Resource):
                 posture_service.goToPosture("StandInit", 0.5)
 
                 # Show the initial screen on tablet
-                tabletService.showWebview("192.168.1.207:8000/display")
+                # tabletService.showWebview("192.168.1.207:8000/display")
 
             elif 'stop' in content:
-                ttsAnimated = ALProxy("ALAnimatedSpeech", robot_ip, port)
-                # ttsAnimated.setParameter("speed", 100)
-                configuration = {"bodyLanguageMode": "contextual"}
-                ttsAnimated.say("OK, you can stop there.", configuration)
+                # ttsAnimated = ALProxy("ALAnimatedSpeech", robot_ip, port)
+                tts = ALProxy("ALTextToSpeech", robot_ip, port)
+                tts.setParameter("speed", 75)
+                # configuration = {"bodyLanguageMode": "contextual"}
+                tts.say("OK, you can stop there.")
+            elif 'silence' in content:
+                tabletService.showWebview("http://198.18.0.1/apps/boot-config/index.html")
             else:
                 action = content['utterance']
                 print(action)
                 if 'demo' in content:
                     tts = ALProxy("ALTextToSpeech", robot_ip, port)
-                    # tts.setParameter("speed", 100)
+                    tts.setParameter("speed", 75)
+                    tabletService.showWebview("http://198.18.0.1/apps/boot-config/index.html")
                     tts.post.say(str(action))
                     demoString = str(content['demo'])
 
@@ -144,15 +148,51 @@ class Action(Resource):
                                       -0.25, 0.02, 0.17]
                         speedLists = 0.1
                         motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+
                     elif demoString == "tabletop_circles_pos_vid":
                         print("Play video for tabletop_circles_pos")
+
                     elif demoString == "tabletop_circles_neg":
-                        names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw"]
-                        angleLists = [0.32, 2.08, 0.01, 0.93, -0.39, -0.02]
+                        names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw",
+                                 "LElbowRoll", "LElbowYaw", "LHand", "LShoulderPitch", "LShoulderRoll", "LWristYaw",
+                                 "HipPitch", "HipRoll", "KneePitch"]
+                        angleLists = [0.90, 0.69, 0.01, 0.98, 0.01, 0.29,
+                                      -1.15, -0.76, 0.01, 1.13, 0.01, -0.45,
+                                      -0.25, 0.02, 0.17]
                         speedLists = 0.2
                         motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        time.sleep(0.5)
+                        motion_service.post.moveTo(0, 0, 0.39)
+                        angleLists = [0.80, 0.57, 0.01, 0.80, 0.01, 0.60,
+                                      -0.54, -0.80, 0.01, 0.75, 0.01, -0.45,
+                                      -0.37, -0.23, 0.17]
+                        speedLists = 0.1
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        time.sleep(0.1)
+                        motion_service.post.moveTo(0, 0, -0.39)
+                        angleLists = [0.70, 0.48, 0.01, -0.19, 0.01, 0.26,
+                                      -0.78, -0.84, 0.01, -0.01, 0.01, -0.45,
+                                      -0.68, -0.23, 0.17]
+                        speedLists = 0.1
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        time.sleep(0.1)
+                        motion_service.post.moveTo(0, 0, -0.39)
+                        angleLists = [0.76, 1.19, 0.01, 0.91, 0.01, -0.08,
+                                      -0.86, -0.71, 0.01, 0.89, 0.01, -0.45,
+                                      -0.38, -0.23, 0.17]
+                        speedLists = 0.1
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        time.sleep(0.1)
+                        motion_service.post.moveTo(0, 0, 0.39)
+                        angleLists = [0.90, 0.69, 0.01, 0.98, 0.01, 0.29,
+                                      -1.15, -0.76, 0.01, 1.13, 0.01, -0.45,
+                                      -0.25, 0.02, 0.17]
+                        speedLists = 0.1
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+
                     elif demoString == "tabletop_circles_neg_vid":
                         print("Play video for tabletop_circles_neg")
+
                     elif demoString == "towel_slide_pos":
                         names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw",
                                  "LElbowRoll", "LElbowYaw", "LHand", "LShoulderPitch", "LShoulderRoll", "LWristYaw",
@@ -174,29 +214,35 @@ class Action(Resource):
                                       -0.35, 0.00, 0.17]
                         speedLists = 0.1
                         motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+
                     elif demoString == "towel_slide_pos_vid":
-                        names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw"]
-                        angleLists = [0.32, 2.08, 0.01, 0.93, -0.39, -0.02]
+                        print("Play video for towel_slide_pos")
+
+                    elif demoString == "towel_slide_neg":
+                        names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw",
+                                 "LElbowRoll", "LElbowYaw", "LHand", "LShoulderPitch", "LShoulderRoll", "LWristYaw",
+                                 "HipPitch", "HipRoll", "KneePitch"]
+                        angleLists = [0.83, 0.72, 0.01, 0.67, 0.13, -0.70,
+                                      -0.87, -0.87, 0.01, 0.79, 0.08, 0.51,
+                                      -0.35, 0.00, 0.17]
                         speedLists = 0.2
                         motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
-                    elif demoString == "towel_slide_neg":
-                        names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw"]
-                        angleLists = [0.53, 0.75, 0.01, 0.93, -0.85, -0.03]
-                        speedLists = 0.3
-                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
                         time.sleep(0.5)
-                        angleLists = [0.53, 0.75, 0.01, 0.93, -0.13, -0.03]
-                        speedLists = 0.05
+                        angleLists = [0.60, 0.67, 0.01, -0.43, 0.13, -0.70,
+                                      -0.58, -0.87, 0.01, -0.35, 0.08, 0.51,
+                                      -0.35, 0.00, 0.17]
+                        speedLists = 0.1
                         motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        time.sleep(0.2)
+                        angleLists = [0.83, 0.72, 0.01, 0.67, 0.13, -0.70,
+                                      -0.87, -0.87, 0.01, 0.79, 0.08, 0.51,
+                                      -0.35, 0.00, 0.17]
+                        speedLists = 0.1
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+
                     elif demoString == "towel_slide_neg_vid":
-                        names = ["LElbowRoll", "LElbowYaw", "LHand", "LShoulderPitch", "LShoulderRoll", "LWristYaw"]
-                        angleLists = [-0.53, -0.75, -0.01, 0.93, 0.85, 0.03]
-                        speedLists = 0.3
-                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
-                        time.sleep(0.5)
-                        angleLists = [-0.53, -0.75, -0.01, 0.93, 0.13, 0.03]
-                        speedLists = 0.05
-                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        print("Play video for towel_slide_neg")
+
                     elif demoString == "external_rotations_with_cane_pos":
                         names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw",
                                  "LElbowRoll", "LElbowYaw", "LHand", "LShoulderPitch", "LShoulderRoll", "LWristYaw",
@@ -227,35 +273,44 @@ class Action(Resource):
                                       -0.35, 0.00, 0.17]
                         speedLists = 0.05
                         motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+
                     elif demoString == "external_rotations_with_cane_pos_vid":
-                        names = ["LElbowRoll", "LElbowYaw", "LHand", "LShoulderPitch", "LShoulderRoll", "LWristYaw"]
-                        angleLists = [-0.52, -1.68, -0.01, 0.62, 0.12, 0.02]
-                        speedLists = 0.2
-                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
-                        time.sleep(0.3)
-                        # motion_service.post.moveTo(0, 0, 0.79)
-                        names.append("HipPitch")
-                        angleLists = [-0.02, -1.68, -0.01, 0.62, 1.00, 0.02, -0.08]
-                        speedLists = 0.1
-                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        print("Play video for external_rotations_with_cane_pos")
+
                     elif demoString == "external_rotations_with_cane_neg":
-                        names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw"]
-                        angleLists = [0.52, 1.68, 0.01, 0.62, -0.12, -0.02]
+                        names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw",
+                                 "LElbowRoll", "LElbowYaw", "LHand", "LShoulderPitch", "LShoulderRoll", "LWristYaw",
+                                 "HipPitch", "HipRoll", "KneePitch"]
+                        angleLists = [1.26, 1.40, 0.01, 1.27, 0.15, 1.55,
+                                      -1.25, -1.51, 0.01, 1.39, 0.13, -1.62,
+                                      -0.35, 0.00, 0.17]
                         speedLists = 0.2
                         motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
-                        time.sleep(0.3)
-                        angleLists = [0.31, 1.68, 0.01, 0.62, -0.27, -0.02]
-                        speedLists = 0.1
+                        time.sleep(0.5)
+                        motion_service.post.moveTo(0, 0, -0.39)
+                        angleLists = [0.96, 2.08, 0.01, 1.27, 0.15, 1.55,
+                                      -0.95, -1.20, 0.01, 1.39, 0.13, -1.62,
+                                      -0.35, 0.00, 0.17]
+                        speedLists = 0.05
                         motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        time.sleep(0.2)
+                        motion_service.post.moveTo(0, 0, 0.79)
+                        angleLists = [0.66, 1.20, 0.01, 1.27, 0.15, 1.55,
+                                      -0.65, -2.08, 0.01, 1.39, 0.13, -1.62,
+                                      -0.35, 0.00, 0.17]
+                        speedLists = 0.05
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        time.sleep(0.2)
+                        motion_service.post.moveTo(0, 0, -0.39)
+                        angleLists = [0.56, 1.40, 0.01, 1.27, 0.15, 1.55,
+                                      -0.55, -1.51, 0.01, 1.39, 0.13, -1.62,
+                                      -0.35, 0.00, 0.17]
+                        speedLists = 0.05
+                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+
                     elif demoString == "external_rotations_with_cane_neg_vid":
-                        names = ["LElbowRoll", "LElbowYaw", "LHand", "LShoulderPitch", "LShoulderRoll", "LWristYaw"]
-                        angleLists = [-0.52, -1.68, -0.01, 0.62, 0.12, 0.02]
-                        speedLists = 0.2
-                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
-                        time.sleep(0.3)
-                        angleLists = [-0.31, -1.68, -0.01, 0.62, 0.27, 0.02]
-                        speedLists = 0.1
-                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        print("Play video for external_roatations_with_cane_neg")
+
                     elif demoString == "shoulder_openers_pos":
                         names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw",
                                  "LElbowRoll", "LElbowYaw", "LHand", "LShoulderPitch", "LShoulderRoll", "LWristYaw",
@@ -278,55 +333,56 @@ class Action(Resource):
                                           -0.35, 0.00, 0.17]
                             speedLists = 0.05
                             motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+
                     elif demoString == "shoulder_openers_pos_vid":
-                        motion_service.post.moveTo(0, 0, 0.79)
-                        time.sleep(2.0)
-                        names = ["LElbowRoll", "LElbowYaw", "LHand", "LShoulderPitch", "LShoulderRoll", "LWristYaw"]
-                        angleLists = [-1.09, -2.09, -0.01, 0.15, 1.55, 0.02]
-                        speedLists = 0.2
-                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
-                        motion_service.post.moveTo(0, 0, -1.58)
-                        angleLists = [-0.53, -2.07, -0.01, 0.93, 0.55, 0.01]
-                        speedLists = 0.1
-                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
-                        angleLists = [-0.53, -2.07, -0.01, 0.93, 0.23, 0.01]
-                        speedLists = 0.1
-                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
-                        angleLists = [-0.31, -1.68, -0.01, 0.29, 0.01, 0.02]
-                        speedLists = 0.1
-                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
-                        time.sleep(1.0)
-                        motion_service.post.moveTo(0, 0, 0.79)
+                        print("Play video for shoulder_openers_pos")
+
                     elif demoString == "shoulder_openers_neg":
-                        names = ["LElbowRoll", "LElbowYaw", "LHand", "LShoulderPitch", "LShoulderRoll", "LWristYaw"]
-                        angleLists = [-1.09, -2.09, -0.01, 0.15, 1.55, 0.02]
+                        names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw",
+                                 "LElbowRoll", "LElbowYaw", "LHand", "LShoulderPitch", "LShoulderRoll", "LWristYaw",
+                                 "HipPitch", "HipRoll", "KneePitch"]
+                        RElbowRoll = 1.26
+                        LElbowRoll = -1.25
+                        angleLists = [RElbowRoll, 1.40, 0.01, 1.27, 0.15, 0.14,
+                                      LElbowRoll, -1.51, 0.01, 1.39, 0.13, -0.14,
+                                      -0.35, 0.00, 0.17]
                         speedLists = 0.2
                         motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
-                        angleLists = [-0.53, -2.07, -0.01, 0.93, 0.23, 0.01]
-                        speedLists = 0.2
-                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        time.sleep(0.5)
+                        for i in [0, 1]:
+                            RElbowRoll -= 0.25
+                            LElbowRoll += 0.25
+                            angleLists = [RElbowRoll, 2.08, 0.01, 1.27, 0.15, 0.14,
+                                          LElbowRoll, -2.08, 0.01, 1.39, 0.13, -0.14,
+                                          -0.35, 0.00, 0.17]
+                            speedLists = 0.05
+                            motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                            time.sleep(0.2)
+                            RElbowRoll -= 0.25
+                            LElbowRoll += 0.25
+                            angleLists = [RElbowRoll, 1.40, 0.01, 1.27, 0.15, 0.14,
+                                          LElbowRoll, -1.51, 0.01, 1.39, 0.13, -0.14,
+                                          -0.35, 0.00, 0.17]
+                            speedLists = 0.05
+                            motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
                     elif demoString == "shoulder_openers_neg_vid":
-                        names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw"]
-                        angleLists = [1.09, 2.09, 0.01, 0.15, -1.55, -0.02]
-                        speedLists = 0.2
-                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
-                        angleLists = [0.53, 2.07, 0.01, 0.93, -0.23, -0.01]
-                        speedLists = 0.2
-                        motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                        print("Play video for shoulder_openers_neg")
 
                 else:
                     if 'question' in content:
-                        ttsAnimated = ALProxy("ALAnimatedSpeech", robot_ip, port)
-                        # ttsAnimated.setParameter("speed", 100)
-                        configuration = {"bodyLanguageMode": "contextual"}
+                        # ttsAnimated = ALProxy("ALAnimatedSpeech", robot_ip, port)
+                        tts = ALProxy("ALTextToSpeech", robot_ip, port)
+                        tts.setParameter("speed", 75)
+                        #configuration = {"bodyLanguageMode": "contextual"}
                         if content['question'] == 'Concurrent':
                             print("Concurrent question detected")
-                            ttsAnimated.say(str(action), configuration)
+                            tts.say(str(action))
                         else:
                             global goodBadQuestion
                             global expectingTouch
                             expectingTouch = True
-                            ttsAnimated.say(str(action), configuration)
+                            tabletService.showWebview("http://198.18.0.1/apps/boot-config/index.html")
+                            tts.say(str(action))
                             names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw",
                                      "LElbowRoll", "LElbowYaw", "LHand", "LShoulderPitch", "LShoulderRoll", "LWristYaw"]
                             angleLists = [0.98, 1.69, 0.01, 0.79, -0.09, -0.03, -0.98, -1.69, 0.01, 0.79, 0.09, 0.03]
@@ -359,13 +415,14 @@ class Action(Resource):
 
                             expectingTouch = False
                     else:
-                        ttsAnimated = ALProxy("ALAnimatedSpeech", robot_ip, port)
-                        # ttsAnimated.setParameter("speed", 100)
-                        configuration = {"bodyLanguageMode": "contextual"}
+                        # ttsAnimated = ALProxy("ALAnimatedSpeech", robot_ip, port)
+                        tts = ALProxy("ALTextToSpeech", robot_ip, port)
+                        tts.setParameter("speed", 75)
+                        # configuration = {"bodyLanguageMode": "contextual"}
                         # Show the initial screen on tablet
-                        tabletService.showWebview("192.168.1.207:8000/display")
-                        ttsAnimated.say(str(action), configuration)
-                # TODO: Deal with videos
+                        tabletService.showWebview("http://198.18.0.1/apps/boot-config/index.html")
+                        tts.say(str(action))
+
                 return {'completed': 1}, 200
         else:
             print("ERROR: request is not json")
@@ -410,17 +467,18 @@ class ReactToTouch(ALModule):
         if (bodies == []):
             return -1
 
-        ttsAnimated = ALProxy("ALAnimatedSpeech", robot_ip, port)
-        # ttsAnimated.setParameter("speed", 100)
-        configuration = {"bodyLanguageMode": "contextual"}
+        # ttsAnimated = ALProxy("ALAnimatedSpeech", robot_ip, port)
+        tts = ALProxy("ALTextToSpeech", robot_ip, port)
+        tts.setParameter("speed", 75)
+        # configuration = {"bodyLanguageMode": "contextual"}
         if "LArm" in bodies or "RArm" in bodies or "LHand/Touch/Back" in bodies or "RHand/Touch/Back" in bodies:
-            ttsAnimated.say("Great!", configuration)
+            tts.say("Great!")
             outcome = 1
         else:
             if goodBadQuestion:
-                ttsAnimated.say("OK, don't worry. We can keep improving together!")
+                tts.say("OK, don't worry. We can keep improving together!")
             else:
-                ttsAnimated.say("Oops, my mistake!")
+                tts.say("Oops, my mistake!")
             outcome = 0
 
         return outcome

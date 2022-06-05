@@ -95,14 +95,34 @@ def main(session):
 
         time.sleep(20)'''
 
+
+        if tabletService.playVideo("http://198.18.0.1/apps/boot-config/TestVid.webm"):
+            print("Video playing")
+        else:
+            print("Video not playing")
+        length = tabletService.getVideoLength()
+        print("Length of video = " + str(length) + "milliseconds.")
+        time.sleep(5)
+
+        if tabletService.playVideo("http://198.18.0.1/apps/boot-config/TestVid.ogg"):
+            print("Video playing")
+        else:
+            print("Video not playing")
+        length = tabletService.getVideoLength()
+        print("Length of video = " + str(length) + "milliseconds.")
+        time.sleep(5)
+
+        tabletService.showImage("http://198.18.0.1/apps/boot-config/icon.png")
+        time.sleep(5)
+
         # Display a local web page located in boot-config/html folder
         # The ip of the robot from the tablet is 198.18.0.1
-        if tabletService.showWebview("http://198.18.0.1/apps/boot-config/index.html"):
+        if tabletService.showWebview("http://198.18.0.1/apps/boot-config/video.html"):
             print("Success loading")
         else:
             print("Fail loading")
 
-        time.sleep(3)
+        time.sleep(5)
 
         # Hide the web view
         # tabletService.hideWebview()
