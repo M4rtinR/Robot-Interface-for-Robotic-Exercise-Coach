@@ -40,11 +40,13 @@ expectingTouch = False
 goodBadQuestion = False
 pause = 0
 remembered_content = None
+previous_content = None
 
 class Action(Resource):
     def post(self):
         global pause
         global remembered_content
+        global previous_content
         if request.is_json:
             print("request is json")
             content = request.get_json()
@@ -59,7 +61,10 @@ class Action(Resource):
                 else:
                     remembered_content = content
             else:
-                self._display(content)
+                if 'repeat' in content:
+                    self._display(previous_content)
+                else:
+                    self._display(content)
 
         else:
             print("ERROR: request is not json")
@@ -67,6 +72,7 @@ class Action(Resource):
 
     def _display(self, content):
         global pause
+        global previous_content
         '''try:
                         tabletService = ALProxy("ALTabletService", "192.168.1.37", 9559)
 
@@ -453,6 +459,7 @@ class Action(Resource):
                     tabletService.showWebview("http://198.18.0.1/apps/boot-config/index.html")
                     tts.say(str(action))
 
+            previous_content = content
             return {'completed': 1}, 200
 
 
