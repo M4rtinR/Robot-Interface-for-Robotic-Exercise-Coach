@@ -23,9 +23,13 @@ api = Api(app)
 robot_ip = "192.168.1.5"
 port = 9559
 
+# Dusty in HRI_Lab_5G
+# robot_ip = "192.168.1.53"
+# port = 9559
+
 # Simulation:
 # robot_ip = "localhost"
-# port = 45053
+# port = 40559
 
 # Phone hotspot:
 # robot_ip = "192.168.43.57"
