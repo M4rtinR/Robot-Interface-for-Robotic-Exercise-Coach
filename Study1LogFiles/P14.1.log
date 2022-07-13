@@ -1,0 +1,1319 @@
+INFO:08/11/2021 01:16:05 PM Logging started
+INFO:08/11/2021 01:16:05 PM  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:08/11/2021 01:16:08 PM Stats set, motivation = 7, ability = 4
+INFO:08/11/2021 01:17:22 PM Received data from app: {'goal_level': '0', 'sessions': '0', 'name': 'Martin', 'ability': '7'}
+INFO:08/11/2021 01:17:23 PM Chosen policy = 10
+INFO:08/11/2021 01:17:23 PM Set session duration to: 1
+INFO:08/11/2021 01:17:23 PM Created subgoal, new goal level = 0
+INFO:08/11/2021 01:17:23 PM Formatting action: behaviour = 1, goal_level = 0, performance = None, name = Louise, shot = None, hand = None, stat = None
+INFO:08/11/2021 01:17:24 PM Displaying action Hello , welcome to today's session.
+INFO:08/11/2021 01:17:26 PM Created subgoal, new goal level = 1
+INFO:08/11/2021 01:17:26 PM 192.168.1.24 - - [11/Aug/2021 13:17:26] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:17:26 PM Received data from app: {'goal_level': 1, 'performance': 3}
+INFO:08/11/2021 01:17:28 PM Formatting action: behaviour = 1, goal_level = 1, performance = None, name = Louise, shot = 1, hand = BH, stat = None
+INFO:08/11/2021 01:17:28 PM Displaying action Today , I'm going to coach you through a solo practice session. We'll work on your backhand drive. 
+INFO:08/11/2021 01:17:34 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:17:34 PM Created subgoal, new goal level = 2
+INFO:08/11/2021 01:17:34 PM 192.168.1.24 - - [11/Aug/2021 13:17:34] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:17:34 PM Received data from app: {'goal_level': '2', 'stat': 'followThroughTime', 'performance': '', 'shotType': 'drive', 'initialScore': 'null', 'hand': 'backhand'}
+INFO:08/11/2021 01:17:35 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:17:36 PM Formatting action: behaviour = 7, goal_level = 2, performance = None, name = Louise, shot = 1, hand = BH, stat = None
+INFO:08/11/2021 01:17:36 PM Displaying action When we worked on your backhand drive before, how do you feel you got on? Touch the back of my hand of my hand for good or the top of my head if you think it still needs work.
+INFO:08/11/2021 01:17:52 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:17:53 PM Created subgoal, new goal level = 6
+INFO:08/11/2021 01:17:53 PM 192.168.1.24 - - [11/Aug/2021 13:17:53] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:17:53 PM Formatting action: behaviour = 17, goal_level = 6, performance = None, name = Louise, shot = 1, hand = BH, stat = None
+INFO:08/11/2021 01:17:53 PM Displaying action To get going, please hit 30 backhand drives. I'll watch and let you know when to stop
+INFO:08/11/2021 01:18:01 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:02 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:03 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:04 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:05 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:06 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:07 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:08 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:09 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:10 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:11 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:12 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:13 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:14 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:15 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:15 PM Received data from app: {'goal_level': '5', 'score': '0.91699964', 'performance': 'High'}
+INFO:08/11/2021 01:18:15 PM 192.168.1.24 - - [11/Aug/2021 13:18:15] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:18:16 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:17 PM Received data from app: {'goal_level': '5', 'score': '0.34785444', 'performance': 'Under'}
+INFO:08/11/2021 01:18:17 PM 192.168.1.24 - - [11/Aug/2021 13:18:17] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:18:17 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:17 PM Received data from app: {'goal_level': '5', 'score': '0.88142806', 'performance': 'High'}
+INFO:08/11/2021 01:18:17 PM 192.168.1.24 - - [11/Aug/2021 13:18:17] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:18:18 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:19 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:20 PM Received data from app: {'goal_level': '5', 'score': '0.9723332', 'performance': 'Very High'}
+INFO:08/11/2021 01:18:20 PM 192.168.1.24 - - [11/Aug/2021 13:18:20] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:18:20 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:21 PM Received data from app: {'goal_level': '5', 'score': '0.24904452', 'performance': 'Low'}
+INFO:08/11/2021 01:18:21 PM 192.168.1.24 - - [11/Aug/2021 13:18:21] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:18:21 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:22 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:23 PM Received data from app: {'goal_level': '5', 'score': '0.70752263', 'performance': 'Over'}
+INFO:08/11/2021 01:18:23 PM 192.168.1.24 - - [11/Aug/2021 13:18:23] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:18:23 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:24 PM Received data from app: {'goal_level': '5', 'score': '0.5929031', 'performance': 'Good!'}
+INFO:08/11/2021 01:18:24 PM 192.168.1.24 - - [11/Aug/2021 13:18:24] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:18:24 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:25 PM Received data from app: {'goal_level': '5', 'score': '0.750999', 'performance': 'High'}
+INFO:08/11/2021 01:18:25 PM 192.168.1.24 - - [11/Aug/2021 13:18:25] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:18:25 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:26 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:27 PM Received data from app: {'goal_level': '5', 'score': '0.980238', 'performance': 'Very High'}
+INFO:08/11/2021 01:18:27 PM 192.168.1.24 - - [11/Aug/2021 13:18:27] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:18:27 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:28 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:30 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:31 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:32 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:33 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:34 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:34 PM Received data from app: {'goal_level': '5', 'score': '0.731237', 'performance': 'Over'}
+INFO:08/11/2021 01:18:34 PM 192.168.1.24 - - [11/Aug/2021 13:18:34] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:18:35 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:36 PM Received data from app: {'goal_level': '5', 'score': '0.92490447', 'performance': 'High'}
+INFO:08/11/2021 01:18:36 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:36 PM 192.168.1.24 - - [11/Aug/2021 13:18:36] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:18:37 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:37 PM Received data from app: {'goal_level': '5', 'score': '0.20161574', 'performance': 'Low'}
+INFO:08/11/2021 01:18:37 PM 192.168.1.24 - - [11/Aug/2021 13:18:37] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:18:38 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:38 PM Received data from app: {'goal_level': '5', 'score': '0.5375695', 'performance': 'Good!'}
+INFO:08/11/2021 01:18:38 PM 192.168.1.24 - - [11/Aug/2021 13:18:38] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:18:39 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:40 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:40 PM Received data from app: {'goal_level': '5', 'score': '0.9051425', 'performance': 'High'}
+INFO:08/11/2021 01:18:40 PM 192.168.1.24 - - [11/Aug/2021 13:18:40] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:18:41 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:42 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:42 PM Received data from app: {'goal_level': '5', 'score': '0.8774757', 'performance': 'High'}
+INFO:08/11/2021 01:18:42 PM 192.168.1.24 - - [11/Aug/2021 13:18:42] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:18:43 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:44 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:45 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:46 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:47 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:48 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:49 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:50 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:51 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:52 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:53 PM Received data from app: {'goal_level': '5', 'score': '0.7747134', 'performance': 'High'}
+INFO:08/11/2021 01:18:53 PM 192.168.1.24 - - [11/Aug/2021 13:18:53] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:18:53 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:54 PM Received data from app: {'goal_level': '5', 'score': '0.6324271', 'performance': 'Good!'}
+INFO:08/11/2021 01:18:54 PM 192.168.1.24 - - [11/Aug/2021 13:18:54] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:18:54 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:55 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:56 PM Received data from app: {'goal_level': '5', 'score': '0.75495136', 'performance': 'High'}
+INFO:08/11/2021 01:18:56 PM 192.168.1.24 - - [11/Aug/2021 13:18:56] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:18:56 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:57 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:58 PM Received data from app: {'goal_level': '5', 'score': '0.7351894', 'performance': 'Over'}
+INFO:08/11/2021 01:18:58 PM 192.168.1.24 - - [11/Aug/2021 13:18:58] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:18:59 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:18:59 PM Received data from app: {'goal_level': '5', 'score': '0.97628564', 'performance': 'Very High'}
+INFO:08/11/2021 01:18:59 PM 192.168.1.24 - - [11/Aug/2021 13:18:59] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:19:00 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:19:01 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:19:01 PM Received data from app: {'goal_level': '5', 'score': '0.67590344', 'performance': 'Over'}
+INFO:08/11/2021 01:19:01 PM 192.168.1.24 - - [11/Aug/2021 13:19:01] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:19:02 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:19:03 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:19:03 PM Received data from app: {'goal_level': '5', 'score': '0.65614146', 'performance': 'Over'}
+INFO:08/11/2021 01:19:03 PM 192.168.1.24 - - [11/Aug/2021 13:19:03] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:19:04 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:19:05 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:19:05 PM Received data from app: {'goal_level': '5', 'score': '0.5929031', 'performance': 'Good!'}
+INFO:08/11/2021 01:19:05 PM 192.168.1.24 - - [11/Aug/2021 13:19:05] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:19:06 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:19:07 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:19:07 PM Received data from app: {'goal_level': '5', 'score': '0.96047604', 'performance': 'Very High'}
+INFO:08/11/2021 01:19:07 PM 192.168.1.24 - - [11/Aug/2021 13:19:07] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:19:08 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:19:09 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:19:09 PM Received data from app: {'goal_level': '5', 'score': '0.8774757', 'performance': 'High'}
+INFO:08/11/2021 01:19:09 PM 192.168.1.24 - - [11/Aug/2021 13:19:09] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:19:10 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:19:11 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:19:11 PM Received data from app: {'goal_level': '5', 'score': '0.8695709', 'performance': 'High'}
+INFO:08/11/2021 01:19:11 PM 192.168.1.24 - - [11/Aug/2021 13:19:11] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:19:12 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:19:13 PM Received data from app: {'goal_level': '5', 'score': '0.9683808', 'performance': 'Very High'}
+INFO:08/11/2021 01:19:13 PM 192.168.1.24 - - [11/Aug/2021 13:19:13] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:19:13 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:19:14 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:19:15 PM Received data from app: {'goal_level': '5', 'score': '0.62452227', 'performance': 'Good!'}
+INFO:08/11/2021 01:19:15 PM 192.168.1.24 - - [11/Aug/2021 13:19:15] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:19:15 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:19:16 PM Received data from app: {'goal_level': '5', 'score': '0.09490101', 'performance': 'Very Low'}
+INFO:08/11/2021 01:19:16 PM 192.168.1.24 - - [11/Aug/2021 13:19:16] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:19:16 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:19:17 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:19:17 PM Received data from app: {'goal_level': '5', 'score': '0.30437806', 'performance': 'Low'}
+INFO:08/11/2021 01:19:17 PM 192.168.1.24 - - [11/Aug/2021 13:19:17] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:19:17 PM Received data from app: {'goal_level': '4', 'score': '0.15 secs', 'performance': '', 'tgtValue': '0.11 secs'}
+INFO:08/11/2021 01:19:17 PM 192.168.1.24 - - [11/Aug/2021 13:19:17] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:19:17 PM Received data from app: {'goal_level': '3', 'stat': 'Follow through time', 'performance': 'REGRESSED', 'tgtValue': '0.7443689'}
+INFO:08/11/2021 01:19:18 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:19:18 PM Stopping set: That's 30, you can stop there.
+INFO:08/11/2021 01:19:21 PM Shot set completed.
+INFO:08/11/2021 01:19:21 PM Ended subgoal 6. New goal level = 3.
+INFO:08/11/2021 01:19:21 PM Created subgoal, new goal level = 3
+INFO:08/11/2021 01:19:21 PM 192.168.1.24 - - [11/Aug/2021 13:19:21] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:19:21 PM Received data from app: {'goal_level': '5', 'score': '0.6337476', 'performance': 'High'}
+INFO:08/11/2021 01:19:21 PM Action goal not expected, not using data.
+INFO:08/11/2021 01:19:21 PM 192.168.1.24 - - [11/Aug/2021 13:19:21] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:19:21 PM Received data from app: {'goal_level': '4'}
+INFO:08/11/2021 01:19:21 PM Formatting action: behaviour = 7, goal_level = 3, performance = None, name = Louise, shot = None, hand = None, stat = followThroughTime
+INFO:08/11/2021 01:19:22 PM Displaying action When we worked on your follow through before, how do you feel you got on? Touch the back of my hand of my hand for good or the top of my head if you think it still needs work.
+INFO:08/11/2021 01:19:37 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:19:39 PM Formatting action: behaviour = 24, goal_level = 3, performance = None, name = Louise, shot = None, hand = None, stat = followThroughTime
+INFO:08/11/2021 01:19:39 PM Displaying action If I remember correctly this is our first session when we worked on your follow through together 
+INFO:08/11/2021 01:19:42 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:19:43 PM Formatting action: behaviour = 4, goal_level = 3, performance = None, name = Louise, shot = None, hand = None, stat = followThroughTime
+INFO:08/11/2021 01:19:43 PM Displaying action I think this is the first time we've worked on your follow through together 
+INFO:08/11/2021 01:19:48 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:19:49 PM Formatting action: behaviour = 25, goal_level = 3, performance = None, name = Louise, shot = None, hand = None, stat = followThroughTime
+INFO:08/11/2021 01:19:50 PM Displaying action This seems to be the first time we've looked at your follow through together 
+INFO:08/11/2021 01:19:52 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:19:53 PM Formatting action: behaviour = 1, goal_level = 3, performance = None, name = Louise, shot = None, hand = None, stat = followThroughTime
+INFO:08/11/2021 01:19:54 PM Displaying action In this session we're going to , we're going to start looking at your follow through. 
+INFO:08/11/2021 01:19:58 PM Created subgoal, new goal level = 4
+INFO:08/11/2021 01:19:58 PM 192.168.1.24 - - [11/Aug/2021 13:19:58] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:19:58 PM Formatting action: behaviour = 1, goal_level = 4, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:19:59 PM Displaying action In this next set, I want you to really point the follow through towards where you want the ball to go. Go for another set of 30 backhand drives and see how you get on. I'll let you know when to stop.
+INFO:08/11/2021 01:20:09 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:20:10 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:11 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:13 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:14 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:15 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:16 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:17 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:18 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:19 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:19 PM Received data from app: {'goal_level': '5', 'score': '0.4709687', 'performance': 'High'}
+INFO:08/11/2021 01:20:19 PM 192.168.1.24 - - [11/Aug/2021 13:20:19] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:20:19 PM Received data from app: {'goal_level': '5', 'score': '0.5814258', 'performance': 'High'}
+INFO:08/11/2021 01:20:19 PM 192.168.1.24 - - [11/Aug/2021 13:20:19] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:20:19 PM Received data from app: {'goal_level': '5', 'score': '0.6511882', 'performance': 'High'}
+INFO:08/11/2021 01:20:19 PM 192.168.1.24 - - [11/Aug/2021 13:20:19] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:20:20 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:20 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:20:20 PM Displaying action Extend the follow through  
+INFO:08/11/2021 01:20:23 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:20:24 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:24 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:20:25 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:26 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:27 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:28 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:28 PM Received data from app: {'goal_level': '5', 'score': '0.5116634', 'performance': 'High'}
+INFO:08/11/2021 01:20:28 PM 192.168.1.24 - - [11/Aug/2021 13:20:28] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:20:29 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:29 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:20:29 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:20:30 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:30 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:20:31 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:32 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:33 PM Received data from app: {'goal_level': '5', 'score': '0.38957924', 'performance': 'Over'}
+INFO:08/11/2021 01:20:33 PM 192.168.1.24 - - [11/Aug/2021 13:20:33] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:20:33 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:34 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:20:34 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:20:34 PM Received data from app: {'goal_level': '5', 'score': '0.3546981', 'performance': 'Good!'}
+INFO:08/11/2021 01:20:34 PM 192.168.1.24 - - [11/Aug/2021 13:20:34] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:20:35 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:35 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:20:35 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:20:35 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:20:36 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:36 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:20:37 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:38 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:39 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:40 PM Received data from app: {'goal_level': '5', 'score': '0.53491753', 'performance': 'High'}
+INFO:08/11/2021 01:20:40 PM 192.168.1.24 - - [11/Aug/2021 13:20:40] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:20:40 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:41 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:20:41 PM Displaying action Pay attention to the line of the follow through  
+INFO:08/11/2021 01:20:43 PM Received data from app: {'goal_level': '5', 'score': '7.2666306E-5', 'performance': 'Low'}
+INFO:08/11/2021 01:20:43 PM 192.168.1.24 - - [11/Aug/2021 13:20:43] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:20:44 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:20:45 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:45 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:20:45 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:20:45 PM Displaying action Swing towards the target  
+INFO:08/11/2021 01:20:47 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:20:48 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:48 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:20:49 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:50 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:51 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:52 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:52 PM Received data from app: {'goal_level': '5', 'score': '0.53491753', 'performance': 'High'}
+INFO:08/11/2021 01:20:52 PM 192.168.1.24 - - [11/Aug/2021 13:20:52] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:20:53 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:53 PM Received data from app: {'goal_level': '5', 'score': '0.5930528', 'performance': 'High'}
+INFO:08/11/2021 01:20:54 PM 192.168.1.24 - - [11/Aug/2021 13:20:54] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:20:54 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:20:54 PM Displaying action Extend the follow through  
+INFO:08/11/2021 01:20:55 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:20:57 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:57 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:20:57 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:20:57 PM Displaying action Extend  
+INFO:08/11/2021 01:20:58 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:20:59 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:20:59 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:21:00 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:01 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:02 PM Received data from app: {'goal_level': '5', 'score': '0.3546981', 'performance': 'Good!'}
+INFO:08/11/2021 01:21:02 PM 192.168.1.24 - - [11/Aug/2021 13:21:02] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:21:02 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:03 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:21:03 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:21:04 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:04 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:21:05 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:06 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:07 PM Received data from app: {'goal_level': '5', 'score': '0.5465446', 'performance': 'High'}
+INFO:08/11/2021 01:21:07 PM 192.168.1.24 - - [11/Aug/2021 13:21:07] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:21:07 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:07 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:21:07 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:21:08 PM Received data from app: {'goal_level': '5', 'score': '0.2674951', 'performance': 'Good!'}
+INFO:08/11/2021 01:21:08 PM 192.168.1.24 - - [11/Aug/2021 13:21:08] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:21:08 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:08 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:21:09 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:21:09 PM Displaying action Pay attention to the line of the follow through  
+INFO:08/11/2021 01:21:11 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:21:12 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:12 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:21:13 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:14 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:15 PM Received data from app: {'goal_level': '5', 'score': '0.4942228', 'performance': 'High'}
+INFO:08/11/2021 01:21:15 PM 192.168.1.24 - - [11/Aug/2021 13:21:15] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:21:15 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:16 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:21:16 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:21:16 PM Received data from app: {'goal_level': '5', 'score': '0.36632514', 'performance': 'Over'}
+INFO:08/11/2021 01:21:16 PM 192.168.1.24 - - [11/Aug/2021 13:21:16] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:21:17 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:17 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:21:17 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:21:17 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:21:18 PM Received data from app: {'goal_level': '5', 'score': '0.6453746', 'performance': 'High'}
+INFO:08/11/2021 01:21:18 PM 192.168.1.24 - - [11/Aug/2021 13:21:18] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:21:18 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:18 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:21:19 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:21:19 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:21:20 PM Received data from app: {'goal_level': '5', 'score': '0.27330863', 'performance': 'Good!'}
+INFO:08/11/2021 01:21:20 PM 192.168.1.24 - - [11/Aug/2021 13:21:20] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:21:20 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:20 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:21:20 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:21:20 PM Displaying action Pay attention to the line of the follow through  
+INFO:08/11/2021 01:21:23 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:21:24 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:24 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:21:25 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:26 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:27 PM Received data from app: {'goal_level': '5', 'score': '0.31400335', 'performance': 'Good!'}
+INFO:08/11/2021 01:21:27 PM 192.168.1.24 - - [11/Aug/2021 13:21:27] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:21:27 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:27 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:21:28 PM Displaying action Extend  
+INFO:08/11/2021 01:21:28 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:21:29 PM Received data from app: {'goal_level': '5', 'score': '0.38376573', 'performance': 'Over'}
+INFO:08/11/2021 01:21:29 PM 192.168.1.24 - - [11/Aug/2021 13:21:29] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:21:29 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:29 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:21:30 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:21:30 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:21:31 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:31 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:21:31 PM Received data from app: {'goal_level': '5', 'score': '0.37213868', 'performance': 'Over'}
+INFO:08/11/2021 01:21:31 PM 192.168.1.24 - - [11/Aug/2021 13:21:31] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:21:32 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:32 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:21:32 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:21:33 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:33 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:21:34 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:36 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:36 PM Received data from app: {'goal_level': '5', 'score': '0.39539278', 'performance': 'Over'}
+INFO:08/11/2021 01:21:36 PM 192.168.1.24 - - [11/Aug/2021 13:21:36] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:21:37 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:37 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:21:37 PM Displaying action Swing towards the target  
+INFO:08/11/2021 01:21:38 PM Received data from app: {'goal_level': '5', 'score': '0.3023763', 'performance': 'Good!'}
+INFO:08/11/2021 01:21:38 PM 192.168.1.24 - - [11/Aug/2021 13:21:38] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:21:39 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:21:40 PM Received data from app: {'goal_level': '5', 'score': '0.6104934', 'performance': 'High'}
+INFO:08/11/2021 01:21:40 PM 192.168.1.24 - - [11/Aug/2021 13:21:40] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:21:40 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:40 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:21:40 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:21:41 PM Displaying action Extend the follow through  
+INFO:08/11/2021 01:21:42 PM Received data from app: {'goal_level': '5', 'score': '0.33144394', 'performance': 'Good!'}
+INFO:08/11/2021 01:21:42 PM 192.168.1.24 - - [11/Aug/2021 13:21:42] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:21:42 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:21:43 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:43 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:21:44 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:21:44 PM Displaying action Pay attention to the line of the follow through  
+INFO:08/11/2021 01:21:46 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:21:47 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:47 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:21:48 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:49 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:50 PM Received data from app: {'goal_level': '5', 'score': '0.4767822', 'performance': 'High'}
+INFO:08/11/2021 01:21:50 PM 192.168.1.24 - - [11/Aug/2021 13:21:50] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:21:50 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:51 PM Formatting action: behaviour = 11, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:21:51 PM Displaying action Keep going 
+INFO:08/11/2021 01:21:52 PM Received data from app: {'goal_level': '5', 'score': '0.44771457', 'performance': 'Over'}
+INFO:08/11/2021 01:21:52 PM 192.168.1.24 - - [11/Aug/2021 13:21:52] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:21:52 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:21:53 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:53 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:21:53 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:21:54 PM Received data from app: {'goal_level': '5', 'score': '0.5930528', 'performance': 'High'}
+INFO:08/11/2021 01:21:54 PM 192.168.1.24 - - [11/Aug/2021 13:21:54] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:21:54 PM Displaying action Swing towards the target  
+INFO:08/11/2021 01:21:55 PM Received data from app: {'goal_level': '5', 'score': '0.61630696', 'performance': 'High'}
+INFO:08/11/2021 01:21:55 PM 192.168.1.24 - - [11/Aug/2021 13:21:55] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:21:56 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:21:57 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:21:57 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:21:57 PM Formatting action: behaviour = 7, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:21:57 PM Displaying action Where did that swing finish? 
+INFO:08/11/2021 01:21:57 PM Received data from app: {'goal_level': '5', 'score': '7.2666306E-5', 'performance': 'Low'}
+INFO:08/11/2021 01:21:57 PM 192.168.1.24 - - [11/Aug/2021 13:21:57] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:21:59 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:22:00 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:00 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:22:00 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:22:01 PM Displaying action Pay attention to the line of the follow through  
+INFO:08/11/2021 01:22:03 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:22:04 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:04 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:22:05 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:06 PM Received data from app: {'goal_level': '5', 'score': '0.5930528', 'performance': 'High'}
+INFO:08/11/2021 01:22:06 PM 192.168.1.24 - - [11/Aug/2021 13:22:06] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:22:06 PM Received data from app: {'goal_level': '4', 'score': '0.15 secs', 'performance': '4', 'tgtValue': '0.11 secs'}
+INFO:08/11/2021 01:22:06 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:06 PM Stopping set: That's 30, you can stop there.
+INFO:08/11/2021 01:22:06 PM 192.168.1.24 - - [11/Aug/2021 13:22:06] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:22:06 PM Received data from app: {'goal_level': '4'}
+INFO:08/11/2021 01:22:08 PM Shot set completed.
+INFO:08/11/2021 01:22:08 PM 192.168.1.24 - - [11/Aug/2021 13:22:08] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:22:09 PM Received data from app: {'goal_level': '5', 'score': '0.5407311', 'performance': 'High'}
+INFO:08/11/2021 01:22:09 PM Action goal not expected, not using data.
+INFO:08/11/2021 01:22:09 PM 192.168.1.24 - - [11/Aug/2021 13:22:09] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:22:09 PM Ended subgoal 4. New goal level = 3.
+INFO:08/11/2021 01:22:10 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:10 PM Created subgoal, new goal level = 4
+INFO:08/11/2021 01:22:10 PM Received data from app: {'goal_level': '5', 'score': '7.2666306E-5', 'performance': 'Low'}
+INFO:08/11/2021 01:22:10 PM Action goal not expected, not using data.
+INFO:08/11/2021 01:22:10 PM 192.168.1.24 - - [11/Aug/2021 13:22:10] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:22:10 PM Formatting action: behaviour = 1, goal_level = 4, performance = 4, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:22:11 PM Displaying action Play another set of 30 backhand drives please. Remember, to extend that follow through towards the target
+INFO:08/11/2021 01:22:17 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:22:18 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:19 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:20 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:22 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:23 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:23 PM Received data from app: {'goal_level': '5', 'score': '0.33144394', 'performance': 'Good!'}
+INFO:08/11/2021 01:22:23 PM 192.168.1.24 - - [11/Aug/2021 13:22:23] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:22:24 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:24 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:22:24 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:22:25 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:25 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:22:26 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:26 PM Received data from app: {'goal_level': '5', 'score': '0.011699727', 'performance': 'Low'}
+INFO:08/11/2021 01:22:26 PM 192.168.1.24 - - [11/Aug/2021 13:22:26] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:22:27 PM Received data from app: {'goal_level': '5', 'score': '7.2666306E-5', 'performance': 'Low'}
+INFO:08/11/2021 01:22:27 PM 192.168.1.24 - - [11/Aug/2021 13:22:27] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:22:27 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:28 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:22:28 PM Displaying action Extend  
+INFO:08/11/2021 01:22:29 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:22:29 PM Received data from app: {'goal_level': '5', 'score': '0.37213868', 'performance': 'Over'}
+INFO:08/11/2021 01:22:29 PM 192.168.1.24 - - [11/Aug/2021 13:22:29] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:22:30 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:30 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:22:30 PM Formatting action: behaviour = 12, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:22:30 PM Displaying action Top work  
+INFO:08/11/2021 01:22:31 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:22:32 PM Received data from app: {'goal_level': '5', 'score': '0.37213868', 'performance': 'Over'}
+INFO:08/11/2021 01:22:32 PM 192.168.1.24 - - [11/Aug/2021 13:22:32] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:22:32 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:32 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:22:33 PM Formatting action: behaviour = 12, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:22:33 PM Displaying action Top work  
+INFO:08/11/2021 01:22:34 PM Received data from app: {'goal_level': '5', 'score': '0.56398517', 'performance': 'High'}
+INFO:08/11/2021 01:22:34 PM 192.168.1.24 - - [11/Aug/2021 13:22:34] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:22:34 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:22:35 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:35 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:22:36 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:22:36 PM Received data from app: {'goal_level': '5', 'score': '0.6744423', 'performance': 'Very High'}
+INFO:08/11/2021 01:22:36 PM 192.168.1.24 - - [11/Aug/2021 13:22:36] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:22:36 PM Displaying action Pay attention to the line of the follow through  
+INFO:08/11/2021 01:22:38 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:22:39 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:39 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:22:40 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:22:40 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:22:41 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:41 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:22:42 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:43 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:44 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:45 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:45 PM Received data from app: {'goal_level': '5', 'score': '0.55817163', 'performance': 'High'}
+INFO:08/11/2021 01:22:45 PM 192.168.1.24 - - [11/Aug/2021 13:22:45] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:22:46 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:46 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:22:46 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:22:47 PM Received data from app: {'goal_level': '5', 'score': '0.36632514', 'performance': 'Over'}
+INFO:08/11/2021 01:22:47 PM 192.168.1.24 - - [11/Aug/2021 13:22:47] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:22:47 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:47 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:22:48 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:22:48 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:22:49 PM Received data from app: {'goal_level': '5', 'score': '0.53491753', 'performance': 'High'}
+INFO:08/11/2021 01:22:49 PM 192.168.1.24 - - [11/Aug/2021 13:22:49] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:22:49 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:49 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:22:49 PM Formatting action: behaviour = 40, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:22:49 PM Displaying action Nice shot. Louise 
+INFO:08/11/2021 01:22:51 PM Received data from app: {'goal_level': '5', 'score': '0.5116634', 'performance': 'High'}
+INFO:08/11/2021 01:22:51 PM 192.168.1.24 - - [11/Aug/2021 13:22:51] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:22:51 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:22:52 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:52 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:22:53 PM Formatting action: behaviour = 40, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:22:53 PM Displaying action Good Louise 
+INFO:08/11/2021 01:22:53 PM Received data from app: {'goal_level': '5', 'score': '0.33725747', 'performance': 'Good!'}
+INFO:08/11/2021 01:22:53 PM 192.168.1.24 - - [11/Aug/2021 13:22:53] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:22:54 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:22:55 PM Received data from app: {'goal_level': '5', 'score': '0.6511882', 'performance': 'High'}
+INFO:08/11/2021 01:22:55 PM 192.168.1.24 - - [11/Aug/2021 13:22:55] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:22:55 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:55 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:22:55 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:22:55 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:22:56 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:56 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:22:57 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:58 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:22:59 PM Received data from app: {'goal_level': '5', 'score': '0.5465446', 'performance': 'High'}
+INFO:08/11/2021 01:22:59 PM 192.168.1.24 - - [11/Aug/2021 13:22:59] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:22:59 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:23:00 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:23:00 PM Displaying action Pay attention to the line of the follow through  
+INFO:08/11/2021 01:23:00 PM Received data from app: {'goal_level': '5', 'score': '0.7035099', 'performance': 'Very High'}
+INFO:08/11/2021 01:23:00 PM 192.168.1.24 - - [11/Aug/2021 13:23:00] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:23:02 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:23:03 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:23:03 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:23:04 PM Received data from app: {'goal_level': '5', 'score': '7.2666306E-5', 'performance': 'Low'}
+INFO:08/11/2021 01:23:04 PM 192.168.1.24 - - [11/Aug/2021 13:23:04] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:23:04 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:23:04 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:23:05 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:23:05 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:23:05 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:23:06 PM Displaying action Swing towards the target  
+INFO:08/11/2021 01:23:06 PM Received data from app: {'goal_level': '5', 'score': '0.517477', 'performance': 'High'}
+INFO:08/11/2021 01:23:06 PM 192.168.1.24 - - [11/Aug/2021 13:23:06] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:23:07 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:23:08 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:23:08 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:23:09 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:23:09 PM Displaying action Extend  
+INFO:08/11/2021 01:23:09 PM Received data from app: {'goal_level': '5', 'score': '7.2666306E-5', 'performance': 'Low'}
+INFO:08/11/2021 01:23:09 PM 192.168.1.24 - - [11/Aug/2021 13:23:09] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:23:10 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:23:11 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:23:11 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:23:11 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:23:12 PM Displaying action Extend the follow through  
+INFO:08/11/2021 01:23:13 PM Received data from app: {'goal_level': '5', 'score': '0.6104934', 'performance': 'High'}
+INFO:08/11/2021 01:23:13 PM 192.168.1.24 - - [11/Aug/2021 13:23:13] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:23:13 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:23:14 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:23:14 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:23:14 PM Received data from app: {'goal_level': '5', 'score': '7.2666306E-5', 'performance': 'Low'}
+INFO:08/11/2021 01:23:14 PM 192.168.1.24 - - [11/Aug/2021 13:23:14] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:23:15 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:23:15 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:23:16 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:23:16 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:23:16 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:23:16 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:23:17 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:23:17 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:23:17 PM Received data from app: {'goal_level': '5', 'score': '0.517477', 'performance': 'High'}
+INFO:08/11/2021 01:23:17 PM 192.168.1.24 - - [11/Aug/2021 13:23:17] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:23:18 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:23:19 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:23:19 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:23:20 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:23:20 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:23:20 PM Received data from app: {'goal_level': '5', 'score': '7.2666306E-5', 'performance': 'Low'}
+INFO:08/11/2021 01:23:20 PM 192.168.1.24 - - [11/Aug/2021 13:23:20] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:23:21 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:23:21 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:23:21 PM Displaying action Pay attention to the line of the follow through  
+INFO:08/11/2021 01:23:24 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:23:25 PM Received data from app: {'goal_level': '5', 'score': '0.55817163', 'performance': 'High'}
+INFO:08/11/2021 01:23:25 PM 192.168.1.24 - - [11/Aug/2021 13:23:25] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:23:25 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:23:25 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:23:25 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:23:25 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:23:26 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:23:26 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:23:27 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:23:27 PM Received data from app: {'goal_level': '5', 'score': '0.38376573', 'performance': 'Over'}
+INFO:08/11/2021 01:23:27 PM 192.168.1.24 - - [11/Aug/2021 13:23:27] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:23:28 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:23:29 PM Formatting action: behaviour = 12, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:23:29 PM Displaying action Top work  
+INFO:08/11/2021 01:23:29 PM Received data from app: {'goal_level': '5', 'score': '0.6570017', 'performance': 'High'}
+INFO:08/11/2021 01:23:29 PM 192.168.1.24 - - [11/Aug/2021 13:23:29] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:23:30 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:23:31 PM Received data from app: {'goal_level': '5', 'score': '0.2674951', 'performance': 'Good!'}
+INFO:08/11/2021 01:23:31 PM 192.168.1.24 - - [11/Aug/2021 13:23:31] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:23:31 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:23:31 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:23:31 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:23:31 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:23:32 PM Received data from app: {'goal_level': '5', 'score': '0.37213868', 'performance': 'Over'}
+INFO:08/11/2021 01:23:32 PM 192.168.1.24 - - [11/Aug/2021 13:23:32] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:23:32 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:23:32 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:23:33 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:23:33 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:23:34 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:23:34 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:23:35 PM Received data from app: {'goal_level': '5', 'score': '0.38957924', 'performance': 'Over'}
+INFO:08/11/2021 01:23:35 PM 192.168.1.24 - - [11/Aug/2021 13:23:35] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:23:35 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:23:35 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:23:35 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:23:36 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:23:36 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:23:37 PM Received data from app: {'goal_level': '5', 'score': '0.40701982', 'performance': 'Over'}
+INFO:08/11/2021 01:23:37 PM 192.168.1.24 - - [11/Aug/2021 13:23:37] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:23:38 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:23:38 PM Formatting action: behaviour = 12, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:23:38 PM Displaying action Nice shot.  
+INFO:08/11/2021 01:23:39 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:23:39 PM Received data from app: {'goal_level': '5', 'score': '0.4244604', 'performance': 'Over'}
+INFO:08/11/2021 01:23:39 PM 192.168.1.24 - - [11/Aug/2021 13:23:39] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:23:39 PM Received data from app: {'goal_level': '4', 'score': '0.15 secs', 'performance': '4', 'tgtValue': '0.11 secs'}
+INFO:08/11/2021 01:23:40 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:23:40 PM Stopping set: That's 30, you can stop there.
+INFO:08/11/2021 01:23:40 PM 192.168.1.24 - - [11/Aug/2021 13:23:40] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:23:40 PM Received data from app: {'goal_level': '4'}
+INFO:08/11/2021 01:23:43 PM Shot set completed.
+INFO:08/11/2021 01:23:43 PM 192.168.1.24 - - [11/Aug/2021 13:23:43] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:23:43 PM Received data from app: {'goal_level': '5', 'score': '0.38376573', 'performance': 'Over'}
+INFO:08/11/2021 01:23:43 PM Action goal not expected, not using data.
+INFO:08/11/2021 01:23:43 PM 192.168.1.24 - - [11/Aug/2021 13:23:43] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:23:43 PM Received data from app: {'goal_level': '5', 'score': '0.36051157', 'performance': 'Good!'}
+INFO:08/11/2021 01:23:43 PM Action goal not expected, not using data.
+INFO:08/11/2021 01:23:43 PM 192.168.1.24 - - [11/Aug/2021 13:23:43] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:23:43 PM Formatting action: behaviour = 7, goal_level = 4, performance = 4, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:23:44 PM Displaying action How did your follow through feel there ? Touch the back of my hand if it fet good or the top of my head if you think it still needs work.
+INFO:08/11/2021 01:24:05 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:24:06 PM Ended subgoal 4. New goal level = 3.
+INFO:08/11/2021 01:24:07 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:24:07 PM Created subgoal, new goal level = 4
+INFO:08/11/2021 01:24:07 PM Formatting action: behaviour = 12, goal_level = 4, performance = 4, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:24:07 PM Displaying action Good job in that last set 
+INFO:08/11/2021 01:24:10 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:24:11 PM Formatting action: behaviour = 1, goal_level = 4, performance = 4, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:24:11 PM Displaying action In this next set, I want you to really point the follow through towards where you want the ball to go. Go for another set of 30 backhand drives and see how you get on. I'll let you know when to stop.
+INFO:08/11/2021 01:24:22 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:24:23 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:24:24 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:24:25 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:24:26 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:24:27 PM Received data from app: {'goal_level': '5', 'score': '0.34888452', 'performance': 'Good!'}
+INFO:08/11/2021 01:24:27 PM 192.168.1.24 - - [11/Aug/2021 13:24:27] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:24:27 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:24:27 PM Formatting action: behaviour = 7, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:24:28 PM Displaying action Where's the follow through going? 
+INFO:08/11/2021 01:24:29 PM Received data from app: {'goal_level': '5', 'score': '0.36632514', 'performance': 'Over'}
+INFO:08/11/2021 01:24:29 PM 192.168.1.24 - - [11/Aug/2021 13:24:29] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:24:29 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:24:30 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:24:30 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:24:30 PM Received data from app: {'goal_level': '5', 'score': '0.29656273', 'performance': 'Good!'}
+INFO:08/11/2021 01:24:30 PM 192.168.1.24 - - [11/Aug/2021 13:24:30] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:24:31 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:24:31 PM Displaying action Pay attention to the line of the follow through  
+INFO:08/11/2021 01:24:33 PM Received data from app: {'goal_level': '5', 'score': '0.6104934', 'performance': 'High'}
+INFO:08/11/2021 01:24:33 PM 192.168.1.24 - - [11/Aug/2021 13:24:33] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:24:33 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:24:34 PM Received data from app: {'goal_level': '5', 'score': '0.33725747', 'performance': 'Good!'}
+INFO:08/11/2021 01:24:34 PM 192.168.1.24 - - [11/Aug/2021 13:24:34] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:24:34 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:24:34 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:24:35 PM Formatting action: behaviour = 7, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:24:35 PM Displaying action What line was the follow through on there? 
+INFO:08/11/2021 01:24:37 PM Received data from app: {'goal_level': '5', 'score': '0.38376573', 'performance': 'Over'}
+INFO:08/11/2021 01:24:37 PM 192.168.1.24 - - [11/Aug/2021 13:24:37] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:24:37 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:24:38 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:24:38 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:24:38 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:24:38 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:24:39 PM Received data from app: {'goal_level': '5', 'score': '0.62793404', 'performance': 'High'}
+INFO:08/11/2021 01:24:39 PM 192.168.1.24 - - [11/Aug/2021 13:24:39] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:24:39 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:24:39 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:24:40 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:24:40 PM Displaying action Swing towards the target  
+INFO:08/11/2021 01:24:42 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:24:43 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:24:43 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:24:44 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:24:45 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:24:45 PM Received data from app: {'goal_level': '5', 'score': '0.50584984', 'performance': 'High'}
+INFO:08/11/2021 01:24:45 PM 192.168.1.24 - - [11/Aug/2021 13:24:45] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:24:46 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:24:46 PM Formatting action: behaviour = 12, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:24:47 PM Displaying action Nice shot.  
+INFO:08/11/2021 01:24:47 PM Received data from app: {'goal_level': '5', 'score': '0.55235815', 'performance': 'High'}
+INFO:08/11/2021 01:24:47 PM 192.168.1.24 - - [11/Aug/2021 13:24:47] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:24:48 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:24:49 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:24:49 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:24:49 PM Received data from app: {'goal_level': '5', 'score': '0.6628152', 'performance': 'Very High'}
+INFO:08/11/2021 01:24:49 PM 192.168.1.24 - - [11/Aug/2021 13:24:49] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:24:49 PM Formatting action: behaviour = 7, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:24:49 PM Displaying action Where's the follow through going? 
+INFO:08/11/2021 01:24:51 PM Received data from app: {'goal_level': '5', 'score': '0.2674951', 'performance': 'Good!'}
+INFO:08/11/2021 01:24:51 PM 192.168.1.24 - - [11/Aug/2021 13:24:51] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:24:51 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:24:52 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:24:52 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:24:52 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:24:52 PM Displaying action Pay attention to the line of the follow through  
+INFO:08/11/2021 01:24:53 PM Received data from app: {'goal_level': '5', 'score': '0.33144394', 'performance': 'Good!'}
+INFO:08/11/2021 01:24:53 PM 192.168.1.24 - - [11/Aug/2021 13:24:53] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:24:55 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:24:55 PM Received data from app: {'goal_level': '5', 'score': '0.29074925', 'performance': 'Good!'}
+INFO:08/11/2021 01:24:55 PM 192.168.1.24 - - [11/Aug/2021 13:24:55] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:24:56 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:24:56 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:24:56 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:24:56 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:24:57 PM Received data from app: {'goal_level': '5', 'score': '0.38376573', 'performance': 'Over'}
+INFO:08/11/2021 01:24:57 PM 192.168.1.24 - - [11/Aug/2021 13:24:57] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:24:57 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:24:57 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:24:58 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:24:58 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:24:59 PM Received data from app: {'goal_level': '5', 'score': '0.46515515', 'performance': 'High'}
+INFO:08/11/2021 01:24:59 PM 192.168.1.24 - - [11/Aug/2021 13:24:59] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:24:59 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:24:59 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:24:59 PM Formatting action: behaviour = 7, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:24:59 PM Displaying action Where did that swing finish? 
+INFO:08/11/2021 01:25:01 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:25:02 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:02 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:25:03 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:04 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:05 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:06 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:07 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:08 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:09 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:10 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:11 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:12 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:13 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:15 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:16 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:17 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:18 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:19 PM Received data from app: {'goal_level': '5', 'score': '0.4767822', 'performance': 'High'}
+INFO:08/11/2021 01:25:19 PM 192.168.1.24 - - [11/Aug/2021 13:25:19] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:25:19 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:19 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:25:19 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:25:20 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:20 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:25:21 PM Received data from app: {'goal_level': '5', 'score': '0.56398517', 'performance': 'High'}
+INFO:08/11/2021 01:25:21 PM 192.168.1.24 - - [11/Aug/2021 13:25:21] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:25:21 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:22 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:25:22 PM Displaying action Swing towards the target  
+INFO:08/11/2021 01:25:22 PM Received data from app: {'goal_level': '5', 'score': '0.37213868', 'performance': 'Over'}
+INFO:08/11/2021 01:25:22 PM 192.168.1.24 - - [11/Aug/2021 13:25:22] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:25:24 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:25:25 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:25 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:25:25 PM Received data from app: {'goal_level': '5', 'score': '0.34307098', 'performance': 'Good!'}
+INFO:08/11/2021 01:25:25 PM 192.168.1.24 - - [11/Aug/2021 13:25:25] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:25:25 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:25:25 PM Displaying action Extend the follow through  
+INFO:08/11/2021 01:25:27 PM Received data from app: {'goal_level': '5', 'score': '0.6453746', 'performance': 'High'}
+INFO:08/11/2021 01:25:27 PM 192.168.1.24 - - [11/Aug/2021 13:25:27] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:25:27 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:25:28 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:28 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:25:28 PM Received data from app: {'goal_level': '5', 'score': '0.61630696', 'performance': 'High'}
+INFO:08/11/2021 01:25:28 PM 192.168.1.24 - - [11/Aug/2021 13:25:28] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:25:28 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:25:28 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:25:29 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:29 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:25:30 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:25:30 PM Received data from app: {'goal_level': '5', 'score': '0.6744423', 'performance': 'Very High'}
+INFO:08/11/2021 01:25:30 PM 192.168.1.24 - - [11/Aug/2021 13:25:30] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:25:30 PM Displaying action Swing towards the target  
+INFO:08/11/2021 01:25:32 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:25:33 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:33 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:25:33 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:25:33 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:25:34 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:34 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:25:35 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:36 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:37 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:39 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:39 PM Received data from app: {'goal_level': '5', 'score': '0.55235815', 'performance': 'High'}
+INFO:08/11/2021 01:25:39 PM 192.168.1.24 - - [11/Aug/2021 13:25:39] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:25:40 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:40 PM Formatting action: behaviour = 12, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:25:40 PM Displaying action Nice  
+INFO:08/11/2021 01:25:41 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:25:42 PM Received data from app: {'goal_level': '5', 'score': '0.3023763', 'performance': 'Good!'}
+INFO:08/11/2021 01:25:42 PM 192.168.1.24 - - [11/Aug/2021 13:25:42] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:25:42 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:42 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:25:43 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:25:43 PM Displaying action Extend the follow through  
+INFO:08/11/2021 01:25:44 PM Received data from app: {'goal_level': '5', 'score': '0.25586805', 'performance': 'Good!'}
+INFO:08/11/2021 01:25:44 PM 192.168.1.24 - - [11/Aug/2021 13:25:44] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:25:44 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:25:45 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:45 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:25:46 PM Received data from app: {'goal_level': '5', 'score': '0.31400335', 'performance': 'Good!'}
+INFO:08/11/2021 01:25:46 PM 192.168.1.24 - - [11/Aug/2021 13:25:46] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:25:46 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:25:46 PM Displaying action Extend  
+INFO:08/11/2021 01:25:47 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:25:48 PM Received data from app: {'goal_level': '5', 'score': '0.244241', 'performance': 'Good!'}
+INFO:08/11/2021 01:25:48 PM 192.168.1.24 - - [11/Aug/2021 13:25:48] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:25:48 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:48 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:25:48 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:25:48 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:25:49 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:49 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:25:50 PM Received data from app: {'goal_level': '5', 'score': '0.6570017', 'performance': 'High'}
+INFO:08/11/2021 01:25:50 PM 192.168.1.24 - - [11/Aug/2021 13:25:50] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:25:51 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:51 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:25:51 PM Displaying action Swing towards the target  
+INFO:08/11/2021 01:25:52 PM Received data from app: {'goal_level': '5', 'score': '0.30818984', 'performance': 'Good!'}
+INFO:08/11/2021 01:25:52 PM 192.168.1.24 - - [11/Aug/2021 13:25:52] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:25:53 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:25:54 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:54 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:25:54 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:25:55 PM Displaying action Extend the follow through  
+INFO:08/11/2021 01:25:56 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:25:58 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:58 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:25:59 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:25:59 PM Received data from app: {'goal_level': '5', 'score': '0.44771457', 'performance': 'Over'}
+INFO:08/11/2021 01:25:59 PM 192.168.1.24 - - [11/Aug/2021 13:25:59] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:25:59 PM Received data from app: {'goal_level': '4', 'score': '0.15 secs', 'performance': '4', 'tgtValue': '0.11 secs'}
+INFO:08/11/2021 01:26:00 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:26:00 PM Stopping set: That's 30, you can stop there.
+INFO:08/11/2021 01:26:00 PM 192.168.1.24 - - [11/Aug/2021 13:26:00] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:26:00 PM Received data from app: {'goal_level': '4'}
+INFO:08/11/2021 01:26:02 PM Shot set completed.
+INFO:08/11/2021 01:26:02 PM 192.168.1.24 - - [11/Aug/2021 13:26:02] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:26:02 PM Received data from app: {'goal_level': '5', 'score': '0.4012063', 'performance': 'Over'}
+INFO:08/11/2021 01:26:02 PM Action goal not expected, not using data.
+INFO:08/11/2021 01:26:02 PM 192.168.1.24 - - [11/Aug/2021 13:26:02] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:26:03 PM Formatting action: behaviour = 40, goal_level = 4, performance = 4, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:26:03 PM Displaying action That was nicely done Louise
+INFO:08/11/2021 01:26:06 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:26:06 PM Ended subgoal 4. New goal level = 3.
+INFO:08/11/2021 01:26:07 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:26:07 PM Created subgoal, new goal level = 4
+INFO:08/11/2021 01:26:08 PM Formatting action: behaviour = 1, goal_level = 4, performance = 4, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:26:08 PM Displaying action In this next set, I want you to really point the follow through towards where you want the ball to go. Go for another set of 30 backhand drives and see how you get on. I'll let you know when to stop.
+INFO:08/11/2021 01:26:19 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:26:20 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:26:21 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:26:22 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:26:23 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:26:24 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:26:24 PM Received data from app: {'goal_level': '5', 'score': '0.4535281', 'performance': 'Over'}
+INFO:08/11/2021 01:26:24 PM 192.168.1.24 - - [11/Aug/2021 13:26:24] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:26:25 PM Received data from app: {'goal_level': '5', 'score': '0.36051157', 'performance': 'Good!'}
+INFO:08/11/2021 01:26:25 PM 192.168.1.24 - - [11/Aug/2021 13:26:25] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:26:25 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:26:26 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:26:26 PM Displaying action Extend the follow through  
+INFO:08/11/2021 01:26:27 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:26:28 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:26:28 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:26:29 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:26:30 PM Received data from app: {'goal_level': '5', 'score': '0.5988664', 'performance': 'High'}
+INFO:08/11/2021 01:26:30 PM 192.168.1.24 - - [11/Aug/2021 13:26:30] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:26:30 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:26:31 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:26:31 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:26:32 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:26:32 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:26:33 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:26:34 PM Received data from app: {'goal_level': '5', 'score': '0.48259574', 'performance': 'High'}
+INFO:08/11/2021 01:26:34 PM 192.168.1.24 - - [11/Aug/2021 13:26:34] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:26:34 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:26:34 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:26:35 PM Displaying action Extend  
+INFO:08/11/2021 01:26:36 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:26:37 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:26:37 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:26:38 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:26:39 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:26:40 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:26:40 PM Received data from app: {'goal_level': '5', 'score': '0.38376573', 'performance': 'Over'}
+INFO:08/11/2021 01:26:40 PM 192.168.1.24 - - [11/Aug/2021 13:26:40] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:26:41 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:26:41 PM Formatting action: behaviour = 40, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:26:41 PM Displaying action Top work Louise 
+INFO:08/11/2021 01:26:43 PM Received data from app: {'goal_level': '5', 'score': '0.73257756', 'performance': 'Very High'}
+INFO:08/11/2021 01:26:43 PM 192.168.1.24 - - [11/Aug/2021 13:26:43] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:26:43 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:26:44 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:26:44 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:26:44 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:26:44 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:26:45 PM Received data from app: {'goal_level': '5', 'score': '0.48259574', 'performance': 'High'}
+INFO:08/11/2021 01:26:45 PM 192.168.1.24 - - [11/Aug/2021 13:26:45] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:26:45 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:26:45 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:26:46 PM Formatting action: behaviour = 12, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:26:46 PM Displaying action Nice  
+INFO:08/11/2021 01:26:47 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:26:48 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:26:48 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:26:49 PM Received data from app: {'goal_level': '5', 'score': '0.57561225', 'performance': 'High'}
+INFO:08/11/2021 01:26:49 PM 192.168.1.24 - - [11/Aug/2021 13:26:49] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:26:49 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:26:49 PM Formatting action: behaviour = 7, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:26:50 PM Displaying action Where's the follow through going? 
+INFO:08/11/2021 01:26:50 PM Received data from app: {'goal_level': '5', 'score': '0.3779522', 'performance': 'Over'}
+INFO:08/11/2021 01:26:50 PM 192.168.1.24 - - [11/Aug/2021 13:26:50] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:26:51 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:26:52 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:26:52 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:26:53 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:26:53 PM Displaying action Pay attention to the line of the follow through  
+INFO:08/11/2021 01:26:55 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:26:56 PM Received data from app: {'goal_level': '5', 'score': '0.529104', 'performance': 'High'}
+INFO:08/11/2021 01:26:56 PM 192.168.1.24 - - [11/Aug/2021 13:26:56] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:26:56 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:26:56 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:26:57 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:26:57 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:26:58 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:26:58 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:26:58 PM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Low'}
+INFO:08/11/2021 01:26:58 PM 192.168.1.24 - - [11/Aug/2021 13:26:58] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:26:59 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:26:59 PM Received data from app: {'goal_level': '5', 'score': '7.2666306E-5', 'performance': 'Low'}
+INFO:08/11/2021 01:26:59 PM 192.168.1.24 - - [11/Aug/2021 13:26:59] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:26:59 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:26:59 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:27:00 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:00 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:27:01 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:27:01 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:27:02 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:02 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:27:02 PM Received data from app: {'goal_level': '5', 'score': '0.5465446', 'performance': 'High'}
+INFO:08/11/2021 01:27:02 PM 192.168.1.24 - - [11/Aug/2021 13:27:02] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:27:03 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:03 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:27:03 PM Displaying action Extend  
+INFO:08/11/2021 01:27:04 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:27:05 PM Received data from app: {'goal_level': '5', 'score': '0.3779522', 'performance': 'Over'}
+INFO:08/11/2021 01:27:05 PM 192.168.1.24 - - [11/Aug/2021 13:27:05] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:27:05 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:05 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:27:06 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:27:06 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:27:06 PM Received data from app: {'goal_level': '5', 'score': '0.5407311', 'performance': 'High'}
+INFO:08/11/2021 01:27:06 PM 192.168.1.24 - - [11/Aug/2021 13:27:06] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:27:07 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:07 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:27:07 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:27:07 PM Displaying action Swing towards the target  
+INFO:08/11/2021 01:27:09 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:27:09 PM Received data from app: {'goal_level': '5', 'score': '0.5465446', 'performance': 'High'}
+INFO:08/11/2021 01:27:09 PM 192.168.1.24 - - [11/Aug/2021 13:27:09] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:27:10 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:10 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:27:11 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:27:11 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:27:12 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:12 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:27:12 PM Received data from app: {'goal_level': '5', 'score': '7.2666306E-5', 'performance': 'Low'}
+INFO:08/11/2021 01:27:12 PM 192.168.1.24 - - [11/Aug/2021 13:27:12] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:27:13 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:13 PM Formatting action: behaviour = 12, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:27:13 PM Displaying action Nice  
+INFO:08/11/2021 01:27:14 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:27:15 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:15 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:27:16 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:17 PM Received data from app: {'goal_level': '5', 'score': '0.44771457', 'performance': 'Over'}
+INFO:08/11/2021 01:27:17 PM 192.168.1.24 - - [11/Aug/2021 13:27:17] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:27:17 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:18 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:27:18 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:27:19 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:19 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:27:20 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:21 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:22 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:23 PM Received data from app: {'goal_level': '5', 'score': '0.36051157', 'performance': 'Good!'}
+INFO:08/11/2021 01:27:23 PM 192.168.1.24 - - [11/Aug/2021 13:27:23] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:27:23 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:23 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:27:24 PM Displaying action Swing towards the target  
+INFO:08/11/2021 01:27:25 PM Received data from app: {'goal_level': '5', 'score': '0.30818984', 'performance': 'Good!'}
+INFO:08/11/2021 01:27:25 PM 192.168.1.24 - - [11/Aug/2021 13:27:25] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:27:26 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:27:27 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:27 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:27:27 PM Received data from app: {'goal_level': '5', 'score': '0.44190103', 'performance': 'Over'}
+INFO:08/11/2021 01:27:27 PM 192.168.1.24 - - [11/Aug/2021 13:27:27] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:27:27 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:27:27 PM Displaying action Extend  
+INFO:08/11/2021 01:27:28 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:27:29 PM Received data from app: {'goal_level': '5', 'score': '0.4012063', 'performance': 'Over'}
+INFO:08/11/2021 01:27:29 PM 192.168.1.24 - - [11/Aug/2021 13:27:29] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:27:29 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:29 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:27:30 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:27:30 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:27:31 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:31 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:27:31 PM Received data from app: {'goal_level': '5', 'score': '0.4942228', 'performance': 'High'}
+INFO:08/11/2021 01:27:31 PM 192.168.1.24 - - [11/Aug/2021 13:27:31] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:27:32 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:32 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:27:32 PM Displaying action Extend the follow through  
+INFO:08/11/2021 01:27:34 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:27:35 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:35 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:27:36 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:37 PM Received data from app: {'goal_level': '5', 'score': '0.517477', 'performance': 'High'}
+INFO:08/11/2021 01:27:37 PM 192.168.1.24 - - [11/Aug/2021 13:27:37] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:27:37 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:37 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:27:37 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:27:38 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:38 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:27:39 PM Received data from app: {'goal_level': '5', 'score': '0.52329046', 'performance': 'High'}
+INFO:08/11/2021 01:27:39 PM 192.168.1.24 - - [11/Aug/2021 13:27:39] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:27:39 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:40 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:27:40 PM Displaying action Extend the follow through  
+INFO:08/11/2021 01:27:41 PM Received data from app: {'goal_level': '5', 'score': '0.63956106', 'performance': 'High'}
+INFO:08/11/2021 01:27:41 PM 192.168.1.24 - - [11/Aug/2021 13:27:41] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:27:42 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:27:42 PM Received data from app: {'goal_level': '5', 'score': '0.39539278', 'performance': 'Over'}
+INFO:08/11/2021 01:27:42 PM 192.168.1.24 - - [11/Aug/2021 13:27:42] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:27:43 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:43 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:27:43 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:27:43 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:27:44 PM Received data from app: {'goal_level': '5', 'score': '0.6570017', 'performance': 'High'}
+INFO:08/11/2021 01:27:44 PM 192.168.1.24 - - [11/Aug/2021 13:27:44] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:27:44 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:44 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:27:45 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:27:45 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:27:46 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:46 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:27:47 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:48 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:49 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:49 PM Received data from app: {'goal_level': '5', 'score': '0.43027398', 'performance': 'Over'}
+INFO:08/11/2021 01:27:49 PM 192.168.1.24 - - [11/Aug/2021 13:27:49] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:27:50 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:50 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:27:50 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:27:51 PM Received data from app: {'goal_level': '5', 'score': '0.44771457', 'performance': 'Over'}
+INFO:08/11/2021 01:27:51 PM 192.168.1.24 - - [11/Aug/2021 13:27:51] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:27:51 PM Received data from app: {'goal_level': '4', 'score': '0.15 secs', 'performance': '4', 'tgtValue': '0.11 secs'}
+INFO:08/11/2021 01:27:51 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:51 PM Stopping set: That's 30, you can stop there.
+INFO:08/11/2021 01:27:51 PM 192.168.1.24 - - [11/Aug/2021 13:27:51] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:27:51 PM Received data from app: {'goal_level': '4'}
+INFO:08/11/2021 01:27:54 PM Shot set completed.
+INFO:08/11/2021 01:27:54 PM 192.168.1.24 - - [11/Aug/2021 13:27:54] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:27:54 PM Received data from app: {'goal_level': '5', 'score': '0.37213868', 'performance': 'Over'}
+INFO:08/11/2021 01:27:54 PM Action goal not expected, not using data.
+INFO:08/11/2021 01:27:54 PM 192.168.1.24 - - [11/Aug/2021 13:27:54] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:27:54 PM Ended subgoal 4. New goal level = 3.
+INFO:08/11/2021 01:27:55 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:27:55 PM Created subgoal, new goal level = 4
+INFO:08/11/2021 01:27:56 PM Formatting action: behaviour = 7, goal_level = 4, performance = 4, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:27:56 PM Displaying action How do you think the previous follow through went ? Touch the back of my hand if you think it went well or the top of my head if you think it could have been better.
+INFO:08/11/2021 01:28:11 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:28:11 PM Formatting action: behaviour = 1, goal_level = 4, performance = 4, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:28:11 PM Displaying action Time for one last set of 30 backhand drives please. Hopefully this session has helped you improve your follow through. Let's find out!
+INFO:08/11/2021 01:28:20 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:28:21 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:28:22 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:28:23 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:28:24 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:28:25 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:28:26 PM Received data from app: {'goal_level': '5', 'score': '0.34307098', 'performance': 'Good!'}
+INFO:08/11/2021 01:28:26 PM 192.168.1.24 - - [11/Aug/2021 13:28:26] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:28:26 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:28:27 PM Formatting action: behaviour = 12, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:28:27 PM Displaying action Nice shot.  
+INFO:08/11/2021 01:28:28 PM Received data from app: {'goal_level': '5', 'score': '0.44190103', 'performance': 'Over'}
+INFO:08/11/2021 01:28:28 PM 192.168.1.24 - - [11/Aug/2021 13:28:28] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:28:28 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:28:29 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:28:29 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:28:29 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:28:30 PM Displaying action Swing towards the target  
+INFO:08/11/2021 01:28:30 PM Received data from app: {'goal_level': '5', 'score': '0.52329046', 'performance': 'High'}
+INFO:08/11/2021 01:28:30 PM 192.168.1.24 - - [11/Aug/2021 13:28:30] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:28:31 PM Received data from app: {'goal_level': '5', 'score': '0.30818984', 'performance': 'Good!'}
+INFO:08/11/2021 01:28:31 PM 192.168.1.24 - - [11/Aug/2021 13:28:31] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:28:31 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:28:32 PM Received data from app: {'goal_level': '5', 'score': '0.4709687', 'performance': 'High'}
+INFO:08/11/2021 01:28:32 PM 192.168.1.24 - - [11/Aug/2021 13:28:32] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:28:32 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:28:32 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:28:33 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:28:33 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:28:34 PM Received data from app: {'goal_level': '5', 'score': '0.2500545', 'performance': 'Good!'}
+INFO:08/11/2021 01:28:34 PM 192.168.1.24 - - [11/Aug/2021 13:28:34] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:28:34 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:28:34 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:28:34 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:28:35 PM Displaying action Extend  
+INFO:08/11/2021 01:28:35 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:28:36 PM Received data from app: {'goal_level': '5', 'score': '0.40701982', 'performance': 'Over'}
+INFO:08/11/2021 01:28:36 PM 192.168.1.24 - - [11/Aug/2021 13:28:36] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:28:37 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:28:37 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:28:37 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:28:37 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:28:37 PM Received data from app: {'goal_level': '5', 'score': '0.50003636', 'performance': 'High'}
+INFO:08/11/2021 01:28:37 PM 192.168.1.24 - - [11/Aug/2021 13:28:37] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:28:38 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:28:38 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:28:38 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:28:38 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:28:39 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:28:39 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:28:40 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:28:42 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:28:43 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:28:43 PM Received data from app: {'goal_level': '5', 'score': '0.41864693', 'performance': 'Over'}
+INFO:08/11/2021 01:28:43 PM 192.168.1.24 - - [11/Aug/2021 13:28:43] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:28:44 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:28:44 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:28:44 PM Displaying action Extend the follow through  
+INFO:08/11/2021 01:28:45 PM Received data from app: {'goal_level': '5', 'score': '0.46515515', 'performance': 'High'}
+INFO:08/11/2021 01:28:45 PM 192.168.1.24 - - [11/Aug/2021 13:28:45] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:28:46 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:28:47 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:28:47 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:28:47 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:28:47 PM Displaying action Pay attention to the line of the follow through  
+INFO:08/11/2021 01:28:50 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:28:51 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:28:51 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:28:52 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:28:53 PM Received data from app: {'goal_level': '5', 'score': '0.55235815', 'performance': 'High'}
+INFO:08/11/2021 01:28:53 PM 192.168.1.24 - - [11/Aug/2021 13:28:53] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:28:53 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:28:53 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:28:53 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:28:54 PM Received data from app: {'goal_level': '5', 'score': '0.33144394', 'performance': 'Good!'}
+INFO:08/11/2021 01:28:54 PM 192.168.1.24 - - [11/Aug/2021 13:28:54] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:28:54 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:28:54 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:28:55 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:28:55 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:28:56 PM Received data from app: {'goal_level': '5', 'score': '0.50003636', 'performance': 'High'}
+INFO:08/11/2021 01:28:56 PM 192.168.1.24 - - [11/Aug/2021 13:28:56] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:28:56 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:28:56 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:28:56 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:28:57 PM Displaying action Swing towards the target  
+INFO:08/11/2021 01:28:58 PM Received data from app: {'goal_level': '5', 'score': '0.6046799', 'performance': 'High'}
+INFO:08/11/2021 01:28:58 PM 192.168.1.24 - - [11/Aug/2021 13:28:58] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:28:58 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:28:59 PM Received data from app: {'goal_level': '5', 'score': '0.48259574', 'performance': 'High'}
+INFO:08/11/2021 01:28:59 PM 192.168.1.24 - - [11/Aug/2021 13:28:59] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:28:59 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:28:59 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:29:00 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:29:00 PM Displaying action Pay attention to the line of the follow through  
+INFO:08/11/2021 01:29:02 PM Received data from app: {'goal_level': '5', 'score': '0.45934162', 'performance': 'Over'}
+INFO:08/11/2021 01:29:02 PM 192.168.1.24 - - [11/Aug/2021 13:29:02] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:29:02 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:29:03 PM Received data from app: {'goal_level': '5', 'score': '0.48840925', 'performance': 'High'}
+INFO:08/11/2021 01:29:03 PM 192.168.1.24 - - [11/Aug/2021 13:29:03] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:29:04 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:29:04 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:29:04 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:29:04 PM Displaying action Extend the follow through  
+INFO:08/11/2021 01:29:06 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:29:06 PM Received data from app: {'goal_level': '5', 'score': '0.45934162', 'performance': 'Over'}
+INFO:08/11/2021 01:29:06 PM 192.168.1.24 - - [11/Aug/2021 13:29:06] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:29:07 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:29:07 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:29:07 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:29:07 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:29:08 PM Received data from app: {'goal_level': '5', 'score': '0.5814258', 'performance': 'High'}
+INFO:08/11/2021 01:29:08 PM 192.168.1.24 - - [11/Aug/2021 13:29:08] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:29:08 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:29:08 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:29:09 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:29:09 PM Displaying action Extend  
+INFO:08/11/2021 01:29:09 PM Received data from app: {'goal_level': '5', 'score': '0.6628152', 'performance': 'Very High'}
+INFO:08/11/2021 01:29:09 PM 192.168.1.24 - - [11/Aug/2021 13:29:09] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:29:10 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:29:11 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:29:11 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:29:11 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:29:11 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:29:11 PM Received data from app: {'goal_level': '5', 'score': '0.70932347', 'performance': 'Very High'}
+INFO:08/11/2021 01:29:11 PM 192.168.1.24 - - [11/Aug/2021 13:29:11] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:29:12 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:29:12 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:29:13 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:29:13 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:29:14 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:29:14 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:29:14 PM Received data from app: {'goal_level': '5', 'score': '0.33725747', 'performance': 'Good!'}
+INFO:08/11/2021 01:29:14 PM 192.168.1.24 - - [11/Aug/2021 13:29:14] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:29:15 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:29:15 PM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:29:15 PM Displaying action Swing towards the target  
+INFO:08/11/2021 01:29:16 PM Received data from app: {'goal_level': '5', 'score': '0.34307098', 'performance': 'Good!'}
+INFO:08/11/2021 01:29:16 PM 192.168.1.24 - - [11/Aug/2021 13:29:16] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:29:17 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:29:17 PM Received data from app: {'goal_level': '5', 'score': '0.39539278', 'performance': 'Over'}
+INFO:08/11/2021 01:29:17 PM 192.168.1.24 - - [11/Aug/2021 13:29:17] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:29:18 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:29:18 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:29:19 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:29:19 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:29:19 PM Received data from app: {'goal_level': '5', 'score': '0.6570017', 'performance': 'High'}
+INFO:08/11/2021 01:29:19 PM 192.168.1.24 - - [11/Aug/2021 13:29:19] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:29:20 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:29:20 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:29:20 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:29:20 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:29:21 PM Received data from app: {'goal_level': '5', 'score': '0.34307098', 'performance': 'Good!'}
+INFO:08/11/2021 01:29:21 PM 192.168.1.24 - - [11/Aug/2021 13:29:21] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:29:21 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:29:21 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:29:22 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:29:22 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:29:23 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:29:23 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:29:23 PM Received data from app: {'goal_level': '5', 'score': '0.6337476', 'performance': 'High'}
+INFO:08/11/2021 01:29:23 PM 192.168.1.24 - - [11/Aug/2021 13:29:23] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:29:24 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:29:24 PM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:29:24 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:29:25 PM Received data from app: {'goal_level': '5', 'score': '0.66862875', 'performance': 'Very High'}
+INFO:08/11/2021 01:29:25 PM 192.168.1.24 - - [11/Aug/2021 13:29:25] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:29:25 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:29:25 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:29:26 PM Formatting action: behaviour = 11, goal_level = 5, performance = None, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:29:26 PM Displaying action Let's go 
+INFO:08/11/2021 01:29:27 PM Ended subgoal 5. New goal level = 4.
+INFO:08/11/2021 01:29:28 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:29:28 PM Created subgoal, new goal level = 5
+INFO:08/11/2021 01:29:28 PM Received data from app: {'goal_level': '5', 'score': '7.2666306E-5', 'performance': 'Low'}
+INFO:08/11/2021 01:29:28 PM 192.168.1.24 - - [11/Aug/2021 13:29:28] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:29:29 PM Received data from app: {'goal_level': '5', 'score': '7.2666306E-5', 'performance': 'Low'}
+INFO:08/11/2021 01:29:29 PM 192.168.1.24 - - [11/Aug/2021 13:29:29] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:29:29 PM Received data from app: {'goal_level': '4', 'score': '0.16 secs', 'performance': '4', 'tgtValue': '0.11 secs'}
+INFO:08/11/2021 01:29:29 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:29:29 PM Stopping set: That's 30, you can stop there.
+INFO:08/11/2021 01:29:29 PM 192.168.1.24 - - [11/Aug/2021 13:29:29] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:29:29 PM Received data from app: {'goal_level': '4'}
+INFO:08/11/2021 01:29:31 PM Shot set completed.
+INFO:08/11/2021 01:29:31 PM 192.168.1.24 - - [11/Aug/2021 13:29:31] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/11/2021 01:29:32 PM Formatting action: behaviour = 4, goal_level = 4, performance = 4, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:29:32 PM Displaying action Your follow through remained steadyin that practice   which was great!
+INFO:08/11/2021 01:29:36 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:29:37 PM Ended subgoal 4. New goal level = 3.
+INFO:08/11/2021 01:29:37 PM Feedback for stat, score = 0.15166666666666667, target = 0.11, performance = 4
+INFO:08/11/2021 01:29:38 PM Formatting action: behaviour = 7, goal_level = 3, performance = 4, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:29:38 PM Displaying action How did your follow through feel there ? Touch the back of my hand if it fet good or the top of my head if you think it still needs work. You got an average score of 0.15 and were aiming for 0.11.
+INFO:08/11/2021 01:29:56 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:29:57 PM Formatting action: behaviour = 12, goal_level = 3, performance = 4, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:29:57 PM Displaying action Well done  You got an average score of 0.15 and were aiming for 0.11.
+INFO:08/11/2021 01:30:04 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:30:04 PM Formatting action: behaviour = 4, goal_level = 3, performance = 4, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:30:05 PM Displaying action Your follow through remained steadyin that practice   which was great! You got an average score of 0.15 and were aiming for 0.11.
+INFO:08/11/2021 01:30:14 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:30:14 PM Ended subgoal 3. New goal level = 2.
+INFO:08/11/2021 01:30:14 PM Feedback for shot, score = 0.15166666666666667, target = 0.11, performance = 4
+INFO:08/11/2021 01:30:15 PM Formatting action: behaviour = 4, goal_level = 2, performance = 4, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:30:15 PM Displaying action Your backhand drive stayed consistentthere   so well done! You got an average score of 0.15 and were aiming for 0.11.
+INFO:08/11/2021 01:30:26 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:30:26 PM Formatting action: behaviour = 12, goal_level = 2, performance = 4, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:30:27 PM Displaying action Superb  You got an average score of 0.15 and were aiming for 0.11.
+INFO:08/11/2021 01:30:33 PM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/11/2021 01:30:34 PM Ended subgoal 2. New goal level = 1.
+INFO:08/11/2021 01:30:35 PM Session time limit reached, current duration = 1, session limit = 1.
+INFO:08/11/2021 01:30:35 PM Feedback for session, performance = 4
+INFO:08/11/2021 01:30:36 PM Formatting action: behaviour = 12, goal_level = 1, performance = 4, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:30:36 PM Displaying action Superb 
+INFO:08/11/2021 01:30:39 PM Formatting action: behaviour = 7, goal_level = 1, performance = 4, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:30:39 PM Displaying action How did your squash feel there ? Touch the back of my hand if it fet good or the top of my head if you think it still needs work.
+INFO:08/11/2021 01:30:52 PM Ended subgoal 1. New goal level = 0.
+INFO:08/11/2021 01:30:53 PM Formatting action: behaviour = 1, goal_level = 0, performance = 0, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:30:53 PM Displaying action Welcome , to today's coaching session.
+INFO:08/11/2021 01:30:58 PM Formatting action: behaviour = 1, goal_level = 0, performance = 0, name = Louise, shot = 1, hand = BH, stat = followThroughTime
+INFO:08/11/2021 01:30:59 PM Displaying action Hi , let's play squash!

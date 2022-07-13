@@ -1,0 +1,1459 @@
+INFO:08/22/2021 11:35:54 AM Logging started
+INFO:08/22/2021 11:35:54 AM  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:08/22/2021 11:35:57 AM Stats set, motivation = 8, ability = 2
+INFO:08/22/2021 11:36:57 AM Received data from app: {'goal_level': '0', 'sessions': '0', 'name': 'Martin', 'ability': '7'}
+INFO:08/22/2021 11:36:58 AM Chosen policy = 0
+INFO:08/22/2021 11:36:58 AM Set session duration to: 1
+INFO:08/22/2021 11:36:58 AM Created subgoal, new goal level = 0
+INFO:08/22/2021 11:36:58 AM Formatting action: behaviour = 1, goal_level = 0, performance = None, name = Sorcha, shot = None, hand = None, stat = None
+INFO:08/22/2021 11:36:59 AM Displaying action Welcome , to today's coaching session.
+INFO:08/22/2021 11:37:01 AM Created subgoal, new goal level = 1
+INFO:08/22/2021 11:37:01 AM 192.168.1.81 - - [22/Aug/2021 11:37:01] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:37:02 AM Received data from app: {'goal_level': 1, 'performance': 3}
+INFO:08/22/2021 11:37:03 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:37:03 AM Created subgoal, new goal level = 2
+INFO:08/22/2021 11:37:03 AM 192.168.1.81 - - [22/Aug/2021 11:37:03] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:37:03 AM Received data from app: {'goal_level': '2', 'stat': 'impactCutAngle', 'performance': '', 'shotType': 'drive', 'initialScore': 'null', 'hand': 'forehand'}
+INFO:08/22/2021 11:37:04 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:37:05 AM Formatting action: behaviour = 4, goal_level = 2, performance = None, name = Sorcha, shot = 0, hand = FH, stat = None
+INFO:08/22/2021 11:37:05 AM Displaying action If I remember correctly this is our first session when we worked on your forehand drop together 
+INFO:08/22/2021 11:37:11 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:37:12 AM Formatting action: behaviour = 7, goal_level = 2, performance = None, name = Sorcha, shot = 0, hand = FH, stat = None
+INFO:08/22/2021 11:37:12 AM Displaying action How did your forehand drop feel last time? Touch the back of my hand if it fet good or the top of my head if you think it still needs work.
+INFO:08/22/2021 11:37:26 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:37:27 AM Created subgoal, new goal level = 6
+INFO:08/22/2021 11:37:27 AM 192.168.1.81 - - [22/Aug/2021 11:37:27] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:37:27 AM Formatting action: behaviour = 1, goal_level = 6, performance = None, name = Sorcha, shot = 0, hand = FH, stat = None
+INFO:08/22/2021 11:37:27 AM Displaying action The first thing we're going to do is some forehand drops Please play a set of 30 forehand drops and I'll see if I can spot anything in your technique
+INFO:08/22/2021 11:37:37 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:37:38 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:37:39 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:37:40 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:37:41 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:37:42 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:37:43 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:37:44 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:37:45 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:37:46 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:37:47 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:37:48 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:37:49 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:37:50 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:37:51 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:37:52 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:37:53 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:37:54 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:37:55 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:37:56 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:37:57 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:37:58 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:37:59 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:00 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:01 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:02 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:03 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:05 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:06 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:07 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:08 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:09 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:10 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:11 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:12 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:13 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:14 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:15 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:16 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:17 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:18 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:19 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:20 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:21 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:21 AM Received data from app: {'goal_level': '5', 'score': '0.67195106', 'performance': 'Under'}
+INFO:08/22/2021 11:38:21 AM 192.168.1.81 - - [22/Aug/2021 11:38:21] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:38:22 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:23 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:24 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:25 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:26 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:27 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:28 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:29 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:30 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:31 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:32 AM Received data from app: {'goal_level': '5', 'score': '0.3992356', 'performance': 'Very Low'}
+INFO:08/22/2021 11:38:32 AM 192.168.1.81 - - [22/Aug/2021 11:38:32] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:38:32 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:34 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:35 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:36 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:37 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:38 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:39 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:40 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:41 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:42 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:43 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:44 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:45 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:46 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:47 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:47 AM Received data from app: {'goal_level': '5', 'score': '0.47037873', 'performance': 'Low'}
+INFO:08/22/2021 11:38:47 AM 192.168.1.81 - - [22/Aug/2021 11:38:47] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:38:48 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:49 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:50 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:50 AM Received data from app: {'goal_level': '5', 'score': '0.32809246', 'performance': 'Very Low'}
+INFO:08/22/2021 11:38:50 AM 192.168.1.81 - - [22/Aug/2021 11:38:50] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:38:50 AM Received data from app: {'goal_level': '5', 'score': '0.20556813', 'performance': 'Very Low'}
+INFO:08/22/2021 11:38:50 AM 192.168.1.81 - - [22/Aug/2021 11:38:50] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:38:51 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:52 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:53 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:54 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:55 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:56 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:57 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:58 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:38:59 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:00 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:01 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:03 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:04 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:05 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:06 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:07 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:08 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:09 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:10 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:10 AM Received data from app: {'goal_level': '5', 'score': '0.43875957', 'performance': 'Very Low'}
+INFO:08/22/2021 11:39:10 AM 192.168.1.81 - - [22/Aug/2021 11:39:10] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:39:11 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:11 AM Received data from app: {'goal_level': '5', 'score': '0.68380827', 'performance': 'Under'}
+INFO:08/22/2021 11:39:11 AM 192.168.1.81 - - [22/Aug/2021 11:39:11] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:39:12 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:13 AM Received data from app: {'goal_level': '5', 'score': '0.08699622', 'performance': 'Very Low'}
+INFO:08/22/2021 11:39:13 AM 192.168.1.81 - - [22/Aug/2021 11:39:13] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:39:13 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:13 AM Received data from app: {'goal_level': '5', 'score': '0.003995874', 'performance': 'Very Low'}
+INFO:08/22/2021 11:39:13 AM 192.168.1.81 - - [22/Aug/2021 11:39:13] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:39:14 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:15 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:16 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:17 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:18 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:19 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:20 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:21 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:22 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:23 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:24 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:25 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:26 AM Received data from app: {'goal_level': '5', 'score': '0.6679987', 'performance': 'Under'}
+INFO:08/22/2021 11:39:26 AM 192.168.1.81 - - [22/Aug/2021 11:39:26] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:39:26 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:27 AM Received data from app: {'goal_level': '5', 'score': '0.015853066', 'performance': 'Very Low'}
+INFO:08/22/2021 11:39:27 AM 192.168.1.81 - - [22/Aug/2021 11:39:27] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:39:27 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:28 AM Received data from app: {'goal_level': '5', 'score': '0.20161574', 'performance': 'Very Low'}
+INFO:08/22/2021 11:39:28 AM 192.168.1.81 - - [22/Aug/2021 11:39:28] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:39:28 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:29 AM Received data from app: {'goal_level': '5', 'score': '0.90909487', 'performance': 'Good!'}
+INFO:08/22/2021 11:39:29 AM 192.168.1.81 - - [22/Aug/2021 11:39:29] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:39:29 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:31 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:31 AM Received data from app: {'goal_level': '5', 'score': '0.48618832', 'performance': 'Low'}
+INFO:08/22/2021 11:39:31 AM 192.168.1.81 - - [22/Aug/2021 11:39:31] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:39:32 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:32 AM Received data from app: {'goal_level': '5', 'score': '0.1304726', 'performance': 'Very Low'}
+INFO:08/22/2021 11:39:32 AM 192.168.1.81 - - [22/Aug/2021 11:39:32] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:39:33 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:34 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:35 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:36 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:37 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:38 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:39 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:40 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:41 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:42 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:43 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:44 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:45 AM Received data from app: {'goal_level': '5', 'score': '0.18580616', 'performance': 'Very Low'}
+INFO:08/22/2021 11:39:45 AM 192.168.1.81 - - [22/Aug/2021 11:39:45] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:39:45 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:46 AM Received data from app: {'goal_level': '5', 'score': '0.20556813', 'performance': 'Very Low'}
+INFO:08/22/2021 11:39:46 AM 192.168.1.81 - - [22/Aug/2021 11:39:46] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:39:46 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:47 AM Received data from app: {'goal_level': '5', 'score': '0.07909142', 'performance': 'Very Low'}
+INFO:08/22/2021 11:39:47 AM 192.168.1.81 - - [22/Aug/2021 11:39:47] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:39:47 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:48 AM Received data from app: {'goal_level': '5', 'score': '0.48618832', 'performance': 'Low'}
+INFO:08/22/2021 11:39:48 AM 192.168.1.81 - - [22/Aug/2021 11:39:48] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:39:48 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:49 AM Received data from app: {'goal_level': '5', 'score': '0.22928251', 'performance': 'Very Low'}
+INFO:08/22/2021 11:39:49 AM 192.168.1.81 - - [22/Aug/2021 11:39:49] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:39:49 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:50 AM Received data from app: {'goal_level': '5', 'score': '0.49804553', 'performance': 'Low'}
+INFO:08/22/2021 11:39:50 AM 192.168.1.81 - - [22/Aug/2021 11:39:50] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:39:50 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:51 AM Received data from app: {'goal_level': '5', 'score': '0.3755212', 'performance': 'Very Low'}
+INFO:08/22/2021 11:39:51 AM 192.168.1.81 - - [22/Aug/2021 11:39:51] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:39:51 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:52 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:53 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:54 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:55 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:56 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:57 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:58 AM Received data from app: {'goal_level': '5', 'score': '0.42294997', 'performance': 'Very Low'}
+INFO:08/22/2021 11:39:58 AM 192.168.1.81 - - [22/Aug/2021 11:39:58] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:39:58 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:39:59 AM Received data from app: {'goal_level': '5', 'score': '0.70357025', 'performance': 'Under'}
+INFO:08/22/2021 11:39:59 AM 192.168.1.81 - - [22/Aug/2021 11:39:59] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:40:00 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:40:00 AM Received data from app: {'goal_level': '5', 'score': '0.6956654', 'performance': 'Under'}
+INFO:08/22/2021 11:40:00 AM 192.168.1.81 - - [22/Aug/2021 11:40:00] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:40:01 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:40:01 AM Received data from app: {'goal_level': '5', 'score': '0.15813938', 'performance': 'Very Low'}
+INFO:08/22/2021 11:40:01 AM 192.168.1.81 - - [22/Aug/2021 11:40:01] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:40:02 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Very Low'}
+INFO:08/22/2021 11:40:02 AM 192.168.1.81 - - [22/Aug/2021 11:40:02] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:40:02 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:40:02 AM Received data from app: {'goal_level': '5', 'score': '0.8458565', 'performance': 'Good!'}
+INFO:08/22/2021 11:40:02 AM 192.168.1.81 - - [22/Aug/2021 11:40:02] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:40:03 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:40:04 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:40:04 AM Received data from app: {'goal_level': '5', 'score': '0.9960476', 'performance': 'Over'}
+INFO:08/22/2021 11:40:04 AM 192.168.1.81 - - [22/Aug/2021 11:40:04] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:40:05 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:40:05 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Very Low'}
+INFO:08/22/2021 11:40:05 AM 192.168.1.81 - - [22/Aug/2021 11:40:05] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:40:05 AM Received data from app: {'goal_level': '4', 'score': '8 degs', 'performance': '', 'tgtValue': '12 degs'}
+INFO:08/22/2021 11:40:05 AM 192.168.1.81 - - [22/Aug/2021 11:40:05] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:40:05 AM Received data from app: {'goal_level': '3', 'stat': 'Impact cut angle', 'performance': 'REGRESSED', 'tgtValue': '0.6005041'}
+INFO:08/22/2021 11:40:06 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:40:06 AM Stopping set: That's 30, you can stop there.
+INFO:08/22/2021 11:40:08 AM Shot set completed.
+INFO:08/22/2021 11:40:08 AM Ended subgoal 6. New goal level = 3.
+INFO:08/22/2021 11:40:08 AM Created subgoal, new goal level = 3
+INFO:08/22/2021 11:40:08 AM 192.168.1.81 - - [22/Aug/2021 11:40:08] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:40:08 AM Received data from app: {'goal_level': '4'}
+INFO:08/22/2021 11:40:09 AM Formatting action: behaviour = 1, goal_level = 3, performance = None, name = Sorcha, shot = None, hand = None, stat = impactCutAngle
+INFO:08/22/2021 11:40:09 AM Displaying action Today let's try to get the racket face pointing upwards as you make contact with the ball on every shot you play . 
+INFO:08/22/2021 11:40:16 AM Created subgoal, new goal level = 4
+INFO:08/22/2021 11:40:16 AM 192.168.1.81 - - [22/Aug/2021 11:40:16] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:40:53 AM Logging started
+INFO:08/22/2021 11:40:53 AM  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:08/22/2021 11:40:57 AM Stats set, motivation = 8, ability = 2
+INFO:08/22/2021 11:41:19 AM Received data from app: {'goal_level': '0', 'sessions': '0', 'name': 'Martin', 'ability': '7'}
+INFO:08/22/2021 11:41:20 AM Chosen policy = 0
+INFO:08/22/2021 11:41:20 AM Set session duration to: 1
+INFO:08/22/2021 11:41:20 AM Created subgoal, new goal level = 0
+INFO:08/22/2021 11:41:20 AM Formatting action: behaviour = 1, goal_level = 0, performance = None, name = Sorcha, shot = None, hand = None, stat = None
+INFO:08/22/2021 11:41:21 AM Displaying action Hi , let's play squash!
+INFO:08/22/2021 11:41:23 AM Created subgoal, new goal level = 1
+INFO:08/22/2021 11:41:23 AM 192.168.1.81 - - [22/Aug/2021 11:41:23] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:41:23 AM Received data from app: {'goal_level': 1, 'performance': 3}
+INFO:08/22/2021 11:41:24 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:41:24 AM Created subgoal, new goal level = 2
+INFO:08/22/2021 11:41:24 AM 192.168.1.81 - - [22/Aug/2021 11:41:24] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:41:24 AM Received data from app: {'goal_level': '2', 'stat': 'impactCutAngle', 'performance': '', 'shotType': 'drive', 'initialScore': 'null', 'hand': 'forehand'}
+INFO:08/22/2021 11:41:25 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:41:26 AM Created subgoal, new goal level = 6
+INFO:08/22/2021 11:41:26 AM 192.168.1.81 - - [22/Aug/2021 11:41:26] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:41:26 AM Formatting action: behaviour = 1, goal_level = 6, performance = None, name = Sorcha, shot = 0, hand = FH, stat = None
+INFO:08/22/2021 11:41:26 AM Displaying action Firstly, 30 forehand drops to yourself please so I can see what your swing looks like
+INFO:08/22/2021 11:41:33 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:41:34 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:41:35 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:41:36 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:41:37 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:41:38 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:41:39 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:41:40 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:41:41 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:41:43 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:41:44 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:41:45 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:41:45 AM Received data from app: {'goal_level': '5', 'score': '0.114663', 'performance': 'Very Low'}
+INFO:08/22/2021 11:41:45 AM 192.168.1.81 - - [22/Aug/2021 11:41:45] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:41:46 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:41:46 AM Received data from app: {'goal_level': '5', 'score': '0.16209178', 'performance': 'Very Low'}
+INFO:08/22/2021 11:41:46 AM 192.168.1.81 - - [22/Aug/2021 11:41:46] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:41:47 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:41:47 AM Received data from app: {'goal_level': '5', 'score': '0.16604416', 'performance': 'Very Low'}
+INFO:08/22/2021 11:41:47 AM 192.168.1.81 - - [22/Aug/2021 11:41:47] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:41:48 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:41:48 AM Received data from app: {'goal_level': '5', 'score': '0.114663', 'performance': 'Very Low'}
+INFO:08/22/2021 11:41:48 AM 192.168.1.81 - - [22/Aug/2021 11:41:48] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:41:49 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:41:50 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:41:51 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:41:52 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:41:52 AM Received data from app: {'goal_level': '5', 'score': '0.28856847', 'performance': 'Very Low'}
+INFO:08/22/2021 11:41:52 AM 192.168.1.81 - - [22/Aug/2021 11:41:52] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:41:53 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:41:53 AM Received data from app: {'goal_level': '5', 'score': '0.043519847', 'performance': 'Very Low'}
+INFO:08/22/2021 11:41:53 AM 192.168.1.81 - - [22/Aug/2021 11:41:53] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:41:54 AM Received data from app: {'goal_level': '5', 'score': '0.07513903', 'performance': 'Very Low'}
+INFO:08/22/2021 11:41:54 AM 192.168.1.81 - - [22/Aug/2021 11:41:54] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:41:54 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:41:55 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Very Low'}
+INFO:08/22/2021 11:41:55 AM 192.168.1.81 - - [22/Aug/2021 11:41:55] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:41:55 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:41:56 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:41:57 AM Received data from app: {'goal_level': '5', 'score': '0.7589038', 'performance': 'Good!'}
+INFO:08/22/2021 11:41:57 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:41:57 AM 192.168.1.81 - - [22/Aug/2021 11:41:57] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:41:58 AM Received data from app: {'goal_level': '5', 'score': '0.4110928', 'performance': 'Very Low'}
+INFO:08/22/2021 11:41:58 AM 192.168.1.81 - - [22/Aug/2021 11:41:58] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:41:58 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:41:59 AM Received data from app: {'goal_level': '5', 'score': '0.031662654', 'performance': 'Very Low'}
+INFO:08/22/2021 11:41:59 AM 192.168.1.81 - - [22/Aug/2021 11:41:59] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:41:59 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:00 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:01 AM Received data from app: {'goal_level': '5', 'score': '0.4189976', 'performance': 'Very Low'}
+INFO:08/22/2021 11:42:01 AM 192.168.1.81 - - [22/Aug/2021 11:42:01] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:42:01 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:02 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:03 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:04 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:04 AM Received data from app: {'goal_level': '5', 'score': '0.43875957', 'performance': 'Very Low'}
+INFO:08/22/2021 11:42:04 AM 192.168.1.81 - - [22/Aug/2021 11:42:04] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:42:05 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:06 AM Received data from app: {'goal_level': '5', 'score': '0.45852154', 'performance': 'Low'}
+INFO:08/22/2021 11:42:06 AM 192.168.1.81 - - [22/Aug/2021 11:42:06] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:42:06 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:07 AM Received data from app: {'goal_level': '5', 'score': '0.70752263', 'performance': 'Under'}
+INFO:08/22/2021 11:42:07 AM 192.168.1.81 - - [22/Aug/2021 11:42:07] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:42:07 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:08 AM Received data from app: {'goal_level': '5', 'score': '0.64033186', 'performance': 'Under'}
+INFO:08/22/2021 11:42:08 AM 192.168.1.81 - - [22/Aug/2021 11:42:08] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:42:08 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:09 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:10 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:12 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:13 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:14 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:15 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:15 AM Received data from app: {'goal_level': '5', 'score': '0.3913308', 'performance': 'Very Low'}
+INFO:08/22/2021 11:42:15 AM 192.168.1.81 - - [22/Aug/2021 11:42:15] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:42:15 AM Received data from app: {'goal_level': '5', 'score': '0.007948272', 'performance': 'Very Low'}
+INFO:08/22/2021 11:42:15 AM 192.168.1.81 - - [22/Aug/2021 11:42:15] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:42:16 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:16 AM Received data from app: {'goal_level': '5', 'score': '0.118615404', 'performance': 'Very Low'}
+INFO:08/22/2021 11:42:16 AM 192.168.1.81 - - [22/Aug/2021 11:42:16] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:42:17 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:17 AM Received data from app: {'goal_level': '5', 'score': '0.6166175', 'performance': 'Low'}
+INFO:08/22/2021 11:42:17 AM 192.168.1.81 - - [22/Aug/2021 11:42:17] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:42:18 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:19 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:20 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:20 AM Received data from app: {'goal_level': '5', 'score': '0.7944754', 'performance': 'Good!'}
+INFO:08/22/2021 11:42:20 AM 192.168.1.81 - - [22/Aug/2021 11:42:20] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:42:21 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:22 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:23 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:24 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:25 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:26 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:27 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:28 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:29 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:30 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:31 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:32 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:33 AM Received data from app: {'goal_level': '5', 'score': '0.24509212', 'performance': 'Very Low'}
+INFO:08/22/2021 11:42:33 AM 192.168.1.81 - - [22/Aug/2021 11:42:33] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:42:33 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:34 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:35 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:36 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:37 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:38 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:40 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:41 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:42 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:43 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:44 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:45 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:46 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:47 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:48 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:49 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:50 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:51 AM Received data from app: {'goal_level': '5', 'score': '0.56523633', 'performance': 'Low'}
+INFO:08/22/2021 11:42:51 AM 192.168.1.81 - - [22/Aug/2021 11:42:51] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:42:51 AM Received data from app: {'goal_level': '5', 'score': '0.8063325', 'performance': 'Good!'}
+INFO:08/22/2021 11:42:51 AM 192.168.1.81 - - [22/Aug/2021 11:42:51] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:42:51 AM Received data from app: {'goal_level': '5', 'score': '0.32018766', 'performance': 'Very Low'}
+INFO:08/22/2021 11:42:51 AM 192.168.1.81 - - [22/Aug/2021 11:42:51] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:42:51 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:51 AM Received data from app: {'goal_level': '5', 'score': '0.7272846', 'performance': 'Under'}
+INFO:08/22/2021 11:42:51 AM 192.168.1.81 - - [22/Aug/2021 11:42:51] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:42:51 AM Received data from app: {'goal_level': '5', 'score': '0.08304382', 'performance': 'Very Low'}
+INFO:08/22/2021 11:42:51 AM 192.168.1.81 - - [22/Aug/2021 11:42:51] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:42:52 AM Received data from app: {'goal_level': '5', 'score': '0.5375695', 'performance': 'Low'}
+INFO:08/22/2021 11:42:52 AM 192.168.1.81 - - [22/Aug/2021 11:42:52] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:42:52 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:53 AM Received data from app: {'goal_level': '5', 'score': '0.48618832', 'performance': 'Low'}
+INFO:08/22/2021 11:42:53 AM 192.168.1.81 - - [22/Aug/2021 11:42:53] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:42:53 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:54 AM Received data from app: {'goal_level': '5', 'score': '0.15023458', 'performance': 'Very Low'}
+INFO:08/22/2021 11:42:54 AM 192.168.1.81 - - [22/Aug/2021 11:42:54] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:42:54 AM Received data from app: {'goal_level': '4', 'score': '6 degs', 'performance': '', 'tgtValue': '12 degs'}
+INFO:08/22/2021 11:42:54 AM 192.168.1.81 - - [22/Aug/2021 11:42:54] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:42:54 AM Received data from app: {'goal_level': '3', 'stat': 'Impact cut angle', 'performance': 'REGRESSED', 'tgtValue': '0.61448604'}
+INFO:08/22/2021 11:42:54 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:42:54 AM Stopping set: That's 30, you can stop there.
+INFO:08/22/2021 11:42:56 AM Shot set completed.
+INFO:08/22/2021 11:42:56 AM Ended subgoal 6. New goal level = 3.
+INFO:08/22/2021 11:42:56 AM Created subgoal, new goal level = 3
+INFO:08/22/2021 11:42:56 AM 192.168.1.81 - - [22/Aug/2021 11:42:56] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:42:56 AM Received data from app: {'goal_level': '5', 'score': '0.39579207', 'performance': 'Over'}
+INFO:08/22/2021 11:42:56 AM Action goal not expected, not using data.
+INFO:08/22/2021 11:42:56 AM 192.168.1.81 - - [22/Aug/2021 11:42:56] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:42:57 AM Received data from app: {'goal_level': '5', 'score': '1.0', 'performance': 'Very High'}
+INFO:08/22/2021 11:42:57 AM Action goal not expected, not using data.
+INFO:08/22/2021 11:42:57 AM 192.168.1.81 - - [22/Aug/2021 11:42:57] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:42:57 AM Received data from app: {'goal_level': '4'}
+INFO:08/22/2021 11:42:57 AM Formatting action: behaviour = 7, goal_level = 3, performance = None, name = Sorcha, shot = None, hand = None, stat = impactCutAngle
+INFO:08/22/2021 11:42:57 AM Displaying action How did your racket face angle feel last time? Touch the back of my hand if it fet good or the top of my head if you think it still needs work.
+INFO:08/22/2021 11:43:12 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:43:13 AM Formatting action: behaviour = 1, goal_level = 3, performance = None, name = Sorcha, shot = None, hand = None, stat = impactCutAngle
+INFO:08/22/2021 11:43:13 AM Displaying action In this session we're going to , we're going to start looking at your racket face angle. 
+INFO:08/22/2021 11:43:18 AM Created subgoal, new goal level = 4
+INFO:08/22/2021 11:43:18 AM 192.168.1.81 - - [22/Aug/2021 11:43:18] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:43:18 AM Formatting action: behaviour = 7, goal_level = 4, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:43:19 AM Displaying action Do you think your racket face angle got better last time we worked on it?
+INFO:08/22/2021 11:43:29 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:43:30 AM Formatting action: behaviour = 1, goal_level = 4, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:43:30 AM Displaying action Play another set of 30 forehand drops please. Remember, try to keep your racket face open
+INFO:08/22/2021 11:43:36 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:43:37 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:43:38 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:43:39 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:43:40 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:43:41 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:43:42 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:43:43 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:43:43 AM Received data from app: {'goal_level': '5', 'score': '0.014849436', 'performance': 'Under'}
+INFO:08/22/2021 11:43:43 AM 192.168.1.81 - - [22/Aug/2021 11:43:43] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:43:44 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:43:45 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:43:45 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:43:46 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:43:46 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:43:47 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:43:48 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:43:49 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:43:50 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:43:51 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:43:52 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:43:53 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:43:54 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:43:55 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:43:56 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:43:57 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:43:58 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:43:59 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Under'}
+INFO:08/22/2021 11:43:59 AM 192.168.1.81 - - [22/Aug/2021 11:43:59] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:43:59 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:00 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:44:00 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:44:00 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Under'}
+INFO:08/22/2021 11:44:00 AM 192.168.1.81 - - [22/Aug/2021 11:44:00] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:44:01 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:01 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:44:01 AM Formatting action: behaviour = 7, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:44:01 AM Displaying action Did you have an open racket face? 
+INFO:08/22/2021 11:44:03 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:44:04 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:04 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:44:05 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:06 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:07 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:08 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:09 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:11 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:12 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:13 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:14 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:15 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:16 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:17 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:18 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:19 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:20 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:21 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:22 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:23 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:24 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:25 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:26 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:27 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:28 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:28 AM Received data from app: {'goal_level': '5', 'score': '0.06963532', 'performance': 'Under'}
+INFO:08/22/2021 11:44:28 AM 192.168.1.81 - - [22/Aug/2021 11:44:28] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:44:29 AM Received data from app: {'goal_level': '5', 'score': '0.38908598', 'performance': 'Over'}
+INFO:08/22/2021 11:44:29 AM 192.168.1.81 - - [22/Aug/2021 11:44:29] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:44:29 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:30 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:44:30 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:44:31 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:31 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:44:32 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:33 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:33 AM Received data from app: {'goal_level': '5', 'score': '0.045640197', 'performance': 'Under'}
+INFO:08/22/2021 11:44:33 AM 192.168.1.81 - - [22/Aug/2021 11:44:33] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:44:34 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:34 AM Formatting action: behaviour = 7, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:44:34 AM Displaying action Did you hear the strings singing there? 
+INFO:08/22/2021 11:44:37 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:44:38 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:38 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:44:39 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:40 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:41 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:42 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:43 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:44 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:45 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:46 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:47 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:47 AM Received data from app: {'goal_level': '5', 'score': '0.05397826', 'performance': 'Under'}
+INFO:08/22/2021 11:44:47 AM 192.168.1.81 - - [22/Aug/2021 11:44:47] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:44:48 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:48 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:44:48 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:44:49 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:49 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:44:50 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Under'}
+INFO:08/22/2021 11:44:50 AM 192.168.1.81 - - [22/Aug/2021 11:44:50] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:44:50 AM Received data from app: {'goal_level': '5', 'score': '0.066105716', 'performance': 'Under'}
+INFO:08/22/2021 11:44:50 AM 192.168.1.81 - - [22/Aug/2021 11:44:50] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:44:50 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:51 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:44:51 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:44:52 AM Received data from app: {'goal_level': '5', 'score': '0.27855763', 'performance': 'Good!'}
+INFO:08/22/2021 11:44:52 AM 192.168.1.81 - - [22/Aug/2021 11:44:52] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:44:52 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:52 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:44:52 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:44:52 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:44:53 AM Received data from app: {'goal_level': '5', 'score': '0.12014159', 'performance': 'Good!'}
+INFO:08/22/2021 11:44:53 AM 192.168.1.81 - - [22/Aug/2021 11:44:53] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:44:53 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:53 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:44:54 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:44:54 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:44:54 AM Received data from app: {'goal_level': '5', 'score': '0.14945515', 'performance': 'Good!'}
+INFO:08/22/2021 11:44:54 AM 192.168.1.81 - - [22/Aug/2021 11:44:54] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:44:55 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:55 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:44:55 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:44:55 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:44:56 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:56 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:44:57 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:58 AM Received data from app: {'goal_level': '5', 'score': '0.57029575', 'performance': 'High'}
+INFO:08/22/2021 11:44:58 AM 192.168.1.81 - - [22/Aug/2021 11:44:58] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:44:58 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:44:59 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:44:59 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:45:00 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:00 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:45:01 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:02 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:03 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Under'}
+INFO:08/22/2021 11:45:03 AM 192.168.1.81 - - [22/Aug/2021 11:45:03] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:45:03 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:03 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:45:03 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:45:04 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Under'}
+INFO:08/22/2021 11:45:04 AM 192.168.1.81 - - [22/Aug/2021 11:45:04] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:45:04 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:04 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:45:05 AM Formatting action: behaviour = 7, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:45:05 AM Displaying action Did you hear the strings singing there? 
+INFO:08/22/2021 11:45:05 AM Received data from app: {'goal_level': '5', 'score': '0.25661892', 'performance': 'Good!'}
+INFO:08/22/2021 11:45:05 AM 192.168.1.81 - - [22/Aug/2021 11:45:05] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:45:06 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Under'}
+INFO:08/22/2021 11:45:06 AM 192.168.1.81 - - [22/Aug/2021 11:45:06] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:45:07 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:45:08 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:08 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:45:09 AM Formatting action: behaviour = 7, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:45:09 AM Displaying action Did you have an open racket face? 
+INFO:08/22/2021 11:45:09 AM Received data from app: {'goal_level': '5', 'score': '0.04723893', 'performance': 'Under'}
+INFO:08/22/2021 11:45:09 AM 192.168.1.81 - - [22/Aug/2021 11:45:09] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:45:10 AM Received data from app: {'goal_level': '5', 'score': '0.41486323', 'performance': 'High'}
+INFO:08/22/2021 11:45:10 AM 192.168.1.81 - - [22/Aug/2021 11:45:10] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:45:11 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:45:11 AM Received data from app: {'goal_level': '5', 'score': '0.82618535', 'performance': 'Very High'}
+INFO:08/22/2021 11:45:11 AM 192.168.1.81 - - [22/Aug/2021 11:45:11] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:45:12 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:12 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:45:12 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:45:12 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:45:13 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:13 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:45:14 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:15 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:16 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:17 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:18 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:19 AM Received data from app: {'goal_level': '5', 'score': '0.34400272', 'performance': 'Over'}
+INFO:08/22/2021 11:45:19 AM 192.168.1.81 - - [22/Aug/2021 11:45:19] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:45:19 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:20 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:45:20 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:45:20 AM Received data from app: {'goal_level': '5', 'score': '0.13937691', 'performance': 'Good!'}
+INFO:08/22/2021 11:45:20 AM 192.168.1.81 - - [22/Aug/2021 11:45:20] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:45:21 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:21 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:45:21 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:45:21 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:45:22 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:22 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:45:23 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:24 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Under'}
+INFO:08/22/2021 11:45:24 AM 192.168.1.81 - - [22/Aug/2021 11:45:24] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:45:24 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:25 AM Formatting action: behaviour = 7, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:45:25 AM Displaying action What angle was the racket face at? 
+INFO:08/22/2021 11:45:25 AM Received data from app: {'goal_level': '5', 'score': '0.110172346', 'performance': 'Good!'}
+INFO:08/22/2021 11:45:25 AM 192.168.1.81 - - [22/Aug/2021 11:45:25] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:45:26 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Under'}
+INFO:08/22/2021 11:45:26 AM 192.168.1.81 - - [22/Aug/2021 11:45:26] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:45:27 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:45:28 AM Received data from app: {'goal_level': '5', 'score': '0.8866123', 'performance': 'Very High'}
+INFO:08/22/2021 11:45:28 AM 192.168.1.81 - - [22/Aug/2021 11:45:28] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:45:28 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:28 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:45:29 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:45:29 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:45:30 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:30 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:45:31 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:32 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:33 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:34 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:35 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:36 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:37 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:38 AM Received data from app: {'goal_level': '5', 'score': '0.08816053', 'performance': 'Under'}
+INFO:08/22/2021 11:45:38 AM 192.168.1.81 - - [22/Aug/2021 11:45:38] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:45:38 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:38 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:45:38 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:45:39 AM Received data from app: {'goal_level': '5', 'score': '0.04665341', 'performance': 'Under'}
+INFO:08/22/2021 11:45:39 AM 192.168.1.81 - - [22/Aug/2021 11:45:39] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:45:39 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:39 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:45:40 AM Formatting action: behaviour = 7, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:45:40 AM Displaying action Was that an open racket face? 
+INFO:08/22/2021 11:45:40 AM Received data from app: {'goal_level': '5', 'score': '0.12596174', 'performance': 'Good!'}
+INFO:08/22/2021 11:45:40 AM 192.168.1.81 - - [22/Aug/2021 11:45:40] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:45:41 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Under'}
+INFO:08/22/2021 11:45:41 AM 192.168.1.81 - - [22/Aug/2021 11:45:41] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:45:41 AM Received data from app: {'goal_level': '4', 'score': '5 degs', 'performance': '5', 'tgtValue': '12 degs'}
+INFO:08/22/2021 11:45:42 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:45:42 AM 192.168.1.81 - - [22/Aug/2021 11:45:42] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:45:42 AM Received data from app: {'goal_level': '4'}
+INFO:08/22/2021 11:45:43 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:43 AM Stopping set: That's 30, you can stop there.
+INFO:08/22/2021 11:45:45 AM Shot set completed.
+INFO:08/22/2021 11:45:45 AM 192.168.1.81 - - [22/Aug/2021 11:45:45] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:45:45 AM Received data from app: {'goal_level': '5', 'score': '0.38076767', 'performance': 'Over'}
+INFO:08/22/2021 11:45:45 AM Action goal not expected, not using data.
+INFO:08/22/2021 11:45:45 AM 192.168.1.81 - - [22/Aug/2021 11:45:45] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:45:46 AM Received data from app: {'goal_level': '5', 'score': '0.3261463', 'performance': 'Over'}
+INFO:08/22/2021 11:45:46 AM Action goal not expected, not using data.
+INFO:08/22/2021 11:45:46 AM 192.168.1.81 - - [22/Aug/2021 11:45:46] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:45:46 AM Ended subgoal 4. New goal level = 3.
+INFO:08/22/2021 11:45:47 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:45:47 AM Created subgoal, new goal level = 4
+INFO:08/22/2021 11:45:47 AM Formatting action: behaviour = 1, goal_level = 4, performance = 5, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:45:48 AM Displaying action In this next set, I want you to really try to get the racket face pointing upwards as you make contact with the ball. Go for another set of 30 forehand drops and see how you get on. I'll let you know when to stop.
+INFO:08/22/2021 11:46:00 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:46:01 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:02 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:03 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:04 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:05 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:06 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:07 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:08 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:09 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Under'}
+INFO:08/22/2021 11:46:09 AM 192.168.1.81 - - [22/Aug/2021 11:46:09] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:46:09 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:10 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:46:10 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:46:10 AM Received data from app: {'goal_level': '5', 'score': '0.25178427', 'performance': 'Good!'}
+INFO:08/22/2021 11:46:10 AM 192.168.1.81 - - [22/Aug/2021 11:46:10] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:46:11 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:11 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:46:11 AM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:46:11 AM Displaying action Keep the racket face open  
+INFO:08/22/2021 11:46:12 AM Received data from app: {'goal_level': '5', 'score': '0.20801318', 'performance': 'Good!'}
+INFO:08/22/2021 11:46:12 AM 192.168.1.81 - - [22/Aug/2021 11:46:12] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:46:13 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Under'}
+INFO:08/22/2021 11:46:13 AM 192.168.1.81 - - [22/Aug/2021 11:46:13] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:46:13 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:46:14 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:14 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:46:14 AM Received data from app: {'goal_level': '5', 'score': '0.23483045', 'performance': 'Good!'}
+INFO:08/22/2021 11:46:14 AM 192.168.1.81 - - [22/Aug/2021 11:46:14] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:46:14 AM Formatting action: behaviour = 14, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:46:15 AM Displaying action Hard luck 
+INFO:08/22/2021 11:46:16 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:46:16 AM Received data from app: {'goal_level': '5', 'score': '0.12554935', 'performance': 'Good!'}
+INFO:08/22/2021 11:46:16 AM 192.168.1.81 - - [22/Aug/2021 11:46:16] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:46:17 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:17 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:46:17 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:46:17 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:46:17 AM Received data from app: {'goal_level': '5', 'score': '0.16855338', 'performance': 'Good!'}
+INFO:08/22/2021 11:46:17 AM 192.168.1.81 - - [22/Aug/2021 11:46:17] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:46:18 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:18 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:46:18 AM Received data from app: {'goal_level': '5', 'score': '0.5700129', 'performance': 'High'}
+INFO:08/22/2021 11:46:18 AM 192.168.1.81 - - [22/Aug/2021 11:46:18] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:46:19 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:46:19 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:46:20 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:20 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:46:20 AM Received data from app: {'goal_level': '5', 'score': '0.6842093', 'performance': 'Very High'}
+INFO:08/22/2021 11:46:20 AM 192.168.1.81 - - [22/Aug/2021 11:46:20] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:46:20 AM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:46:20 AM Displaying action Open racket face  
+INFO:08/22/2021 11:46:21 AM Received data from app: {'goal_level': '5', 'score': '0.5701241', 'performance': 'High'}
+INFO:08/22/2021 11:46:21 AM 192.168.1.81 - - [22/Aug/2021 11:46:21] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:46:22 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:46:23 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:23 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:46:23 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:46:23 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:46:24 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:24 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:46:25 AM Received data from app: {'goal_level': '5', 'score': '0.19955948', 'performance': 'Good!'}
+INFO:08/22/2021 11:46:25 AM 192.168.1.81 - - [22/Aug/2021 11:46:25] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:46:25 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:26 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:46:26 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:46:27 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:27 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:46:28 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:29 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:30 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:31 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:32 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:33 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:34 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:34 AM Received data from app: {'goal_level': '5', 'score': '0.1298729', 'performance': 'Good!'}
+INFO:08/22/2021 11:46:34 AM 192.168.1.81 - - [22/Aug/2021 11:46:34] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:46:35 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:35 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:46:35 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:46:36 AM Received data from app: {'goal_level': '5', 'score': '0.24546203', 'performance': 'Good!'}
+INFO:08/22/2021 11:46:36 AM 192.168.1.81 - - [22/Aug/2021 11:46:36] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:46:36 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:36 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:46:37 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:46:37 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:46:38 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:38 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:46:39 AM Received data from app: {'goal_level': '5', 'score': '1.0', 'performance': 'Very High'}
+INFO:08/22/2021 11:46:39 AM 192.168.1.81 - - [22/Aug/2021 11:46:39] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:46:39 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:39 AM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:46:40 AM Displaying action Keep the racket face open  
+INFO:08/22/2021 11:46:47 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Under'}
+INFO:08/22/2021 11:46:47 AM 192.168.1.81 - - [22/Aug/2021 11:46:47] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:46:49 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:46:50 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:50 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:46:50 AM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:46:50 AM Displaying action Open racket face  
+INFO:08/22/2021 11:46:50 AM Received data from app: {'goal_level': '5', 'score': '0.15094775', 'performance': 'Good!'}
+INFO:08/22/2021 11:46:50 AM 192.168.1.81 - - [22/Aug/2021 11:46:50] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:46:51 AM Received data from app: {'goal_level': '5', 'score': '0.043036107', 'performance': 'Under'}
+INFO:08/22/2021 11:46:51 AM 192.168.1.81 - - [22/Aug/2021 11:46:51] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:46:52 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:46:53 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:53 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:46:53 AM Received data from app: {'goal_level': '5', 'score': '0.27550897', 'performance': 'Good!'}
+INFO:08/22/2021 11:46:53 AM 192.168.1.81 - - [22/Aug/2021 11:46:53] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:46:53 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:46:53 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:46:54 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:54 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:46:54 AM Received data from app: {'goal_level': '5', 'score': '0.45248494', 'performance': 'High'}
+INFO:08/22/2021 11:46:54 AM 192.168.1.81 - - [22/Aug/2021 11:46:54] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:46:55 AM Formatting action: behaviour = 7, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:46:55 AM Displaying action Did you hear the strings singing there? 
+INFO:08/22/2021 11:46:56 AM Received data from app: {'goal_level': '5', 'score': '0.37661898', 'performance': 'Over'}
+INFO:08/22/2021 11:46:56 AM 192.168.1.81 - - [22/Aug/2021 11:46:56] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:46:57 AM Received data from app: {'goal_level': '5', 'score': '0.26109546', 'performance': 'Good!'}
+INFO:08/22/2021 11:46:57 AM 192.168.1.81 - - [22/Aug/2021 11:46:57] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:46:57 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:46:58 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:46:58 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:46:58 AM Received data from app: {'goal_level': '5', 'score': '0.19884759', 'performance': 'Good!'}
+INFO:08/22/2021 11:46:58 AM 192.168.1.81 - - [22/Aug/2021 11:46:58] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:46:59 AM Formatting action: behaviour = 7, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:46:59 AM Displaying action Did you have an open racket face? 
+INFO:08/22/2021 11:47:00 AM Received data from app: {'goal_level': '5', 'score': '0.09814238', 'performance': 'Good!'}
+INFO:08/22/2021 11:47:00 AM 192.168.1.81 - - [22/Aug/2021 11:47:00] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:47:01 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:47:01 AM Received data from app: {'goal_level': '5', 'score': '0.33873186', 'performance': 'Over'}
+INFO:08/22/2021 11:47:01 AM 192.168.1.81 - - [22/Aug/2021 11:47:01] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:47:02 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:47:02 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:47:02 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:47:02 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:47:02 AM Received data from app: {'goal_level': '5', 'score': '0.14735183', 'performance': 'Good!'}
+INFO:08/22/2021 11:47:02 AM 192.168.1.81 - - [22/Aug/2021 11:47:02] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:47:03 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:47:03 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:47:04 AM Formatting action: behaviour = 7, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:47:04 AM Received data from app: {'goal_level': '5', 'score': '0.08163791', 'performance': 'Under'}
+INFO:08/22/2021 11:47:04 AM 192.168.1.81 - - [22/Aug/2021 11:47:04] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:47:04 AM Displaying action Did you have an open racket face? 
+INFO:08/22/2021 11:47:05 AM Received data from app: {'goal_level': '5', 'score': '0.33983952', 'performance': 'Over'}
+INFO:08/22/2021 11:47:05 AM 192.168.1.81 - - [22/Aug/2021 11:47:05] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:47:06 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:47:06 AM Received data from app: {'goal_level': '5', 'score': '0.18838297', 'performance': 'Good!'}
+INFO:08/22/2021 11:47:06 AM 192.168.1.81 - - [22/Aug/2021 11:47:06] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:47:07 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:47:07 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:47:07 AM Received data from app: {'goal_level': '5', 'score': '0.23999625', 'performance': 'Good!'}
+INFO:08/22/2021 11:47:07 AM 192.168.1.81 - - [22/Aug/2021 11:47:07] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:47:07 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:47:07 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:47:08 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:47:08 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:47:09 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:47:09 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:47:10 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:47:10 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:47:11 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:47:12 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:47:13 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:47:14 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:47:14 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Under'}
+INFO:08/22/2021 11:47:14 AM 192.168.1.81 - - [22/Aug/2021 11:47:14] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:47:14 AM Received data from app: {'goal_level': '4', 'score': '9 degs', 'performance': '2', 'tgtValue': '12 degs'}
+INFO:08/22/2021 11:47:15 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:47:15 AM Stopping set: That's 30, you can stop there.
+INFO:08/22/2021 11:47:15 AM 192.168.1.81 - - [22/Aug/2021 11:47:15] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:47:15 AM Received data from app: {'goal_level': '4'}
+INFO:08/22/2021 11:47:17 AM Shot set completed.
+INFO:08/22/2021 11:47:17 AM 192.168.1.81 - - [22/Aug/2021 11:47:17] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:47:18 AM Ended subgoal 4. New goal level = 3.
+INFO:08/22/2021 11:47:19 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:47:19 AM Created subgoal, new goal level = 4
+INFO:08/22/2021 11:47:19 AM Formatting action: behaviour = 7, goal_level = 4, performance = 2, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:47:20 AM Displaying action Do you think your racket face angle got better last time we worked on it?
+INFO:08/22/2021 11:47:30 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:47:31 AM Formatting action: behaviour = 1, goal_level = 4, performance = 2, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:47:31 AM Displaying action OK, clear your mind. Because I only want you to focus on one thing in this next set. I want you to put some cut on the ball by opening your racket face. Play another 30 forehand drops please.
+INFO:08/22/2021 11:47:43 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:47:44 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:47:45 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:47:46 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:47:47 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:47:48 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:47:49 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:47:50 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:47:51 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:47:52 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:47:53 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Under'}
+INFO:08/22/2021 11:47:53 AM 192.168.1.81 - - [22/Aug/2021 11:47:53] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:47:53 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:47:54 AM Formatting action: behaviour = 7, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:47:54 AM Displaying action What angle was the racket face at? 
+INFO:08/22/2021 11:47:55 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Under'}
+INFO:08/22/2021 11:47:55 AM 192.168.1.81 - - [22/Aug/2021 11:47:55] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:47:56 AM Received data from app: {'goal_level': '5', 'score': '0.1916439', 'performance': 'Good!'}
+INFO:08/22/2021 11:47:56 AM 192.168.1.81 - - [22/Aug/2021 11:47:56] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:47:56 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:47:57 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:47:57 AM Received data from app: {'goal_level': '5', 'score': '0.33551225', 'performance': 'Over'}
+INFO:08/22/2021 11:47:57 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:47:57 AM 192.168.1.81 - - [22/Aug/2021 11:47:57] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:47:58 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:47:58 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:47:58 AM Received data from app: {'goal_level': '5', 'score': '0.26911715', 'performance': 'Good!'}
+INFO:08/22/2021 11:47:58 AM 192.168.1.81 - - [22/Aug/2021 11:47:58] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:47:59 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:47:59 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:47:59 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:47:59 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:48:00 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:00 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:48:01 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:02 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Under'}
+INFO:08/22/2021 11:48:02 AM 192.168.1.81 - - [22/Aug/2021 11:48:02] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:48:02 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:03 AM Formatting action: behaviour = 40, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:48:03 AM Displaying action Nice shot. Sorcha 
+INFO:08/22/2021 11:48:04 AM Received data from app: {'goal_level': '5', 'score': '0.29304138', 'performance': 'Good!'}
+INFO:08/22/2021 11:48:04 AM 192.168.1.81 - - [22/Aug/2021 11:48:04] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:48:05 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:48:05 AM Received data from app: {'goal_level': '5', 'score': '0.21912375', 'performance': 'Good!'}
+INFO:08/22/2021 11:48:05 AM 192.168.1.81 - - [22/Aug/2021 11:48:05] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:48:06 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:06 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:48:06 AM Formatting action: behaviour = 40, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:48:06 AM Displaying action Nice  Sorcha
+INFO:08/22/2021 11:48:07 AM Received data from app: {'goal_level': '5', 'score': '0.11643752', 'performance': 'Good!'}
+INFO:08/22/2021 11:48:07 AM 192.168.1.81 - - [22/Aug/2021 11:48:07] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:48:07 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:48:07 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Under'}
+INFO:08/22/2021 11:48:07 AM 192.168.1.81 - - [22/Aug/2021 11:48:07] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:48:08 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:08 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:48:09 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:48:09 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:48:10 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:10 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:48:11 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:12 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:13 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:14 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:14 AM Received data from app: {'goal_level': '5', 'score': '0.3516345', 'performance': 'Over'}
+INFO:08/22/2021 11:48:14 AM 192.168.1.81 - - [22/Aug/2021 11:48:14] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:48:15 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:15 AM Formatting action: behaviour = 12, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:48:16 AM Displaying action Top work  
+INFO:08/22/2021 11:48:17 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:48:18 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:18 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:48:19 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:20 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:20 AM Received data from app: {'goal_level': '5', 'score': '0.10801381', 'performance': 'Good!'}
+INFO:08/22/2021 11:48:20 AM 192.168.1.81 - - [22/Aug/2021 11:48:20] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:48:21 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:21 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:48:21 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:48:22 AM Received data from app: {'goal_level': '5', 'score': '0.14570005', 'performance': 'Good!'}
+INFO:08/22/2021 11:48:22 AM 192.168.1.81 - - [22/Aug/2021 11:48:22] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:48:22 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:22 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:48:23 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:48:23 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:48:23 AM Received data from app: {'goal_level': '5', 'score': '0.31484142', 'performance': 'Over'}
+INFO:08/22/2021 11:48:23 AM 192.168.1.81 - - [22/Aug/2021 11:48:23] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:48:24 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:24 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:48:24 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Under'}
+INFO:08/22/2021 11:48:24 AM 192.168.1.81 - - [22/Aug/2021 11:48:24] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:48:24 AM Formatting action: behaviour = 12, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:48:24 AM Displaying action Good  
+INFO:08/22/2021 11:48:25 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:48:25 AM Received data from app: {'goal_level': '5', 'score': '0.3457118', 'performance': 'Over'}
+INFO:08/22/2021 11:48:25 AM 192.168.1.81 - - [22/Aug/2021 11:48:25] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:48:26 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:26 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:48:26 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Under'}
+INFO:08/22/2021 11:48:26 AM 192.168.1.81 - - [22/Aug/2021 11:48:26] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:48:26 AM Formatting action: behaviour = 40, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:48:27 AM Displaying action Nice  Sorcha
+INFO:08/22/2021 11:48:28 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:48:29 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:29 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:48:29 AM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:48:29 AM Displaying action I want to hear those strings singing!  
+INFO:08/22/2021 11:48:31 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:48:32 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:32 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:48:33 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:34 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:35 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:36 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:37 AM Received data from app: {'goal_level': '5', 'score': '0.058782537', 'performance': 'Under'}
+INFO:08/22/2021 11:48:37 AM 192.168.1.81 - - [22/Aug/2021 11:48:37] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:48:37 AM Received data from app: {'goal_level': '5', 'score': '0.3842403', 'performance': 'Over'}
+INFO:08/22/2021 11:48:37 AM 192.168.1.81 - - [22/Aug/2021 11:48:37] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:48:37 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:38 AM Formatting action: behaviour = 40, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:48:38 AM Displaying action Top work Sorcha 
+INFO:08/22/2021 11:48:38 AM Received data from app: {'goal_level': '5', 'score': '0.25322908', 'performance': 'Good!'}
+INFO:08/22/2021 11:48:38 AM 192.168.1.81 - - [22/Aug/2021 11:48:38] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:48:39 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:48:40 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:40 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:48:41 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:48:41 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:48:42 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:42 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:48:43 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:44 AM Received data from app: {'goal_level': '5', 'score': '0.21344595', 'performance': 'Good!'}
+INFO:08/22/2021 11:48:44 AM 192.168.1.81 - - [22/Aug/2021 11:48:44] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:48:44 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:44 AM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:48:45 AM Displaying action Keep the racket face open  
+INFO:08/22/2021 11:48:45 AM Received data from app: {'goal_level': '5', 'score': '0.07681374', 'performance': 'Under'}
+INFO:08/22/2021 11:48:45 AM 192.168.1.81 - - [22/Aug/2021 11:48:45] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:48:46 AM Received data from app: {'goal_level': '5', 'score': '0.04096821', 'performance': 'Under'}
+INFO:08/22/2021 11:48:46 AM 192.168.1.81 - - [22/Aug/2021 11:48:46] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:48:46 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:48:48 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:48 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:48:48 AM Received data from app: {'goal_level': '5', 'score': '0.16600055', 'performance': 'Good!'}
+INFO:08/22/2021 11:48:48 AM 192.168.1.81 - - [22/Aug/2021 11:48:48] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:48:48 AM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:48:48 AM Displaying action Keep the racket face open  
+INFO:08/22/2021 11:48:51 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:48:52 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:52 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:48:53 AM Formatting action: behaviour = 40, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:48:53 AM Displaying action Top work Sorcha 
+INFO:08/22/2021 11:48:55 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:48:56 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:56 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:48:57 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:57 AM Received data from app: {'goal_level': '5', 'score': '0.054225095', 'performance': 'Under'}
+INFO:08/22/2021 11:48:57 AM 192.168.1.81 - - [22/Aug/2021 11:48:57] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:48:57 AM Received data from app: {'goal_level': '5', 'score': '0.07595841', 'performance': 'Under'}
+INFO:08/22/2021 11:48:57 AM 192.168.1.81 - - [22/Aug/2021 11:48:57] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:48:57 AM Received data from app: {'goal_level': '5', 'score': '0.11002147', 'performance': 'Good!'}
+INFO:08/22/2021 11:48:57 AM 192.168.1.81 - - [22/Aug/2021 11:48:57] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:48:58 AM Received data from app: {'goal_level': '5', 'score': '0.17267577', 'performance': 'Good!'}
+INFO:08/22/2021 11:48:58 AM 192.168.1.81 - - [22/Aug/2021 11:48:58] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:48:58 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:48:58 AM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:48:58 AM Displaying action I want to hear those strings singing!  
+INFO:08/22/2021 11:48:59 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Under'}
+INFO:08/22/2021 11:48:59 AM 192.168.1.81 - - [22/Aug/2021 11:48:59] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:49:01 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:49:01 AM Received data from app: {'goal_level': '5', 'score': '0.9925355', 'performance': 'Very High'}
+INFO:08/22/2021 11:49:01 AM 192.168.1.81 - - [22/Aug/2021 11:49:01] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:49:01 AM Received data from app: {'goal_level': '4', 'score': '9 degs', 'performance': '4', 'tgtValue': '12 degs'}
+INFO:08/22/2021 11:49:02 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:02 AM Stopping set: That's 30, you can stop there.
+INFO:08/22/2021 11:49:02 AM 192.168.1.81 - - [22/Aug/2021 11:49:02] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:49:02 AM Received data from app: {'goal_level': '4'}
+INFO:08/22/2021 11:49:04 AM Shot set completed.
+INFO:08/22/2021 11:49:04 AM 192.168.1.81 - - [22/Aug/2021 11:49:04] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:49:04 AM Received data from app: {'goal_level': '5', 'score': '0.015037536', 'performance': 'Under'}
+INFO:08/22/2021 11:49:04 AM Action goal not expected, not using data.
+INFO:08/22/2021 11:49:04 AM 192.168.1.81 - - [22/Aug/2021 11:49:04] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:49:05 AM Ended subgoal 4. New goal level = 3.
+INFO:08/22/2021 11:49:05 AM Received data from app: {'goal_level': '5', 'score': '0.19734216', 'performance': 'Good!'}
+INFO:08/22/2021 11:49:05 AM Action goal not expected, not using data.
+INFO:08/22/2021 11:49:05 AM 192.168.1.81 - - [22/Aug/2021 11:49:05] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:49:06 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:06 AM Created subgoal, new goal level = 4
+INFO:08/22/2021 11:49:06 AM Formatting action: behaviour = 1, goal_level = 4, performance = 4, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:49:06 AM Displaying action Lets do another set of 30 forehand drops. The key thing here is to make sure that your racket face stays open as you strike the ball
+INFO:08/22/2021 11:49:14 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:49:15 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:16 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:17 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:18 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:19 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:20 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:21 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:22 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:23 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:24 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:25 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:26 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:27 AM Received data from app: {'goal_level': '5', 'score': '0.23913717', 'performance': 'Good!'}
+INFO:08/22/2021 11:49:27 AM 192.168.1.81 - - [22/Aug/2021 11:49:27] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:49:27 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:28 AM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:49:28 AM Displaying action Open racket face  
+INFO:08/22/2021 11:49:29 AM Received data from app: {'goal_level': '5', 'score': '0.08472672', 'performance': 'Under'}
+INFO:08/22/2021 11:49:29 AM 192.168.1.81 - - [22/Aug/2021 11:49:29] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:49:29 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:49:30 AM Received data from app: {'goal_level': '5', 'score': '0.20218414', 'performance': 'Good!'}
+INFO:08/22/2021 11:49:30 AM 192.168.1.81 - - [22/Aug/2021 11:49:30] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:49:31 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:31 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:49:31 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:49:31 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:49:31 AM Received data from app: {'goal_level': '5', 'score': '0.2814447', 'performance': 'Good!'}
+INFO:08/22/2021 11:49:31 AM 192.168.1.81 - - [22/Aug/2021 11:49:31] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:49:32 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:32 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:49:32 AM Received data from app: {'goal_level': '5', 'score': '0.14488389', 'performance': 'Good!'}
+INFO:08/22/2021 11:49:32 AM 192.168.1.81 - - [22/Aug/2021 11:49:32] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:49:32 AM Formatting action: behaviour = 12, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:49:33 AM Displaying action Nice  
+INFO:08/22/2021 11:49:33 AM Received data from app: {'goal_level': '5', 'score': '0.16863036', 'performance': 'Good!'}
+INFO:08/22/2021 11:49:33 AM 192.168.1.81 - - [22/Aug/2021 11:49:33] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:49:34 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:49:35 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:35 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:49:35 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:49:35 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:49:36 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:36 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:49:37 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:38 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:39 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Under'}
+INFO:08/22/2021 11:49:39 AM 192.168.1.81 - - [22/Aug/2021 11:49:39] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:49:39 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:40 AM Formatting action: behaviour = 7, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:49:40 AM Displaying action What angle was the racket face at? 
+INFO:08/22/2021 11:49:40 AM Received data from app: {'goal_level': '5', 'score': '0.024851719', 'performance': 'Under'}
+INFO:08/22/2021 11:49:40 AM 192.168.1.81 - - [22/Aug/2021 11:49:40] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:49:41 AM Received data from app: {'goal_level': '5', 'score': '0.13082919', 'performance': 'Good!'}
+INFO:08/22/2021 11:49:41 AM 192.168.1.81 - - [22/Aug/2021 11:49:41] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:49:42 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:49:43 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Under'}
+INFO:08/22/2021 11:49:43 AM 192.168.1.81 - - [22/Aug/2021 11:49:43] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:49:43 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:43 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:49:43 AM Formatting action: behaviour = 7, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:49:44 AM Displaying action Did you have an open racket face? 
+INFO:08/22/2021 11:49:44 AM Received data from app: {'goal_level': '5', 'score': '0.33454782', 'performance': 'Over'}
+INFO:08/22/2021 11:49:44 AM 192.168.1.81 - - [22/Aug/2021 11:49:44] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:49:45 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Under'}
+INFO:08/22/2021 11:49:45 AM 192.168.1.81 - - [22/Aug/2021 11:49:45] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:49:46 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:49:46 AM Received data from app: {'goal_level': '5', 'score': '0.21604297', 'performance': 'Good!'}
+INFO:08/22/2021 11:49:46 AM 192.168.1.81 - - [22/Aug/2021 11:49:46] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:49:47 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:47 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:49:47 AM Formatting action: behaviour = 40, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:49:47 AM Displaying action Good Sorcha 
+INFO:08/22/2021 11:49:47 AM Received data from app: {'goal_level': '5', 'score': '0.20164454', 'performance': 'Good!'}
+INFO:08/22/2021 11:49:47 AM 192.168.1.81 - - [22/Aug/2021 11:49:47] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:49:48 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:49:48 AM Received data from app: {'goal_level': '5', 'score': '0.18982026', 'performance': 'Good!'}
+INFO:08/22/2021 11:49:48 AM 192.168.1.81 - - [22/Aug/2021 11:49:48] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:49:49 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:49 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:49:50 AM Formatting action: behaviour = 12, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:49:50 AM Displaying action Nice  
+INFO:08/22/2021 11:49:51 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:49:52 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:52 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:49:53 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:54 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:55 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:55 AM Received data from app: {'goal_level': '5', 'score': '1.0', 'performance': 'Very High'}
+INFO:08/22/2021 11:49:55 AM 192.168.1.81 - - [22/Aug/2021 11:49:55] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:49:56 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:56 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:49:56 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:49:57 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:57 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:49:58 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:49:59 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:01 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:02 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:02 AM Received data from app: {'goal_level': '5', 'score': '0.046656188', 'performance': 'Under'}
+INFO:08/22/2021 11:50:02 AM 192.168.1.81 - - [22/Aug/2021 11:50:02] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:50:03 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:03 AM Formatting action: behaviour = 12, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:50:03 AM Displaying action Top work  
+INFO:08/22/2021 11:50:03 AM Received data from app: {'goal_level': '5', 'score': '0.11387749', 'performance': 'Good!'}
+INFO:08/22/2021 11:50:03 AM 192.168.1.81 - - [22/Aug/2021 11:50:03] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:50:04 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:50:05 AM Received data from app: {'goal_level': '5', 'score': '0.2918914', 'performance': 'Good!'}
+INFO:08/22/2021 11:50:05 AM 192.168.1.81 - - [22/Aug/2021 11:50:05] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:50:05 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:05 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:50:06 AM Formatting action: behaviour = 12, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:50:06 AM Displaying action Nice shot.  
+INFO:08/22/2021 11:50:06 AM Received data from app: {'goal_level': '5', 'score': '0.12995686', 'performance': 'Good!'}
+INFO:08/22/2021 11:50:06 AM 192.168.1.81 - - [22/Aug/2021 11:50:06] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:50:07 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:50:07 AM Received data from app: {'goal_level': '5', 'score': '0.12508354', 'performance': 'Good!'}
+INFO:08/22/2021 11:50:07 AM 192.168.1.81 - - [22/Aug/2021 11:50:07] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:50:08 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:08 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:50:08 AM Formatting action: behaviour = 40, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:50:08 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Under'}
+INFO:08/22/2021 11:50:08 AM 192.168.1.81 - - [22/Aug/2021 11:50:08] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:50:09 AM Displaying action Good Sorcha 
+INFO:08/22/2021 11:50:09 AM Received data from app: {'goal_level': '5', 'score': '0.27335188', 'performance': 'Good!'}
+INFO:08/22/2021 11:50:09 AM 192.168.1.81 - - [22/Aug/2021 11:50:09] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:50:10 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:50:11 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:11 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:50:11 AM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:50:11 AM Received data from app: {'goal_level': '5', 'score': '0.15504424', 'performance': 'Good!'}
+INFO:08/22/2021 11:50:11 AM 192.168.1.81 - - [22/Aug/2021 11:50:11] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:50:11 AM Displaying action Open racket face  
+INFO:08/22/2021 11:50:12 AM Received data from app: {'goal_level': '5', 'score': '0.011622359', 'performance': 'Under'}
+INFO:08/22/2021 11:50:12 AM 192.168.1.81 - - [22/Aug/2021 11:50:12] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:50:13 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:50:13 AM Received data from app: {'goal_level': '5', 'score': '0.43721476', 'performance': 'High'}
+INFO:08/22/2021 11:50:13 AM 192.168.1.81 - - [22/Aug/2021 11:50:13] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:50:14 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:14 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:50:14 AM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:50:14 AM Displaying action I want to hear those strings singing!  
+INFO:08/22/2021 11:50:15 AM Received data from app: {'goal_level': '5', 'score': '0.10721461', 'performance': 'Good!'}
+INFO:08/22/2021 11:50:15 AM 192.168.1.81 - - [22/Aug/2021 11:50:15] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:50:16 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:50:17 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:17 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:50:18 AM Formatting action: behaviour = 12, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:50:18 AM Displaying action Top work  
+INFO:08/22/2021 11:50:19 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:50:20 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:20 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:50:21 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:22 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:23 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:24 AM Received data from app: {'goal_level': '5', 'score': '0.21021318', 'performance': 'Good!'}
+INFO:08/22/2021 11:50:24 AM 192.168.1.81 - - [22/Aug/2021 11:50:24] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:50:24 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:25 AM Received data from app: {'goal_level': '5', 'score': '0.27722752', 'performance': 'Good!'}
+INFO:08/22/2021 11:50:25 AM 192.168.1.81 - - [22/Aug/2021 11:50:25] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:50:25 AM Formatting action: behaviour = 40, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:50:25 AM Displaying action Good Sorcha 
+INFO:08/22/2021 11:50:26 AM Received data from app: {'goal_level': '5', 'score': '0.29735616', 'performance': 'Over'}
+INFO:08/22/2021 11:50:26 AM 192.168.1.81 - - [22/Aug/2021 11:50:26] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:50:26 AM Received data from app: {'goal_level': '4', 'score': '9 degs', 'performance': '4', 'tgtValue': '12 degs'}
+INFO:08/22/2021 11:50:26 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:50:26 AM 192.168.1.81 - - [22/Aug/2021 11:50:26] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:50:26 AM Received data from app: {'goal_level': '4'}
+INFO:08/22/2021 11:50:27 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:27 AM Stopping set: That's 30, you can stop there.
+INFO:08/22/2021 11:50:29 AM Shot set completed.
+INFO:08/22/2021 11:50:29 AM 192.168.1.81 - - [22/Aug/2021 11:50:29] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:50:30 AM Ended subgoal 4. New goal level = 3.
+INFO:08/22/2021 11:50:31 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:31 AM Created subgoal, new goal level = 4
+INFO:08/22/2021 11:50:31 AM Formatting action: behaviour = 17, goal_level = 4, performance = 4, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:50:31 AM Displaying action OK, clear your mind. Because I only want you to focus on one thing in this final set. I want you to put some cut on the ball by opening your racket face. Play a final 30 forehand drops please. I want to see how much your racket face angle has improved with all your hard work today!
+INFO:08/22/2021 11:50:34 AM Received data from app: {'goal_level': '5', 'score': '0.7409153', 'performance': 'Very High'}
+INFO:08/22/2021 11:50:34 AM Action goal not expected, not using data.
+INFO:08/22/2021 11:50:34 AM 192.168.1.81 - - [22/Aug/2021 11:50:34] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:50:34 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:50:35 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:36 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:37 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:38 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:39 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:40 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:41 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:42 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:43 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:44 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:45 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:46 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:47 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:48 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:49 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:50 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:51 AM Received data from app: {'goal_level': '5', 'score': '0.20342524', 'performance': 'Good!'}
+INFO:08/22/2021 11:50:51 AM 192.168.1.81 - - [22/Aug/2021 11:50:51] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:50:52 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:52 AM Formatting action: behaviour = 7, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:50:52 AM Displaying action Was that an open racket face? 
+INFO:08/22/2021 11:50:53 AM Received data from app: {'goal_level': '5', 'score': '0.052023444', 'performance': 'Under'}
+INFO:08/22/2021 11:50:53 AM 192.168.1.81 - - [22/Aug/2021 11:50:53] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:50:54 AM Received data from app: {'goal_level': '5', 'score': '0.2815646', 'performance': 'Good!'}
+INFO:08/22/2021 11:50:54 AM 192.168.1.81 - - [22/Aug/2021 11:50:54] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:50:54 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:50:55 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:55 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:50:55 AM Received data from app: {'goal_level': '5', 'score': '0.23598973', 'performance': 'Good!'}
+INFO:08/22/2021 11:50:55 AM 192.168.1.81 - - [22/Aug/2021 11:50:55] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:50:55 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:50:55 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:50:56 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:56 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:50:57 AM Received data from app: {'goal_level': '5', 'score': '0.19002955', 'performance': 'Good!'}
+INFO:08/22/2021 11:50:57 AM 192.168.1.81 - - [22/Aug/2021 11:50:57] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:50:57 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:50:57 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:50:58 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Under'}
+INFO:08/22/2021 11:50:58 AM 192.168.1.81 - - [22/Aug/2021 11:50:58] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:50:58 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:50:58 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:50:58 AM Formatting action: behaviour = 12, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:50:59 AM Displaying action Nice shot.  
+INFO:08/22/2021 11:50:59 AM Received data from app: {'goal_level': '5', 'score': '0.0', 'performance': 'Under'}
+INFO:08/22/2021 11:50:59 AM 192.168.1.81 - - [22/Aug/2021 11:50:59] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:51:00 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:51:00 AM Received data from app: {'goal_level': '5', 'score': '0.3446376', 'performance': 'Over'}
+INFO:08/22/2021 11:51:00 AM 192.168.1.81 - - [22/Aug/2021 11:51:00] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:51:01 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:01 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:51:01 AM Formatting action: behaviour = 12, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:51:01 AM Received data from app: {'goal_level': '5', 'score': '0.50814253', 'performance': 'High'}
+INFO:08/22/2021 11:51:01 AM 192.168.1.81 - - [22/Aug/2021 11:51:01] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:51:01 AM Displaying action Nice shot.  
+INFO:08/22/2021 11:51:02 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:51:03 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:03 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:51:04 AM Formatting action: behaviour = 12, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:51:04 AM Received data from app: {'goal_level': '5', 'score': '0.70292115', 'performance': 'Very High'}
+INFO:08/22/2021 11:51:04 AM 192.168.1.81 - - [22/Aug/2021 11:51:04] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:51:04 AM Displaying action Good  
+INFO:08/22/2021 11:51:04 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:51:05 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:05 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:51:06 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:51:06 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:51:07 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:07 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:51:07 AM Received data from app: {'goal_level': '5', 'score': '0.04769666', 'performance': 'Under'}
+INFO:08/22/2021 11:51:07 AM 192.168.1.81 - - [22/Aug/2021 11:51:07] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:51:08 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:08 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:51:08 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:51:08 AM Received data from app: {'goal_level': '5', 'score': '0.31343782', 'performance': 'Over'}
+INFO:08/22/2021 11:51:08 AM 192.168.1.81 - - [22/Aug/2021 11:51:08] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:51:09 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:09 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:51:10 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:51:10 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:51:10 AM Received data from app: {'goal_level': '5', 'score': '0.14622527', 'performance': 'Good!'}
+INFO:08/22/2021 11:51:10 AM 192.168.1.81 - - [22/Aug/2021 11:51:10] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:51:11 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:11 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:51:11 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:51:11 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:51:11 AM Received data from app: {'goal_level': '5', 'score': '0.30391943', 'performance': 'Over'}
+INFO:08/22/2021 11:51:11 AM 192.168.1.81 - - [22/Aug/2021 11:51:11] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:51:12 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:12 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:51:13 AM Received data from app: {'goal_level': '5', 'score': '0.2861934', 'performance': 'Good!'}
+INFO:08/22/2021 11:51:13 AM 192.168.1.81 - - [22/Aug/2021 11:51:13] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:51:13 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:51:13 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:51:14 AM Received data from app: {'goal_level': '5', 'score': '0.1892503', 'performance': 'Good!'}
+INFO:08/22/2021 11:51:14 AM 192.168.1.81 - - [22/Aug/2021 11:51:14] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:51:14 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:14 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:51:14 AM Formatting action: behaviour = 7, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:51:14 AM Displaying action Was that an open racket face? 
+INFO:08/22/2021 11:51:15 AM Received data from app: {'goal_level': '5', 'score': '0.30982518', 'performance': 'Over'}
+INFO:08/22/2021 11:51:15 AM 192.168.1.81 - - [22/Aug/2021 11:51:15] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:51:16 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:51:17 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:17 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:51:18 AM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:51:18 AM Displaying action Open racket face  
+INFO:08/22/2021 11:51:20 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:51:21 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:21 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:51:22 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:23 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:24 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:25 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:26 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:27 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:28 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:28 AM Received data from app: {'goal_level': '5', 'score': '0.13669492', 'performance': 'Good!'}
+INFO:08/22/2021 11:51:28 AM 192.168.1.81 - - [22/Aug/2021 11:51:28] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:51:29 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:29 AM Received data from app: {'goal_level': '5', 'score': '0.026520124', 'performance': 'Under'}
+INFO:08/22/2021 11:51:29 AM 192.168.1.81 - - [22/Aug/2021 11:51:29] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:51:29 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:51:29 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:51:30 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:30 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:51:31 AM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:51:31 AM Received data from app: {'goal_level': '5', 'score': '0.030479554', 'performance': 'Under'}
+INFO:08/22/2021 11:51:31 AM 192.168.1.81 - - [22/Aug/2021 11:51:31] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:51:31 AM Displaying action Keep the racket face open  
+INFO:08/22/2021 11:51:32 AM Received data from app: {'goal_level': '5', 'score': '0.35730448', 'performance': 'Over'}
+INFO:08/22/2021 11:51:32 AM 192.168.1.81 - - [22/Aug/2021 11:51:32] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:51:33 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:51:34 AM Received data from app: {'goal_level': '5', 'score': '0.384464', 'performance': 'Over'}
+INFO:08/22/2021 11:51:34 AM 192.168.1.81 - - [22/Aug/2021 11:51:34] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:51:34 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:34 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:51:34 AM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:51:34 AM Displaying action Open racket face  
+INFO:08/22/2021 11:51:35 AM Received data from app: {'goal_level': '5', 'score': '0.46353182', 'performance': 'High'}
+INFO:08/22/2021 11:51:35 AM 192.168.1.81 - - [22/Aug/2021 11:51:35] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:51:36 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:51:36 AM Received data from app: {'goal_level': '5', 'score': '0.75754595', 'performance': 'Very High'}
+INFO:08/22/2021 11:51:36 AM 192.168.1.81 - - [22/Aug/2021 11:51:36] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:51:37 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:37 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:51:37 AM Formatting action: behaviour = 68, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:51:37 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:51:38 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:38 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:51:39 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:40 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:42 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:43 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:43 AM Received data from app: {'goal_level': '5', 'score': '0.15240562', 'performance': 'Good!'}
+INFO:08/22/2021 11:51:43 AM 192.168.1.81 - - [22/Aug/2021 11:51:43] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:51:44 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:44 AM Formatting action: behaviour = 12, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:51:44 AM Displaying action Nice shot.  
+INFO:08/22/2021 11:51:45 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:51:46 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:46 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:51:47 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:48 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:49 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:50 AM Received data from app: {'goal_level': '5', 'score': '0.15844928', 'performance': 'Good!'}
+INFO:08/22/2021 11:51:50 AM 192.168.1.81 - - [22/Aug/2021 11:51:50] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:51:50 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:51 AM Formatting action: behaviour = 7, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:51:51 AM Displaying action Was that an open racket face? 
+INFO:08/22/2021 11:51:51 AM Received data from app: {'goal_level': '5', 'score': '0.17324118', 'performance': 'Good!'}
+INFO:08/22/2021 11:51:51 AM 192.168.1.81 - - [22/Aug/2021 11:51:51] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:51:53 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:51:54 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:54 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:51:54 AM Formatting action: behaviour = 12, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:51:54 AM Displaying action Good  
+INFO:08/22/2021 11:51:55 AM Received data from app: {'goal_level': '5', 'score': '0.20560034', 'performance': 'Good!'}
+INFO:08/22/2021 11:51:55 AM 192.168.1.81 - - [22/Aug/2021 11:51:55] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:51:55 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:51:56 AM Received data from app: {'goal_level': '5', 'score': '0.23337337', 'performance': 'Good!'}
+INFO:08/22/2021 11:51:56 AM 192.168.1.81 - - [22/Aug/2021 11:51:56] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:51:56 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:56 AM Created subgoal, new goal level = 5
+INFO:08/22/2021 11:51:57 AM Formatting action: behaviour = 2, goal_level = 5, performance = None, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:51:57 AM Displaying action Open racket face  
+INFO:08/22/2021 11:51:57 AM Received data from app: {'goal_level': '5', 'score': '0.37136728', 'performance': 'Over'}
+INFO:08/22/2021 11:51:57 AM 192.168.1.81 - - [22/Aug/2021 11:51:57] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:51:57 AM Received data from app: {'goal_level': '4', 'score': '10 degs', 'performance': '2', 'tgtValue': '12 degs'}
+INFO:08/22/2021 11:51:58 AM Ended subgoal 5. New goal level = 4.
+INFO:08/22/2021 11:51:58 AM 192.168.1.81 - - [22/Aug/2021 11:51:58] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:51:58 AM Received data from app: {'goal_level': '5', 'score': '0.5247556', 'performance': 'High'}
+INFO:08/22/2021 11:51:58 AM 192.168.1.81 - - [22/Aug/2021 11:51:58] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:51:58 AM Received data from app: {'goal_level': '4'}
+INFO:08/22/2021 11:51:59 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:51:59 AM Stopping set: That's 30, you can stop there.
+INFO:08/22/2021 11:52:02 AM Shot set completed.
+INFO:08/22/2021 11:52:02 AM 192.168.1.81 - - [22/Aug/2021 11:52:02] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:52:02 AM Received data from app: {'goal_level': '5', 'score': '0.28318992', 'performance': 'Good!'}
+INFO:08/22/2021 11:52:02 AM Action goal not expected, not using data.
+INFO:08/22/2021 11:52:02 AM 192.168.1.81 - - [22/Aug/2021 11:52:02] "[37mPOST /cue HTTP/1.1[0m" 200 -
+INFO:08/22/2021 11:52:02 AM Ended subgoal 4. New goal level = 3.
+INFO:08/22/2021 11:52:02 AM Feedback for stat, score = 8.0, target = 12.0, performance = 3
+INFO:08/22/2021 11:52:03 AM Formatting action: behaviour = 7, goal_level = 3, performance = 3, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:52:03 AM Displaying action In that set your racket face anglewas what we were working on . What did you think of it? Touch the back of my hand if it felt good or the top of my head if you think it still needs work. You got an average score of 8.0 and were aiming for 12.0.
+INFO:08/22/2021 11:52:24 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:52:25 AM Formatting action: behaviour = 12, goal_level = 3, performance = 3, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:52:25 AM Displaying action Superb  You got an average score of 8.0 and were aiming for 12.0.
+INFO:08/22/2021 11:52:31 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:52:32 AM Ended subgoal 3. New goal level = 2.
+INFO:08/22/2021 11:52:32 AM Feedback for shot, score = 8.0, target = 12.0, performance = 3
+INFO:08/22/2021 11:52:33 AM Formatting action: behaviour = 12, goal_level = 2, performance = 3, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:52:33 AM Displaying action That was nicely done  You got an average score of 8.0 and were aiming for 12.0.
+INFO:08/22/2021 11:52:40 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:52:41 AM Formatting action: behaviour = 40, goal_level = 2, performance = 3, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:52:41 AM Displaying action Well done Sorcha You got an average score of 8.0 and were aiming for 12.0.
+INFO:08/22/2021 11:52:49 AM Session time limit NOT reached, current duration = 0, session limit = 1.
+INFO:08/22/2021 11:52:49 AM Ended subgoal 2. New goal level = 1.
+INFO:08/22/2021 11:52:50 AM Session time limit reached, current duration = 1, session limit = 1.
+INFO:08/22/2021 11:52:50 AM Feedback for session, performance = 3
+INFO:08/22/2021 11:52:51 AM Formatting action: behaviour = 4, goal_level = 1, performance = 3, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:52:52 AM Displaying action During that session you were better than before   Awesome work!
+INFO:08/22/2021 11:52:57 AM Formatting action: behaviour = 12, goal_level = 1, performance = 3, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:52:57 AM Displaying action Good 
+INFO:08/22/2021 11:53:00 AM Formatting action: behaviour = 1, goal_level = 1, performance = 3, name = Sorcha, shot = 0, hand = FH, stat = impactCutAngle
+INFO:08/22/2021 11:53:00 AM Displaying action 
