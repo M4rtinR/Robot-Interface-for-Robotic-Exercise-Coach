@@ -450,6 +450,7 @@ class Action(Resource):
                     configuration = {"bodyLanguageMode": "contextual"}
                     if content['question'] == 'Concurrent':
                         print("Concurrent question detected")
+                        tabletService.showWebview("http://198.18.0.1/apps/boot-config/index.html")
                         ttsAnimated.say(str(action))
                     else:
                         global goodBadQuestion
