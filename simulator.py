@@ -2,7 +2,7 @@ import requests
 
 FILENAME = "P4.1.log"
 AMorPM = " PM "
-post_address = 'http://192.168.1.174:4999/output'
+post_address = 'http://192.168.1.174:5000/cue'
 baselineDone = False
 
 
@@ -64,7 +64,7 @@ def simulate(data):
 
     while True:
         output = [n for i, n in enumerate(data) if n['goal_level'] == str(goal_level)][0]
-        print(output)
+        print("Output = " + str(output))
         data.remove(output)
 
         r = requests.post(post_address, json=output)
@@ -72,12 +72,23 @@ def simulate(data):
             pass
 
         content = r.content
-        print(content)
-        '''goal_level = int(r.content['goal_level'])
+        print("Content = " + str(content))
+        goal_level = int(content['goal_level'])
         if goal_level == 2 and not baselineDone:
             goal_level = 4
+            baselineSet = True
         else:
-            goal_level += 1'''
+            if content['completed'] == 0:
+                goal_level += 1
+            else:
+                if goal_level == 4 and baselineSet:
+                    goal_level = 3
+                    baselineSet = False
+                    baselineDone = True
+                else:
+                    goal_level -= 1
+
+        print("New goal level = " + str(goal_level))
 
 
 if __name__ == "__main__":
