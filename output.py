@@ -540,7 +540,7 @@ class ReactToTouch(ALModule):
             return -1
 
         ttsAnimated = ALProxy("ALAnimatedSpeech", robot_ip, port)
-        ttsAnimated.setParameter("speed", 100)
+        # ttsAnimated.setParameter("speed", 100)
         configuration = {"bodyLanguageMode": "contextual"}
         if "LArm" in bodies or "RArm" in bodies or "LHand/Touch/Back" in bodies or "RHand/Touch/Back" in bodies:
             ttsAnimated.say("Great!", configuration)
