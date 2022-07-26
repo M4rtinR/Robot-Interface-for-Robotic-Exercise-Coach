@@ -171,6 +171,14 @@ class Action(Resource):
                     angleLists = [-0.32, -2.08, -0.01, 0.93, 0.39, 0.02]
                     speedLists = 0.2
                     motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                elif demoString == "backhand_racket_up_pos":
+                    print('demoString == "backhand_racket_up_pos":')
+                elif demoString == "backhand_racket_up_pos_left":
+                    print('demoString == "backhand_racket_up_pos_left":')
+                elif demoString == "backhand_racket_up_neg":
+                    print('demoString == "backhand_racket_up_neg":')
+                elif demoString == "backhand_racket_up_neg_left":
+                    print('demoString == "backhand_racket_up_neg_left":')
                 elif demoString == "racket_face_pos":
                     names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw"]
                     angleLists = [0.53, 2.07, 0.01, 0.93, -0.55, -0.01]
@@ -207,6 +215,14 @@ class Action(Resource):
                     angleLists = [-0.53, -0.75, -0.01, 0.93, 0.13, 0.03]
                     speedLists = 0.05
                     motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                elif demoString == "backhand_racket_face_pos":
+                    print('demoString == "backhand_racket_face_pos":')
+                elif demoString == "backhand_racket_face_pos_left":
+                    print('demoString == "backhand_racket_face_pos_left":')
+                elif demoString == "backhand_racket_face_neg":
+                    print('demoString == "backhand_racket_face_neg":')
+                elif demoString == "backhand_racket_face_neg_left":
+                    print('demoString == "backhand_racket_face_neg_left":')
                 elif demoString == "follow_through_pos":
                     names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw"]
                     angleLists = [0.52, 1.68, 0.01, 0.62, -0.12, -0.02]
@@ -247,6 +263,62 @@ class Action(Resource):
                     angleLists = [-0.31, -1.68, -0.01, 0.62, 0.27, 0.02]
                     speedLists = 0.1
                     motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                elif demoString == "backhand_follow_through_pos":
+                    print('demoString == "backhand_follow_through_pos":')
+                elif demoString == "backhand_follow_through_pos_left":
+                    print('demoString == "backhand_follow_through_pos_left":')
+                elif demoString == "backhand_follow_through_neg":
+                    print('demoString == "backhand_follow_through_neg":')
+                elif demoString == "backhand_follow_through_neg_left":
+                    print('demoString == "backhand_follow_through_neg_left":')
+                elif demoString == "impact_speed_pos":
+                    print('demoString == "impact_speed_kill_pos":')
+                elif demoString == "impact_speed_pos_left":
+                    print('demoString == "impact_speed_pos_left":')
+                elif demoString == "impact_speed_neg":
+                    print('demoString == "impact_speed_kill_neg":')
+                elif demoString == "impact_speed_neg_left":
+                    print('demoString == "impact_speed_neg_left":')
+                elif demoString == "backhand_impact_speed_pos":
+                    print('demoString == "backhand_impact_speed_pos":')
+                elif demoString == "backhand_impact_speed_pos_left":
+                    print('demoString == "backhand_impact_speed_pos_left":')
+                elif demoString == "backhand_impact_speed_neg":
+                    print('demoString == "backhand_impact_speed_neg":')
+                elif demoString == "backhand_impact_speed_neg_left":
+                    print('demoString == "backhand_impact_speed_neg_left":')
+                elif demoString == "approach_timing_pos":
+                    print('demoString == "approach_timing_pos":')
+                elif demoString == "approach_timing_pos_left":
+                    print('demoString == "approach_timing_pos_left":')
+                elif demoString == "approach_timing_neg":
+                    print('demoString == "approach_timing_neg":')
+                elif demoString == "approach_timing_neg_left":
+                    print('demoString == "approach_timing_neg_left":')
+                elif demoString == "backhand_approach_timing_pos":
+                    print('demoString == "backhand_approach_timing_pos":')
+                elif demoString == "backhand_approach_timing_pos_left":
+                    print('demoString == "backhand_approach_timing_pos_left":')
+                elif demoString == "backhand_approach_timing_neg":
+                    print('demoString == "backhand_approach_timing_neg":')
+                elif demoString == "backhand_approach_timing_neg_left":
+                    print('demoString == "backhand_approach_timing_neg_left":')
+                elif demoString == "follow_through_roll_pos":
+                    print('demoString == "follow_through_roll_pos":')
+                elif demoString == "follow_through_roll_pos_left":
+                    print('demoString == "follow_through_roll_pos_left":')
+                elif demoString == "follow_through_roll_neg":
+                    print('demoString == "follow_through_roll_neg":')
+                elif demoString == "follow_through_roll_neg_left":
+                    print('demoString == "follow_through_roll_neg_left":')
+                elif demoString == "backhand_follow_through_roll_pos":
+                    print('demoString == "backhand_follow_through_roll_pos":')
+                elif demoString == "backhand_follow_through_roll_pos_left":
+                    print('demoString == "backhand_follow_through_roll_pos_left":')
+                elif demoString == "backhand_follow_through_roll_neg":
+                    print('demoString == "backhand_follow_through_roll_neg":')
+                elif demoString == "backhand_follow_through_roll_neg_left":
+                    print('demoString == "backhand_follow_through_roll_neg_left":')
                 elif demoString == "forehand_drive_pos":
                     motion_service.post.moveTo(0, 0, -0.79)
                     time.sleep(2.0)
@@ -425,7 +497,7 @@ class Action(Resource):
                 elif demoString == "drop_neg_left":
                     motion_service.post.moveTo(0, 0, 0.79)
                     time.sleep(2.0)
-                    names = ["LElbowRoll", "LElbowYaw", "LHand", "LShoulderPitch", "LShoulderRoll", "LWristYaw"]
+                    names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw"]
                     angleLists = [-1.09, -2.09, -0.01, 0.15, 1.55, 0.02]
                     speedLists = 0.2
                     motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
@@ -441,6 +513,120 @@ class Action(Resource):
                     motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
                     time.sleep(1.0)
                     motion_service.post.moveTo(0, 0, 0.79)
+                elif demoString == "backhand_drop_pos":
+                    print('demoString == "backhand_drop_pos":')
+                elif demoString == "backhand_drop_pos_left":
+                    print('demoString == "backhand_drop_pos_left":')
+                elif demoString == "backhand_drop_neg":
+                    print('demoString == "backhand_drop_neg":')
+                elif demoString == "backhand_drop_neg_left":
+                    print('demoString == "backhand_drop_neg_left":')
+                elif demoString == "forehand_volley_drop_pos":
+                    print('demoString == "forehand_volley_drop_pos":')
+                elif demoString == "forehand_volley_drop_pos_left":
+                    print('demoString == "forehand_volley_drop_pos_left":')
+                elif demoString == "forehand_volley_drop_neg":
+                    print('demoString == "forehand_volley_drop_neg":')
+                elif demoString == "forehand_volley_drop_neg_left":
+                    print('demoString == "forehand_volley_drop_neg_left":')
+                elif demoString == "backhand_volley_drop_pos":
+                    print('demoString == "backhand_volley_drop_pos":')
+                    motion_service.post.moveTo(0, 0, 1.58)
+                    time.sleep(2.0)
+                    names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw"]
+                    angleLists = [0.13, 1.78, 0.01, -1.0, -0.03, -0.05]
+                    speedLists = 0.2
+                    motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                    motion_service.post.moveTo(0, 0, -1.58)
+                    angleLists = [0.6, 1.1, 0.01, -0.75, -0.33, -0.03]
+                    speedLists = 0.1
+                    motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                    angleLists = [0.32, 0.69, 0.01, -0.28, -0.89, -0.03]
+                    speedLists = 0.1
+                    motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                elif demoString == "backhand_volley_drop_pos_left":
+                    print('demoString == "backhand_volley_drop_pos_left":')
+                elif demoString == "backhand_volley_drop_neg":
+                    print('demoString == "backhand_volley_drop_neg":')
+                elif demoString == "backhand_volley_drop_neg_left":
+                    print('demoString == "backhand_volley_drop_neg_left":')
+                elif demoString == "forehand_kill_pos":
+                    print('demoString == "forehand_kill_pos":')
+                elif demoString == "forehand_kill_pos_left":
+                    print('demoString == "forehand_kill_pos_left":')
+                elif demoString == "forehand_kill_neg":
+                    print('demoString == "forehand_kill_neg":')
+                elif demoString == "forehand_kill_neg_left":
+                    print('demoString == "forehand_kill_neg_left":')
+                elif demoString == "backhand_kill_pos":
+                    print('demoString == "backhand_kill_pos":')
+                elif demoString == "backhand_kill_pos_left":
+                    print('demoString == "backhand_kill_pos_left":')
+                elif demoString == "backhand_kill_neg":
+                    print('demoString == "backhand_kill_neg":')
+                elif demoString == "backhand_kill_neg_left":
+                    print('demoString == "backhand_kill_neg_left":')
+                elif demoString == "forehand_volley_kill_pos":
+                    print('demoString == "forehand_volley_kill_pos":')
+                elif demoString == "forehand_volley_kill_pos_left":
+                    print('demoString == "forehand_volley_kill_pos_left":')
+                elif demoString == "forehand_volley_kill_neg":
+                    print('demoString == "forehand_volley_kill_neg":')
+                elif demoString == "forehand_volley_kill_neg_left":
+                    print('demoString == "forehand_volley_kill_neg_left":')
+                elif demoString == "backhand_volley_kill_pos":
+                    print('demoString == "backhand_volley_kill_pos":')
+                    motion_service.post.moveTo(0, 0, 1.58)
+                    time.sleep(2.0)
+                    names = ["LElbowRoll", "LElbowYaw", "LHand", "LShoulderPitch", "LShoulderRoll", "LWristYaw"]
+                    angleLists = [1.01, 0.02, 0.01, -0.8, -0.02, 0.37]
+                    speedLists = 0.2
+                    motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                    motion_service.post.moveTo(0, 0, -1.58)
+                    angleLists = [0.82, 0.67, 0.01, -1.04, -0.32, 0.38]
+                    speedLists = 0.1
+                    motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                    angleLists = [0.16, 0.88, 0.01, -0.56, -0.89, -0.83]
+                    speedLists = 0.1
+                    motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                elif demoString == "backhand_volley_kill_pos_left":
+                    print('demoString == "backhand_volley_kill_pos_left":')
+                elif demoString == "backhand_volley_kill_neg":
+                    print('demoString == "backhand_volley_kill_neg":')
+                elif demoString == "backhand_volley_kill_neg_left":
+                    print('demoString == "backhand_volley_kill_neg_left":')
+                elif demoString == "forehand_two_wall_boast":
+                    print('demoString == "forehand_two_wall_boast":')
+                elif demoString == "forehand_two_wall_boast_left":
+                    print('demoString == "forehand_two_wall_boast_left":')
+                elif demoString == "forehand_two_wall_boast":
+                    print('demoString == "forehand_two_wall_boast":')
+                elif demoString == "forehand_two_wall_boast_left":
+                    print('demoString == "forehand_two_wall_boast_left":')
+                elif demoString == "backhand_two_wall_boast":
+                    print('demoString == "backhand_two_wall_boast":')
+                elif demoString == "backhand_two_wall_boast_left":
+                    print('demoString == "backhand_two_wall_boast_left":')
+                elif demoString == "backhand_two_wall_boast":
+                    print('demoString == "backhand_two_wall_boast":')
+                elif demoString == "backhand_two_wall_boast_left":
+                    print('demoString == "backhand_two_wall_boast_left":')
+                elif demoString == "forehand_lob":
+                    print('demoString == "forehand_lob":')
+                elif demoString == "forehand_lob_left":
+                    print('demoString == "forehand_lob_left":')
+                elif demoString == "forehand_lob":
+                    print('demoString == "forehand_lob":')
+                elif demoString == "forehand_lob_left":
+                    print('demoString == "forehand_lob_left":')
+                elif demoString == "backhand_lob":
+                    print('demoString == "backhand_lob":')
+                elif demoString == "backhand_lob_left":
+                    print('demoString == "backhand_lob_left":')
+                elif demoString == "backhand_lob":
+                    print('demoString == "backhand_lob":')
+                elif demoString == "backhand_lob_left":
+                    print('demoString == "backhand_lob_left":')
                 elif demoString == "reset":
                     motion_service.post.moveTo(0, 0, 0.79)
             else:
