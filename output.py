@@ -515,6 +515,13 @@ class Action(Resource):
                     motion_service.post.moveTo(0, 0, 0.79)
                 elif demoString == "backhand_drop_pos":
                     print('demoString == "backhand_drop_pos":')
+                    motion_service.post.moveTo(0, 0, 1.58)
+                    time.sleep(2.0)
+                    names = ["RElbowRoll", "RElbowYaw", "RHand", "RShoulderPitch", "RShoulderRoll", "RWristYaw"]
+                    angleLists = [0.75, 2.08, 0.01, -0.21, -0.02, -0.26]
+                    speedLists = 0.2
+                    motion_service.angleInterpolationWithSpeed(names, angleLists, speedLists)
+                    motion_service.post.moveTo(0, 0, -1.58)
                 elif demoString == "backhand_drop_pos_left":
                     print('demoString == "backhand_drop_pos_left":')
                 elif demoString == "backhand_drop_neg":
