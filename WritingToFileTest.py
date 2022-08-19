@@ -1,5 +1,17 @@
+import ast
+
 if __name__ == "__main__":
-    f = open("/home/martin/PycharmProjects/RobotTest/SessionDataFiles/P3", "a")
+    string = "15 mtrs\/sec"
+    scoreString = string[:-10]
+    print(scoreString)
+
+    scoreStringInt = int(scoreString)
+    print(scoreStringInt)
+
+    scoreStringIntSum = scoreStringInt + 1
+    print(scoreStringIntSum)
+
+    '''f = open("/home/martin/PycharmProjects/RobotTest/SessionDataFiles/P3", "a")
     write_lines = ["impactCutAngle\n", "18.0, 4,\n", "2\n", "12.0, 4,\n", "18.0, 4,\n", "followThroughRoll\n", "0.0, 5,\n", "2\n", "0.0, 4,\n", "0.0, 4,\n"]
     f.writelines(write_lines)
     f.close()
@@ -29,7 +41,9 @@ if __name__ == "__main__":
         this_session_line_no += lines_to_add
 
     print(write_lines)
-    print(aggregator_contents)
+    print(aggregator_contents)'''
+
+
     '''f = open("/home/martin/PycharmProjects/RobotTest/SessionDataFiles/P2", "w")
     f.write("Test 1\nTest 2\nTest 3")
     f.close()
