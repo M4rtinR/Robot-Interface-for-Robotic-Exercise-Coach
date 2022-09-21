@@ -134,11 +134,10 @@ class Action(Resource):
             tts.say("OK, you can stop there.")
         elif 'pause' in content:  # User has selected stop button so stop session until we get more info.
             pause = 1
-            time.sleep(1)  # Not the most elegant solution but wait for page to be updated in robot's memory to display pause page.
-            tabletService.showWebview("http://198.18.0.1/apps/boot-config/index.html")
             tts = ALProxy("ALTextToSpeech", robot_ip, port)
             tts.setParameter("speed", 90)
             tts.post.say("OK, would you like to stop the whole session or just this exercise set?")
+            tabletService.showWebview("http://198.18.0.1/apps/boot-config/index.html")
         elif 'silence' in content:
             tabletService.showWebview("http://198.18.0.1/apps/boot-config/index.html")
         else:
