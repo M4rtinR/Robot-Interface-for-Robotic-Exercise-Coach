@@ -20,8 +20,8 @@ app = Flask('output_api')
 api = Api(app)
 
 # ITT_Pepper:
-robot_ip = "192.168.1.5"
-port = 9559
+# robot_ip = "192.168.1.5"
+# port = 9559
 
 # Simulation:
 # robot_ip = "localhost"
@@ -30,6 +30,10 @@ port = 9559
 # Phone hotspot:
 # robot_ip = "192.168.43.57"
 # port = 9559
+
+# Dusty
+robot_ip = "192.168.1.105"
+port = 9559
 
 memory = None
 ReactToTouch = None
