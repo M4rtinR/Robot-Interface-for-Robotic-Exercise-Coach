@@ -21,12 +21,12 @@ app = Flask('output_api')
 api = Api(app)
 
 # ITT_Pepper:
-robot_ip = "192.168.1.5"
-port = 9559
+# robot_ip = "192.168.1.5"
+# port = 9559
 
 # Dusty in HRI_Lab_5G
-# robot_ip = "192.168.1.53"
-# port = 9559
+robot_ip = "192.168.1.105"
+port = 9559
 
 # Simulation:
 # robot_ip = "localhost"
