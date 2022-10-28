@@ -1,7 +1,7 @@
 import ast
 
 if __name__ == "__main__":
-    string = "15 mtrs\/sec"
+    '''string = "15 mtrs\/sec"
     scoreString = string[:-10]
     print(scoreString)
 
@@ -9,14 +9,29 @@ if __name__ == "__main__":
     print(scoreStringInt)
 
     scoreStringIntSum = scoreStringInt + 1
-    print(scoreStringIntSum)
+    print(scoreStringIntSum)'''
 
-    '''f = open("/home/martin/PycharmProjects/RobotTest/SessionDataFiles/P3", "a")
-    write_lines = ["impactCutAngle\n", "18.0, 4,\n", "2\n", "12.0, 4,\n", "18.0, 4,\n", "followThroughRoll\n", "0.0, 5,\n", "2\n", "0.0, 4,\n", "0.0, 4,\n"]
-    f.writelines(write_lines)
-    f.close()
+    cumulative_reward = 60.4
+    policy_matrix = [[0.4, 0.2, 0.2, 0.1, 0.2], [0.4, 0.0, 0.0, 0.1, 0.5]]
 
-    aggregator_contents = [0]
+    try:
+        f = open("/home/martin/PycharmProjects/RobotTest/SessionDataFiles/P3", "r")
+        file_contents = f.readlines()
+        f.close()
+
+        f = open("/home/martin/PycharmProjects/RobotTest/SessionDataFiles/P3", "w")
+        file_contents.insert(0, str(cumulative_reward) + "\n")
+        file_contents.insert(0, str(policy_matrix) + "\n")
+        print(file_contents)
+        f.writelines(file_contents)
+        f.close()
+    except:
+        f = open("/home/martin/PycharmProjects/RobotTest/SessionDataFiles/P3", "a")
+        file_contents = [str(policy_matrix) + "\n", str(cumulative_reward) + "\n"]
+        f.writelines(file_contents)
+        f.close()
+
+    '''aggregator_contents = [0]
 
     write_lines.insert(0, str(2.54) + "\n")
     write_lines.insert(1, str(5) + "\n")
