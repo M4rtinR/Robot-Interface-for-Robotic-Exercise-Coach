@@ -12,6 +12,8 @@ Similar to the main coaching policy code, clone the robot test repo into a new P
    (i) flask
     
    (ii) flask_restful
+   
+   (iii) requests
     
   3. You will also need to install naoqi, which is a little more complicated because we are using an old version of the SDK. 
   
