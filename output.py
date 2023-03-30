@@ -3,12 +3,6 @@
 import time
 import sys
 
-import numpy as np
-from PIL import Image
-
-import qi
-import vision_definitions
-import cv2 as cv
 from naoqi import ALProxy
 from naoqi import ALBroker
 from naoqi import ALModule
@@ -20,8 +14,8 @@ app = Flask('output_api')
 api = Api(app)
 
 # ITT_Pepper:
-# robot_ip = "192.168.1.5"
-# port = 9559
+robot_ip = "192.168.1.5"
+port = 9559
 
 # Simulation:
 # robot_ip = "localhost"
@@ -32,8 +26,8 @@ api = Api(app)
 # port = 9559
 
 # Dusty
-robot_ip = "192.168.1.105"
-port = 9559
+# robot_ip = "192.168.1.105"
+# port = 9559
 
 memory = None
 ReactToTouch = None
