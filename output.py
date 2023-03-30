@@ -5,11 +5,7 @@ import sys
 
 import numpy as np
 import requests
-from PIL import Image
 
-import qi
-import vision_definitions
-import cv2 as cv
 from naoqi import ALProxy
 from naoqi import ALBroker
 from naoqi import ALModule
