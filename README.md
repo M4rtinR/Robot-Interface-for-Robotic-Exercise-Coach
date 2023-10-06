@@ -29,5 +29,11 @@ Similar to the main robotic coach code, clone this repo into a new Pycharm proje
    Make sure you replace the file path (/home/martin/Programs/pynaoqi-python2.7-2.5.7.1-linux64/lib) with your install location.
    
   4. Make sure the ip address and port is correct for the robot you want to connect to. For the ITT_Pepper robot, it should be: robot_ip = "192.168.1.5" and port = 9559.
+     
+     a) If you do not have access to a physical robot, you can run the code on the simulated version of Pepper in Choregraphe by replacing the ip address with the ip of your local machine. The limitations of running in simulation are:
+
+      (i) Nothing will be displayed on the tablet computer screen and the screen cannot be interacted with.
+
+      (ii) Access to Pepper's touch sensors (for responding to questions) is not possible in simulation. Questions will time out in 5 seconds without a response.
   
-  5. Click Run.
+  6. Click Run.
